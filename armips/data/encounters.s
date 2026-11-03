@@ -13,9 +13,9 @@ encounterdata   0   // New Bark Town
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
+oldrodrate 0
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
