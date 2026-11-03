@@ -267,6 +267,8 @@ static void Save_GiveStartItems(SaveData *saveData) {
     bag->keyItems[0].quantity = 1;
     bag->keyItems[1].id = ITEM_OLD_ROD;
     bag->keyItems[1].quantity = 1;
+    bag->keyItems[2].id = ITEM_INFINITE_REJUVINATOR;
+    bag->keyItems[2].quantity = 1;
 }
 #endif
 
