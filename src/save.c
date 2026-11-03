@@ -1,5 +1,6 @@
 #include "../include/types.h"
 #include "../include/config.h"
+#include "../include/bag.h"
 #include "../include/debug.h"
 #include "../include/msgdata.h"
 #include "../include/pokemon.h"
@@ -9,6 +10,7 @@
 #include "../include/sprite.h"
 #include "../include/task.h"
 #include "../include/constants/buttons.h"
+#include "../include/constants/item.h"
 
 
 // these functions are configured to not hook from hooks directly under ALLOW_SAVE_CHANGES
@@ -253,11 +255,29 @@ int Save_NowWriteFile_AfterMGInit(SaveData *saveData, int a1) {
     return ret;
 }
 
+#ifdef HEARTHARD_START_ITEMS
+// the bag was just cleared, so these slots are free.  writing them directly avoids Bag_AddItem's item data
+// lookup, which needs a heap and the filesystem and this function also runs while the game is booting
+static void Save_GiveStartItems(SaveData *saveData) {
+    BAG_DATA *bag = Sav2_Bag_get(saveData);
+
+    bag->balls[0].id = ITEM_POKE_BALL;
+    bag->balls[0].quantity = HEARTHARD_START_POKE_BALLS;
+    bag->keyItems[0].id = ITEM_INFINITE_CANDY;
+    bag->keyItems[0].quantity = 1;
+    bag->keyItems[1].id = ITEM_OLD_ROD;
+    bag->keyItems[1].quantity = 1;
+}
+#endif
+
 void Save_InitDynamicRegion(SaveData *saveData) {
     saveData->isNewGame = TRUE;
     saveData->sectorCleanFlag[0] = 1;
     saveData->sectorCleanFlag[1] = 1;
     Save_InitDynamicRegion_Internal(saveData->dynamic_region, saveData->arrayHeaders);
+#ifdef HEARTHARD_START_ITEMS
+    Save_GiveStartItems(saveData);
+#endif
 }
 
 void Save_PrepareForAsyncWrite(SaveData *saveData, int a1) {

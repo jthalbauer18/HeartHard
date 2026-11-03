@@ -79,6 +79,11 @@
 //#define UNCAP_CANDIES_FROM_LEVEL_CAP
 //#define ALLOW_LEVEL_CAP_EVOLVE
 
+// HEARTHARD_START_ITEMS gives the player items in the bag as soon as a new game starts
+// comment this line out to start with an empty bag.  HEARTHARD_START_POKE_BALLS is the amount of poke balls
+#define HEARTHARD_START_ITEMS
+#define HEARTHARD_START_POKE_BALLS 50
+
 // System flags that need to be enabled for the player to use the gimmick. If you want to change them, remember to change them in flags.s as well for consistency
 #define FLAG_MEGA_EVOLUTION_ENABLED 2518
 //#define FLAG_Z_MOVE_ENABLED 2519
