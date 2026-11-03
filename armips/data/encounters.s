@@ -120,57 +120,57 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
+walklevels 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
 
 // morning encounter slots
-pokemon SPECIES_STARLY
-pokemon SPECIES_BUNNELBY
-pokemon SPECIES_BIDOOF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
-pokemon SPECIES_WOOLOO
-pokemon SPECIES_WOOLOO
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_GLAMEOW
-pokemon SPECIES_PAWMI
-pokemon SPECIES_PAWMI
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_RATTATA
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_STARLY
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_POOCHYENA
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_RALTS
+pokemon SPECIES_RALTS
 
 // day encounter slots
-pokemon SPECIES_STARLY
-pokemon SPECIES_BUNNELBY
-pokemon SPECIES_BIDOOF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
-pokemon SPECIES_WOOLOO
-pokemon SPECIES_WOOLOO
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_GLAMEOW
-pokemon SPECIES_PAWMI
-pokemon SPECIES_PAWMI
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_RATTATA
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_STARLY
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_POOCHYENA
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_RALTS
+pokemon SPECIES_RALTS
 
 // night encounter slots
-pokemon SPECIES_ZIGZAGOON
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_RATTATA
 monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_STARLY
 pokemon SPECIES_LILLIPUP
-monwithform SPECIES_RATTATA, 1
-pokemon SPECIES_PANCHAM
-pokemon SPECIES_PURRLOIN
 pokemon SPECIES_POOCHYENA
-pokemon SPECIES_POOCHYENA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_RALTS
+pokemon SPECIES_RALTS
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -222,8 +222,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -288,11 +288,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_POLIWAG, 5, 5
+encounter SPECIES_SURSKIT, 5, 5
+encounter SPECIES_KRABBY, 5, 5
+encounter SPECIES_WOOPER, 5, 5
+encounter SPECIES_PIPLUP, 5, 5
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
@@ -326,8 +326,8 @@ walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
 
 // morning encounter slots
@@ -359,26 +359,26 @@ pokemon SPECIES_GRUBBIN
 pokemon SPECIES_SCATTERBUG
 
 // night encounter slots
-pokemon SPECIES_VENIPEDE
-pokemon SPECIES_VENONAT
-pokemon SPECIES_SIZZLIPEDE
-pokemon SPECIES_MORELULL
-pokemon SPECIES_BLIPBUG
-pokemon SPECIES_NYMBLE
-pokemon SPECIES_SKORUPI
-pokemon SPECIES_NINCADA
-pokemon SPECIES_SKORUPI
-pokemon SPECIES_NINCADA
-pokemon SPECIES_BLIPBUG
-pokemon SPECIES_NYMBLE
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_WURMPLE
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_LEDYBA
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_SPINARAK
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_SPINARAK
 
 // surf encounters
 encounter SPECIES_POLIWAG, 15, 25
@@ -430,8 +430,8 @@ walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 3, 4, 3, 4, 3, 3, 5, 5, 5, 5, 5, 5
 
 // morning encounter slots
@@ -463,26 +463,26 @@ pokemon SPECIES_SUNKERN
 pokemon SPECIES_SUNKERN
 
 // night encounter slots
-pokemon SPECIES_PATRAT
-pokemon SPECIES_APPLIN
-pokemon SPECIES_TANDEMAUS
-pokemon SPECIES_SANDILE
-pokemon SPECIES_WIMPOD
-pokemon SPECIES_TANDEMAUS
-pokemon SPECIES_WIMPOD
-pokemon SPECIES_SANDILE
-pokemon SPECIES_APPLIN
-pokemon SPECIES_PATRAT
-pokemon SPECIES_KRICKETOT
-pokemon SPECIES_KRICKETOT
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_BUIZEL
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_DEWPIDER
+pokemon SPECIES_FIDOUGH
+pokemon SPECIES_DEWPIDER
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_DEWPIDER
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_DEWPIDER
 
 // surf encounters
 encounter SPECIES_POLIWAG, 15, 25
@@ -534,8 +534,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -671,26 +671,26 @@ pokemon SPECIES_DARUMAKA
 pokemon SPECIES_DARUMAKA
 
 // night encounter slots
-pokemon SPECIES_LITWICK
-pokemon SPECIES_SPOINK
-pokemon SPECIES_GASTLY
-pokemon SPECIES_MUNCHLAX
+pokemon SPECIES_ODDISH
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_VULPIX
+pokemon SPECIES_RELLOR
 pokemon SPECIES_ABRA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_LITWICK
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MIMIKYU
-pokemon SPECIES_MIMIKYU
-pokemon SPECIES_MIMIKYU
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_BONSLY
+pokemon SPECIES_MAKUHITA
+pokemon SPECIES_MAKUHITA
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_DARUMAKA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_VULPIX
+pokemon SPECIES_ABRA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_VULPIX
+pokemon SPECIES_ABRA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -775,26 +775,26 @@ pokemon SPECIES_DARUMAKA
 pokemon SPECIES_DARUMAKA
 
 // night encounter slots
-pokemon SPECIES_LITWICK
-pokemon SPECIES_SPOINK
-pokemon SPECIES_GASTLY
-pokemon SPECIES_MUNCHLAX
+pokemon SPECIES_ODDISH
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_VULPIX
+pokemon SPECIES_RELLOR
 pokemon SPECIES_ABRA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_LITWICK
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MIMIKYU
-pokemon SPECIES_MIMIKYU
-pokemon SPECIES_MIMIKYU
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_BONSLY
+pokemon SPECIES_MAKUHITA
+pokemon SPECIES_MAKUHITA
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_DARUMAKA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_VULPIX
+pokemon SPECIES_ABRA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_VULPIX
+pokemon SPECIES_ABRA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -846,8 +846,8 @@ walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 4
 
 // morning encounter slots
@@ -879,26 +879,26 @@ pokemon SPECIES_COMFEY
 pokemon SPECIES_COMFEY
 
 // night encounter slots
-pokemon SPECIES_SEEDOT
-pokemon SPECIES_TOEDSCOOL
-pokemon SPECIES_SHROOMISH
-pokemon SPECIES_SKIDDO
-pokemon SPECIES_ROOKIDEE
-pokemon SPECIES_ROOKIDEE
-pokemon SPECIES_BURMY
-pokemon SPECIES_SKIDDO
-pokemon SPECIES_SHROOMISH
-pokemon SPECIES_SHROOMISH
-pokemon SPECIES_CORSOLA
-pokemon SPECIES_CORSOLA
+pokemon SPECIES_LOTAD
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_BUDEW
+pokemon SPECIES_MAREEP
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_RALTS
+pokemon SPECIES_MAREEP
+pokemon SPECIES_BUDEW
+pokemon SPECIES_BUDEW
+pokemon SPECIES_COMFEY
+pokemon SPECIES_COMFEY
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_BUDEW
+pokemon SPECIES_FLETCHLING
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_BUDEW
+pokemon SPECIES_FLETCHLING
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 10, 20
@@ -950,8 +950,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 20
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 20, 22, 20, 22, 18, 18, 24, 24, 20, 22, 20, 22
 
 // morning encounter slots
@@ -997,12 +997,12 @@ pokemon SPECIES_SMEARGLE
 pokemon SPECIES_SMEARGLE
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_NATU
+pokemon SPECIES_NATU
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_NATU
+pokemon SPECIES_NATU
 
 // surf encounters
 encounter SPECIES_WOOPER, 10, 20
@@ -1087,26 +1087,26 @@ pokemon SPECIES_WYNAUT
 pokemon SPECIES_SIGILYPH
 
 // night encounter slots
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOTHITA
-pokemon SPECIES_MUNNA
-pokemon SPECIES_SHUPPET
-pokemon SPECIES_DUSKULL
-pokemon SPECIES_CHINGLING
-pokemon SPECIES_DROWZEE
+pokemon SPECIES_NATU
+pokemon SPECIES_BRONZOR
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_ESPURR
+pokemon SPECIES_PORYGON
+pokemon SPECIES_UNOWN
+pokemon SPECIES_BALTOY
 pokemon SPECIES_UNOWN
 pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_WYNAUT
+pokemon SPECIES_SIGILYPH
 
 // hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ESPURR
 
 // sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ESPURR
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1191,26 +1191,26 @@ pokemon SPECIES_WYNAUT
 pokemon SPECIES_SIGILYPH
 
 // night encounter slots
+pokemon SPECIES_NATU
+pokemon SPECIES_BRONZOR
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_ESPURR
+pokemon SPECIES_PORYGON
+pokemon SPECIES_UNOWN
+pokemon SPECIES_BALTOY
 pokemon SPECIES_UNOWN
 pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_WYNAUT
+pokemon SPECIES_SIGILYPH
 
 // hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ESPURR
 
 // sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ESPURR
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1295,26 +1295,26 @@ pokemon SPECIES_WYNAUT
 pokemon SPECIES_SIGILYPH
 
 // night encounter slots
+pokemon SPECIES_NATU
+pokemon SPECIES_BRONZOR
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ELGYEM
+pokemon SPECIES_ESPURR
+pokemon SPECIES_PORYGON
+pokemon SPECIES_UNOWN
+pokemon SPECIES_BALTOY
 pokemon SPECIES_UNOWN
 pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_WYNAUT
+pokemon SPECIES_SIGILYPH
 
 // hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ESPURR
 
 // sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_ESPURR
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1470,8 +1470,8 @@ walkrate 10
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 6, 6, 6, 6, 5, 5, 4, 4, 7, 6, 7, 6
 
 // morning encounter slots
@@ -1503,26 +1503,26 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_SAWK
 
 // night encounter slots
-pokemon SPECIES_IMPIDIMP
-pokemon SPECIES_CARBINK
-pokemon SPECIES_INKAY
-pokemon SPECIES_DRIFLOON
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_PARAS
-pokemon SPECIES_CUBONE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_THROH
-pokemon SPECIES_SCYTHER
-pokemon SPECIES_SCYTHER
-pokemon SPECIES_THROH
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SHELLOS
+pokemon SPECIES_RIOLU
+pokemon SPECIES_NUMEL
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_FERROSEED
+pokemon SPECIES_SAWK
+pokemon SPECIES_ONIX
+pokemon SPECIES_ONIX
+pokemon SPECIES_SAWK
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_RIOLU
+pokemon SPECIES_DWEBBLE
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_RIOLU
+pokemon SPECIES_DWEBBLE
 
 // surf encounters
 encounter SPECIES_WOOPER, 10, 20
@@ -1574,8 +1574,8 @@ walkrate 15
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 8, 8, 8, 8, 7, 7, 8, 8, 9, 6, 9, 6
 
 // morning encounter slots
@@ -1607,26 +1607,26 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_SAWK
 
 // night encounter slots
-pokemon SPECIES_IMPIDIMP
-pokemon SPECIES_CARBINK
-pokemon SPECIES_INKAY
-pokemon SPECIES_DRIFLOON
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_PARAS
-pokemon SPECIES_CUBONE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_THROH
-pokemon SPECIES_SCYTHER
-pokemon SPECIES_SCYTHER
-pokemon SPECIES_THROH
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SHELLOS
+pokemon SPECIES_RIOLU
+pokemon SPECIES_NUMEL
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_FERROSEED
+pokemon SPECIES_SAWK
+pokemon SPECIES_ONIX
+pokemon SPECIES_ONIX
+pokemon SPECIES_SAWK
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_RIOLU
+pokemon SPECIES_DWEBBLE
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_RIOLU
+pokemon SPECIES_DWEBBLE
 
 // surf encounters
 encounter SPECIES_WOOPER, 10, 20
@@ -1678,8 +1678,8 @@ walkrate 15
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
 
 // morning encounter slots
@@ -1725,12 +1725,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_ONIX
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_GOLBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_GOLBAT
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 10, 20
@@ -1816,25 +1816,25 @@ pokemon SPECIES_IGGLYBUFF
 
 // night encounter slots
 pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_SLAKOTH
-pokemon SPECIES_SHROODLE
-pokemon SPECIES_TINKATINK
-pokemon SPECIES_SHROODLE
-pokemon SPECIES_TINKATINK
-pokemon SPECIES_MAGBY
-pokemon SPECIES_MAGBY
-pokemon SPECIES_CLEFFA
-pokemon SPECIES_AZURILL
-pokemon SPECIES_AZURILL
-pokemon SPECIES_CLEFFA
+pokemon SPECIES_ROCKRUFF
+pokemon SPECIES_PICHU
+pokemon SPECIES_PANSAGE
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_PANPOUR
+pokemon SPECIES_ELEKID
+pokemon SPECIES_ELEKID
+pokemon SPECIES_IGGLYBUFF
+pokemon SPECIES_PICHU
+pokemon SPECIES_PICHU
+pokemon SPECIES_IGGLYBUFF
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_PICHU
+pokemon SPECIES_PANSEAR
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_PICHU
+pokemon SPECIES_PANSEAR
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1886,8 +1886,8 @@ walkrate 5
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 5, 6, 5, 6, 7, 7, 6, 6, 8, 8, 8, 8
 
 // morning encounter slots
@@ -1921,24 +1921,24 @@ monwithform SPECIES_SLOWPOKE, 1
 // night encounter slots
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
-pokemon SPECIES_TYMPOLE
-pokemon SPECIES_TRUBBISH
-pokemon SPECIES_GOLETT
-pokemon SPECIES_TYMPOLE
-pokemon SPECIES_TRUBBISH
-pokemon SPECIES_BERGMITE
+pokemon SPECIES_WIGLETT
+pokemon SPECIES_CHEWTLE
+pokemon SPECIES_WIGLETT
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_CHEWTLE
+pokemon SPECIES_BINACLE
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_WIGLETT
+pokemon SPECIES_WIGLETT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_WIGLETT
+pokemon SPECIES_WIGLETT
 
 // surf encounters
 encounter SPECIES_SLOWPOKE, 10, 20
@@ -1990,8 +1990,8 @@ walkrate 15
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 21, 23, 21, 23, 19, 19, 21, 21, 23, 23, 23, 23
 
 // morning encounter slots
@@ -2037,12 +2037,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SLOWPOKE
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
 
 // surf encounters
 encounter SPECIES_SLOWPOKE, 10, 20
@@ -2094,8 +2094,8 @@ walkrate 5
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 5, 6, 5, 6, 6, 6, 5, 5, 5, 6, 5, 6
 
 // morning encounter slots
@@ -2127,26 +2127,26 @@ pokemon SPECIES_SHUCKLE
 pokemon SPECIES_HERACROSS
 
 // night encounter slots
-pokemon SPECIES_SEWADDLE
-monwithform SPECIES_FARFETCHD, 1
-pokemon SPECIES_PHANTUMP
-pokemon SPECIES_PUMPKABOO
+pokemon SPECIES_COMBEE
+pokemon SPECIES_FARFETCHD
+monwithform SPECIES_PONYTA, 1
+pokemon SPECIES_HATENNA
 pokemon SPECIES_PINECO
-pokemon SPECIES_TANGELA
-pokemon SPECIES_ILLUMISE
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MURKROW
-pokemon SPECIES_MURKROW
-pokemon SPECIES_MURKROW
-pokemon SPECIES_PINSIR
+pokemon SPECIES_EXEGGCUTE
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_EXEGGCUTE
+pokemon SPECIES_SHUCKLE
+pokemon SPECIES_SHUCKLE
+pokemon SPECIES_SHUCKLE
+pokemon SPECIES_HERACROSS
 
 // hoenn encounter slots
-pokemon SPECIES_SPOINK
-pokemon SPECIES_NUMEL
+monwithform SPECIES_PONYTA, 1
+pokemon SPECIES_PINECO
 
 // sinnoh encounter slots
-pokemon SPECIES_BUDEW
-pokemon SPECIES_CARNIVINE
+monwithform SPECIES_PONYTA, 1
+pokemon SPECIES_PINECO
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 10, 20
@@ -2198,23 +2198,23 @@ walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
 
 // morning encounter slots
-pokemon SPECIES_BULBASAUR
-pokemon SPECIES_ROWLET
-pokemon SPECIES_TREECKO
-pokemon SPECIES_TURTWIG
-pokemon SPECIES_SNIVY
-pokemon SPECIES_CHESPIN
-pokemon SPECIES_SPRIGATITO
-pokemon SPECIES_GROOKEY
-pokemon SPECIES_CHIKORITA
-pokemon SPECIES_SPRIGATITO
-pokemon SPECIES_CHIKORITA
-pokemon SPECIES_GROOKEY
+pokemon SPECIES_SQUIRTLE
+pokemon SPECIES_POPPLIO
+pokemon SPECIES_MUDKIP
+pokemon SPECIES_PIPLUP
+pokemon SPECIES_OSHAWOTT
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_QUAXLY
+pokemon SPECIES_SOBBLE
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_QUAXLY
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_SOBBLE
 
 // day encounter slots
 pokemon SPECIES_SQUIRTLE
@@ -2231,26 +2231,26 @@ pokemon SPECIES_TOTODILE
 pokemon SPECIES_SOBBLE
 
 // night encounter slots
-pokemon SPECIES_CHARMANDER
-pokemon SPECIES_LITTEN
-pokemon SPECIES_TORCHIC
-pokemon SPECIES_CHIMCHAR
-pokemon SPECIES_TEPIG
-pokemon SPECIES_FENNEKIN
-pokemon SPECIES_FUECOCO
-pokemon SPECIES_SCORBUNNY
-pokemon SPECIES_CYNDAQUIL
-pokemon SPECIES_FUECOCO
-pokemon SPECIES_CYNDAQUIL
-pokemon SPECIES_SCORBUNNY
+pokemon SPECIES_SQUIRTLE
+pokemon SPECIES_POPPLIO
+pokemon SPECIES_MUDKIP
+pokemon SPECIES_PIPLUP
+pokemon SPECIES_OSHAWOTT
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_QUAXLY
+pokemon SPECIES_SOBBLE
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_QUAXLY
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_SOBBLE
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_MUDKIP
+pokemon SPECIES_OSHAWOTT
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_MUDKIP
+pokemon SPECIES_OSHAWOTT
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
@@ -2302,8 +2302,8 @@ walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 12, 12, 12, 12, 14, 14, 10, 10, 14, 10, 14, 12
 
 // morning encounter slots
@@ -2335,26 +2335,26 @@ pokemon SPECIES_SWIRLIX
 pokemon SPECIES_SWIRLIX
 
 // night encounter slots
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_MANKEY
-pokemon SPECIES_TYROGUE
-pokemon SPECIES_CUFANT
-pokemon SPECIES_TYROGUE
-pokemon SPECIES_CUFANT
-pokemon SPECIES_FLAMIGO
-pokemon SPECIES_FLAMIGO
-pokemon SPECIES_SPRITZEE
-pokemon SPECIES_SPRITZEE
-pokemon SPECIES_SPRITZEE
-pokemon SPECIES_SPRITZEE
+pokemon SPECIES_FLABEBE
+pokemon SPECIES_SKITTY
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_DEERLING
+pokemon SPECIES_DUCKLETT
+pokemon SPECIES_DEERLING
+pokemon SPECIES_AUDINO
+pokemon SPECIES_AUDINO
+pokemon SPECIES_SWIRLIX
+pokemon SPECIES_SWIRLIX
+pokemon SPECIES_SWIRLIX
+pokemon SPECIES_SWIRLIX
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_DUCKLETT
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_BUNEARY
+pokemon SPECIES_DUCKLETT
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 15, 25
@@ -2439,26 +2439,26 @@ pokemon SPECIES_AERODACTYL
 pokemon SPECIES_AERODACTYL
 
 // night encounter slots
-pokemon SPECIES_GIBLE
-pokemon SPECIES_DEINO
-pokemon SPECIES_BAGON
-pokemon SPECIES_BELDUM
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_DRATINI
-pokemon SPECIES_GOOMY
-pokemon SPECIES_JANGMO_O
-pokemon SPECIES_DREEPY
-pokemon SPECIES_FRIGIBAX
-pokemon SPECIES_DREEPY
-pokemon SPECIES_FRIGIBAX
+pokemon SPECIES_OMANYTE
+pokemon SPECIES_KABUTO
+pokemon SPECIES_LILEEP
+pokemon SPECIES_ANORITH
+pokemon SPECIES_CRANIDOS
+pokemon SPECIES_SHIELDON
+pokemon SPECIES_TIRTOUGA
+pokemon SPECIES_ARCHEN
+pokemon SPECIES_TYRUNT
+pokemon SPECIES_AMAURA
+pokemon SPECIES_AERODACTYL
+pokemon SPECIES_AERODACTYL
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_LILEEP
+pokemon SPECIES_CRANIDOS
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_LILEEP
+pokemon SPECIES_CRANIDOS
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2661,12 +2661,12 @@ pokemon SPECIES_PLUSLE
 pokemon SPECIES_MINUN
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_GULPIN
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_GULPIN
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2765,12 +2765,12 @@ pokemon SPECIES_EMOLGA
 pokemon SPECIES_EMOLGA
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_CROAGUNK
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_CROAGUNK
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2822,8 +2822,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -2959,26 +2959,26 @@ pokemon SPECIES_SOLROCK
 pokemon SPECIES_TORKOAL
 
 // night encounter slots
-monwithform SPECIES_GROWLITHE, 1
-pokemon SPECIES_GREAVARD
-monwithform SPECIES_ZORUA, 1
-monwithform SPECIES_YAMASK, 1
-pokemon SPECIES_TOXEL
-pokemon SPECIES_CHARCADET
-pokemon SPECIES_GREAVARD
-monwithform SPECIES_YAMASK, 1
-pokemon SPECIES_LUNATONE
-pokemon SPECIES_HEATMOR
-pokemon SPECIES_LUNATONE
-pokemon SPECIES_HEATMOR
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_SLUGMA
+pokemon SPECIES_ZORUA
+pokemon SPECIES_LITLEO
+pokemon SPECIES_PONYTA
+pokemon SPECIES_YAMASK
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_YAMASK
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_TORKOAL
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_TORKOAL
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_ZORUA
+pokemon SPECIES_PONYTA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_ZORUA
+pokemon SPECIES_PONYTA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3063,26 +3063,26 @@ pokemon SPECIES_SOLROCK
 pokemon SPECIES_TORKOAL
 
 // night encounter slots
-monwithform SPECIES_GROWLITHE, 1
-pokemon SPECIES_GREAVARD
-monwithform SPECIES_ZORUA, 1
-monwithform SPECIES_YAMASK, 1
-pokemon SPECIES_TOXEL
-pokemon SPECIES_CHARCADET
-pokemon SPECIES_GREAVARD
-monwithform SPECIES_YAMASK, 1
-pokemon SPECIES_LUNATONE
-pokemon SPECIES_HEATMOR
-pokemon SPECIES_LUNATONE
-pokemon SPECIES_HEATMOR
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_SLUGMA
+pokemon SPECIES_ZORUA
+pokemon SPECIES_LITLEO
+pokemon SPECIES_PONYTA
+pokemon SPECIES_YAMASK
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_YAMASK
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_TORKOAL
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_TORKOAL
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_ZORUA
+pokemon SPECIES_PONYTA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_ZORUA
+pokemon SPECIES_PONYTA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3167,12 +3167,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3181,12 +3181,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3271,12 +3271,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3285,12 +3285,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3375,12 +3375,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3389,12 +3389,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3479,12 +3479,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3493,12 +3493,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3583,12 +3583,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3597,12 +3597,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3687,12 +3687,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3701,12 +3701,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3791,12 +3791,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3805,12 +3805,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3895,12 +3895,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -3909,12 +3909,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3999,26 +3999,26 @@ pokemon SPECIES_QWILFISH
 pokemon SPECIES_DUNSPARCE
 
 // night encounter slots
-pokemon SPECIES_WOOBAT
-monwithform SPECIES_WOOPER, 1
+pokemon SPECIES_WINGULL
+pokemon SPECIES_WOOPER
 pokemon SPECIES_POLIWAG
 pokemon SPECIES_MAGNEMITE
-monwithform SPECIES_VOLTORB, 1
+pokemon SPECIES_VOLTORB
 pokemon SPECIES_GOLDEEN
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-monwithform SPECIES_QWILFISH, 1
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_QWILFISH
 pokemon SPECIES_DUNSPARCE
-monwithform SPECIES_QWILFISH, 1
+pokemon SPECIES_QWILFISH
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_POLIWAG
+pokemon SPECIES_VOLTORB
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_POLIWAG
+pokemon SPECIES_VOLTORB
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4103,26 +4103,26 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_STANTLER
 
 // night encounter slots
-pokemon SPECIES_PAWNIARD
+pokemon SPECIES_STUFFUL
 pokemon SPECIES_SCRAGGY
 pokemon SPECIES_KLINK
 pokemon SPECIES_HIPPOPOTAS
 pokemon SPECIES_MUDBRAY
 pokemon SPECIES_FURFROU
 pokemon SPECIES_HAPPINY
-pokemon SPECIES_TAUROS
-pokemon SPECIES_BOUFFALANT
+pokemon SPECIES_MILTANK
+pokemon SPECIES_STANTLER
 pokemon SPECIES_HAPPINY
-pokemon SPECIES_TAUROS
-pokemon SPECIES_BOUFFALANT
+pokemon SPECIES_MILTANK
+pokemon SPECIES_STANTLER
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_KLINK
+pokemon SPECIES_MUDBRAY
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_KLINK
+pokemon SPECIES_MUDBRAY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4174,8 +4174,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -4278,8 +4278,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -4382,8 +4382,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -4486,8 +4486,8 @@ walkrate 5
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
 
 // morning encounter slots
@@ -4533,12 +4533,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SEEL
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
@@ -4637,12 +4637,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SEEL
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4798,8 +4798,8 @@ walkrate 5
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
 
 // morning encounter slots
@@ -4845,12 +4845,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SEEL
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // surf encounters
 encounter SPECIES_HORSEA, 15, 25
@@ -5053,12 +5053,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_SEEL
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_KRABBY
+pokemon SPECIES_KRABBY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -5318,8 +5318,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 30
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -5422,8 +5422,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 15, 13, 15, 13, 14, 14, 16, 16, 15, 17, 15, 17
 
 // morning encounter slots
@@ -5455,10 +5455,10 @@ pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
 
 // night encounter slots
-pokemon SPECIES_HAWLUCHA
-pokemon SPECIES_TOGEDEMARU
-pokemon SPECIES_DHELMISE
-pokemon SPECIES_LICKITUNG
+pokemon SPECIES_CHATOT
+pokemon SPECIES_CARNIVINE
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_SILICOBRA
 pokemon SPECIES_VAROOM
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DODUO
@@ -5469,12 +5469,12 @@ pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_VAROOM
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_VAROOM
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
@@ -5526,8 +5526,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 13, 15, 13, 15, 14, 14, 14, 14, 14, 16, 14, 15
 
 // morning encounter slots
@@ -5559,26 +5559,26 @@ pokemon SPECIES_KOFFING
 pokemon SPECIES_KOFFING
 
 // night encounter slots
-pokemon SPECIES_SINISTEA
-pokemon SPECIES_INDEEDEE
-pokemon SPECIES_DURALUDON
-pokemon SPECIES_SPIRITOMB
-pokemon SPECIES_ROTOM
-monwithform SPECIES_SNEASEL, 1
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_MAWILE
+pokemon SPECIES_ARON
+pokemon SPECIES_MARACTUS
+pokemon SPECIES_SNEASEL
 pokemon SPECIES_KOFFING
-monwithform SPECIES_GRIMER, 1
-monwithform SPECIES_GRIMER, 1
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
 pokemon SPECIES_SPINDA
 pokemon SPECIES_KOFFING
 pokemon SPECIES_KOFFING
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_MAWILE
+pokemon SPECIES_MARACTUS
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_MAWILE
+pokemon SPECIES_MARACTUS
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
@@ -5677,12 +5677,12 @@ pokemon SPECIES_MACHOP
 pokemon SPECIES_ZUBAT
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_GEODUDE
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_GEODUDE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -5734,8 +5734,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 31, 32, 31, 32, 31, 31, 30, 30, 28, 30, 28, 30
 
 // morning encounter slots
@@ -5781,12 +5781,12 @@ pokemon SPECIES_MACHOP
 pokemon SPECIES_GOLBAT
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_GEODUDE
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_GEODUDE
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
@@ -5838,8 +5838,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 15, 17, 15, 17, 16, 16, 16, 16, 16, 16, 16, 16
 
 // morning encounter slots
@@ -5885,12 +5885,12 @@ pokemon SPECIES_GEODUDE
 pokemon SPECIES_RATICATE
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 25
@@ -5942,8 +5942,8 @@ walkrate 20
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 15, 15, 15, 15, 17, 17, 15, 15, 16, 17, 16, 17
 
 // morning encounter slots
@@ -5989,12 +5989,12 @@ pokemon SPECIES_YANMA
 pokemon SPECIES_KLEFKI
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_KLEFKI
+pokemon SPECIES_YANMA
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_KLEFKI
+pokemon SPECIES_YANMA
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 15, 25
@@ -6046,8 +6046,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -6150,8 +6150,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 23, 22, 23, 22, 22, 22, 24, 24, 24, 26, 24, 26
 
 // morning encounter slots
@@ -6197,12 +6197,12 @@ pokemon SPECIES_WEEPINBELL
 pokemon SPECIES_LICKITUNG
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_TANGELA
+pokemon SPECIES_BELLSPROUT
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_TANGELA
+pokemon SPECIES_BELLSPROUT
 
 // surf encounters
 encounter SPECIES_POLIWAG, 20, 30
@@ -6301,12 +6301,12 @@ pokemon SPECIES_CRYOGONAL
 pokemon SPECIES_CRYOGONAL
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_SNOVER
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_SNOVER
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6371,9 +6371,9 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6399,18 +6399,18 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6475,9 +6475,9 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6503,18 +6503,18 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6579,9 +6579,9 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // day encounter slots
@@ -6607,18 +6607,18 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6774,8 +6774,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -6878,8 +6878,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -6982,8 +6982,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 23, 23, 23, 23, 24, 24, 20, 20, 25, 27, 25, 27
 
 // morning encounter slots
@@ -7029,12 +7029,12 @@ pokemon SPECIES_GRAVELER
 pokemon SPECIES_GRAVELER
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_GLIGAR
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_GLIGAR
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 15, 25
@@ -7119,26 +7119,26 @@ pokemon SPECIES_PACHIRISU
 pokemon SPECIES_PACHIRISU
 
 // night encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_HONEDGE
-pokemon SPECIES_MASCHIFF
-pokemon SPECIES_EKANS
-pokemon SPECIES_FOMANTIS
-pokemon SPECIES_SHINX
-pokemon SPECIES_HONEDGE
-pokemon SPECIES_EKANS
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_MASCHIFF
-pokemon SPECIES_MASCHIFF
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_TAILLOW
+pokemon SPECIES_AIPOM
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_MINCCINO
+pokemon SPECIES_CHERUBI
+pokemon SPECIES_BLITZLE
+pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_PACHIRISU
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_AIPOM
+pokemon SPECIES_PETILIL
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_AIPOM
+pokemon SPECIES_PETILIL
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -7190,8 +7190,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 50
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 3, 2, 3, 2, 2, 2, 4, 4, 3, 4, 3, 4
 
 // morning encounter slots
@@ -7223,26 +7223,26 @@ pokemon SPECIES_NOIBAT
 pokemon SPECIES_MEOWTH
 
 // night encounter slots
-pokemon SPECIES_ROLYCOLY
-monwithform SPECIES_DIGLETT, 1
-monwithform SPECIES_GEODUDE, 1
-pokemon SPECIES_GLIMMET
-pokemon SPECIES_TRAPINCH
-pokemon SPECIES_TRAPINCH
-pokemon SPECIES_ZUBAT
-monwithform SPECIES_VULPIX, 1
-monwithform SPECIES_VULPIX, 1
-pokemon SPECIES_ZUBAT
-monwithform SPECIES_MEOWTH, 1
-monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_PHANPY
+pokemon SPECIES_DIGLETT
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_ROGGENROLA
+pokemon SPECIES_ROGGENROLA
+pokemon SPECIES_CACNEA
+pokemon SPECIES_DRILBUR
+pokemon SPECIES_DRILBUR
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_SANDSHREW, 1
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_MEOWTH
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_ROGGENROLA
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_ROGGENROLA
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 10, 20
@@ -7294,8 +7294,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 23, 23, 23, 23, 25, 25, 20, 20, 25, 23, 25, 23
 
 // morning encounter slots
@@ -7341,12 +7341,12 @@ pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_GOLBAT
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_GRAVELER
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GEODUDE
+pokemon SPECIES_GRAVELER
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 10, 20
@@ -7398,8 +7398,8 @@ walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 35, 35, 34, 33, 32, 31, 32, 31, 34, 31, 33, 40
 
 // morning encounter slots
@@ -7436,21 +7436,21 @@ pokemon SPECIES_CETODDLE
 pokemon SPECIES_BOMBIRDIER
 pokemon SPECIES_FALINKS
 pokemon SPECIES_VANILLITE
-monwithform SPECIES_CORSOLA, 1
+pokemon SPECIES_DURANT
 pokemon SPECIES_LARVESTA
-pokemon SPECIES_SEVIPER
-pokemon SPECIES_VULLABY
-pokemon SPECIES_TURTONATOR
+pokemon SPECIES_ZANGOOSE
+pokemon SPECIES_RUFFLET
+pokemon SPECIES_DRUDDIGON
 pokemon SPECIES_LARVESTA
 pokemon SPECIES_LARVESTA
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_BOMBIRDIER
+pokemon SPECIES_VANILLITE
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_BOMBIRDIER
+pokemon SPECIES_VANILLITE
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
@@ -7502,8 +7502,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -7606,8 +7606,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -7757,12 +7757,12 @@ pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PSYDUCK
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -7861,12 +7861,12 @@ pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PSYDUCK
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -7965,12 +7965,12 @@ pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PSYDUCK
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -8069,12 +8069,12 @@ pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PSYDUCK
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_GOLBAT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -8126,8 +8126,8 @@ walkrate 10
 surfrate 5
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 37, 40, 34, 34, 38, 38, 39, 38, 37, 38, 40, 40
 
 // morning encounter slots
@@ -8173,12 +8173,12 @@ pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_JYNX
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_PSYDUCK
+pokemon SPECIES_JYNX
 
 // surf encounters
 encounter SPECIES_SEEL, 30, 40
@@ -8230,8 +8230,8 @@ walkrate 5
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 45, 48, 45, 48, 48, 47, 45, 45, 48, 20, 48, 15
 
 // morning encounter slots
@@ -8269,20 +8269,20 @@ pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLDUCK
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_SEAKING, 30, 40
@@ -8334,8 +8334,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 45, 48, 46, 48, 48, 50, 45, 45, 48, 20, 48, 15
 
 // morning encounter slots
@@ -8373,20 +8373,20 @@ pokemon SPECIES_PHANPY
 pokemon SPECIES_GOLDUCK
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_PHANPY
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_PHANPY
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_SEAKING, 30, 40
@@ -8438,8 +8438,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 50, 48, 45, 48, 47, 47, 45, 45, 48, 20, 48, 15
 
 // morning encounter slots
@@ -8477,20 +8477,20 @@ pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLDUCK
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_SEAKING, 30, 40
@@ -8542,8 +8542,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -8685,20 +8685,20 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_KINGLER
 pokemon SPECIES_MACHOP
 pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_WOOPER
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_GRAVELER
 pokemon SPECIES_MACHOKE
 pokemon SPECIES_STEELIX
 pokemon SPECIES_STEELIX
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_KRABBY
+pokemon SPECIES_MACHOP
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_KRABBY
+pokemon SPECIES_MACHOP
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -8783,12 +8783,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
@@ -8797,12 +8797,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -8854,8 +8854,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 41, 42, 41, 42, 42, 42, 44, 44, 41, 43, 41, 43
 
 // morning encounter slots
@@ -8895,18 +8895,18 @@ pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODRIO
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODRIO
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_TANGELA
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_TANGELA
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_POLIWHIRL, 30, 40
@@ -8958,8 +8958,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 42, 44, 42, 44, 43, 43, 42, 41, 45, 20, 45, 15
 
 // morning encounter slots
@@ -9005,12 +9005,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ONIX
+pokemon SPECIES_PHANPY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ONIX
+pokemon SPECIES_PHANPY
 
 // surf encounters
 encounter SPECIES_SEAKING, 30, 40
@@ -9109,12 +9109,12 @@ pokemon SPECIES_GOLDUCK
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_PHANPY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_PHANPY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -9199,9 +9199,9 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // night encounter slots
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLDUCK
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_PHANPY
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
@@ -9213,12 +9213,12 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -9270,8 +9270,8 @@ walkrate 20
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 45, 48, 45, 48, 47, 47, 30, 45, 48, 20, 48, 15
 
 // morning encounter slots
@@ -9306,23 +9306,23 @@ pokemon SPECIES_LARVITAR
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLDUCK
 pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_GOLDUCK
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_LARVITAR
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_QUAGSIRE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_SEAKING, 30, 40
@@ -9478,8 +9478,8 @@ walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 100
-goodrodrate 100
-superrodrate 100
+goodrodrate 0
+superrodrate 0
 walklevels 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
 
 // morning encounter slots
@@ -9525,12 +9525,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_ZIGZAGOON
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // sinnoh encounter slots
-pokemon SPECIES_BIDOOF
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_RATTATA
+pokemon SPECIES_RATTATA
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 10, 20
@@ -9582,8 +9582,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -9686,8 +9686,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 30
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -9790,8 +9790,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -9894,8 +9894,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -9998,8 +9998,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -10102,8 +10102,8 @@ walkrate 0
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -10206,8 +10206,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 40
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -10414,8 +10414,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -10518,8 +10518,8 @@ walkrate 0
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
@@ -10655,26 +10655,26 @@ pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_KANGASKHAN
 
 // night encounter slots
-pokemon SPECIES_CLOBBOPUS
-pokemon SPECIES_STONJOURNER
-pokemon SPECIES_ABSOL
-pokemon SPECIES_BRUXISH
+pokemon SPECIES_CYCLIZAR
+pokemon SPECIES_TROPIUS
+pokemon SPECIES_KANGASKHAN
+pokemon SPECIES_STUNFISK
 pokemon SPECIES_KECLEON
-pokemon SPECIES_DRAMPA
-pokemon SPECIES_KARRABLAST
-pokemon SPECIES_KARRABLAST
-pokemon SPECIES_KARRABLAST
-pokemon SPECIES_DRAMPA
+pokemon SPECIES_ORANGURU
+pokemon SPECIES_SHELMET
+pokemon SPECIES_SHELMET
+pokemon SPECIES_SHELMET
+pokemon SPECIES_ORANGURU
 pokemon SPECIES_KANGASKHAN
 pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_KANGASKHAN
+pokemon SPECIES_KECLEON
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_KANGASKHAN
+pokemon SPECIES_KECLEON
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -10726,8 +10726,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 28, 28, 28, 28, 32, 32, 30, 30, 30, 30, 30, 30
 
 // morning encounter slots
@@ -10759,26 +10759,26 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_DODRIO
 
 // night encounter slots
-pokemon SPECIES_RATICATE
+pokemon SPECIES_DODUO
 pokemon SPECIES_SANDSLASH
-pokemon SPECIES_RATICATE
+pokemon SPECIES_DODUO
 pokemon SPECIES_SANDSLASH
 pokemon SPECIES_PONYTA
 pokemon SPECIES_PONYTA
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 pokemon SPECIES_RATICATE
+pokemon SPECIES_DODRIO
 pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DODRIO
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_DODUO
+pokemon SPECIES_PONYTA
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_DODUO
+pokemon SPECIES_PONYTA
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 30, 30
@@ -10830,8 +10830,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 28, 28, 28, 28, 30, 30, 30, 30, 32, 30, 32, 30
 
 // morning encounter slots
@@ -10863,12 +10863,12 @@ pokemon SPECIES_PONYTA
 pokemon SPECIES_SANDSLASH
 
 // night encounter slots
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DODUO
 pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DODUO
 pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_PONYTA
@@ -10877,12 +10877,12 @@ pokemon SPECIES_PONYTA
 pokemon SPECIES_SANDSLASH
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 20, 20
@@ -10934,8 +10934,8 @@ walkrate 25
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 39, 40, 39, 40, 40, 40, 42, 42, 41, 43, 41, 43
 
 // morning encounter slots
@@ -10973,20 +10973,20 @@ pokemon SPECIES_TANGELA
 pokemon SPECIES_PONYTA
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
 pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODRIO
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODRIO
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_TANGELA
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_TANGELA
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -11085,12 +11085,12 @@ pokemon SPECIES_SANDSLASH
 pokemon SPECIES_CLEFAIRY
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SANDSHREW
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SANDSHREW
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11189,12 +11189,12 @@ pokemon SPECIES_SANDSLASH
 pokemon SPECIES_CLEFAIRY
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SANDSHREW
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SANDSHREW
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11293,12 +11293,12 @@ pokemon SPECIES_MACHOKE
 pokemon SPECIES_CUBONE
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_CUBONE
+pokemon SPECIES_MACHOP
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_CUBONE
+pokemon SPECIES_MACHOP
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11397,12 +11397,12 @@ pokemon SPECIES_MAROWAK
 pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_CUBONE
+pokemon SPECIES_ONIX
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_CUBONE
+pokemon SPECIES_ONIX
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11501,12 +11501,12 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11591,26 +11591,26 @@ pokemon SPECIES_FURRET
 pokemon SPECIES_PIDGEY
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_SENTRET
+pokemon SPECIES_SENTRET
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_FURRET
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_FURRET
+pokemon SPECIES_PIDGEY
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_SENTRET
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_SENTRET
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11673,10 +11673,10 @@ pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_CATERPIE
 
@@ -11695,26 +11695,26 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_CATERPIE
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_METAPOD
+pokemon SPECIES_METAPOD
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_CATERPIE
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_METAPOD
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_METAPOD
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11799,26 +11799,26 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
 
 // night encounter slots
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -11870,8 +11870,8 @@ walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 5, 5, 5, 5, 8, 8, 6, 6, 10, 8, 10, 8
 
 // morning encounter slots
@@ -11904,25 +11904,25 @@ pokemon SPECIES_SPEAROW
 
 // night encounter slots
 pokemon SPECIES_SPEAROW
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_JIGGLYPUFF
 pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 10, 10
@@ -12007,26 +12007,26 @@ pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 
 // night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -12078,8 +12078,8 @@ walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 13, 13, 13, 13, 14, 14, 15, 15, 12, 14, 12, 14
 
 // morning encounter slots
@@ -12111,12 +12111,12 @@ pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 
 // night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_ABRA
@@ -12125,12 +12125,12 @@ pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 10, 10
@@ -12196,9 +12196,9 @@ pokemon SPECIES_GROWLITHE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATTATA
+pokemon SPECIES_GROWLITHE
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_GROWLITHE
 
 // day encounter slots
 pokemon SPECIES_RATTATA
@@ -12216,25 +12216,25 @@ pokemon SPECIES_GROWLITHE
 
 // night encounter slots
 pokemon SPECIES_RATTATA
-pokemon SPECIES_MURKROW
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
-pokemon SPECIES_MURKROW
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_GROWLITHE
 pokemon SPECIES_GROWLITHE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
-pokemon SPECIES_MURKROW
-pokemon SPECIES_HOUNDOUR
-pokemon SPECIES_MURKROW
-pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_RATTATA
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_GROWLITHE
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_RATTATA
+pokemon SPECIES_GROWLITHE
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_RATTATA
+pokemon SPECIES_GROWLITHE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -12319,26 +12319,26 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_KADABRA
 
 // night encounter slots
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_HAUNTER
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
 pokemon SPECIES_GROWLITHE
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_KADABRA
-pokemon SPECIES_GROWLITHE
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_KADABRA
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_ABRA
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_ABRA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -12390,8 +12390,8 @@ walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 13, 15, 13, 15, 13, 13, 15, 15, 15, 15, 15, 15
 
 // morning encounter slots
@@ -12427,22 +12427,22 @@ pokemon SPECIES_MANKEY
 pokemon SPECIES_RATTATA
 pokemon SPECIES_MANKEY
 pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_FEAROW
 pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_RATICATE
+pokemon SPECIES_FEAROW
 pokemon SPECIES_PRIMEAPE
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_MANKEY
+pokemon SPECIES_SPEAROW
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_MANKEY
+pokemon SPECIES_SPEAROW
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 15
@@ -12494,8 +12494,8 @@ walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 16, 17, 16, 17, 16, 16, 18, 18, 18, 15, 18, 15
 
 // morning encounter slots
@@ -12507,9 +12507,9 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_FEAROW
 pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
 pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ELECTABUZZ
+pokemon SPECIES_ELECTABUZZ
 pokemon SPECIES_ELECTABUZZ
 
 // day encounter slots
@@ -12527,26 +12527,26 @@ pokemon SPECIES_ELECTABUZZ
 pokemon SPECIES_ELECTABUZZ
 
 // night encounter slots
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_VOLTORB
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_VOLTORB
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
+pokemon SPECIES_FEAROW
+pokemon SPECIES_FEAROW
 pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_RATICATE
+pokemon SPECIES_ELECTABUZZ
+pokemon SPECIES_ELECTABUZZ
 pokemon SPECIES_ELECTABUZZ
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_RATICATE
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_RATICATE
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 15, 15
@@ -12645,12 +12645,12 @@ pokemon SPECIES_HYPNO
 pokemon SPECIES_HYPNO
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_DROWZEE
+pokemon SPECIES_MAGNEMITE
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_DROWZEE
+pokemon SPECIES_MAGNEMITE
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -12702,8 +12702,8 @@ walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 23, 23, 23, 23, 25, 25, 22, 22, 24, 24, 24, 25
 
 // morning encounter slots
@@ -12739,22 +12739,22 @@ pokemon SPECIES_NIDORINA
 pokemon SPECIES_NIDORINO
 pokemon SPECIES_NIDORINA
 pokemon SPECIES_NIDORINO
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
 pokemon SPECIES_CHANSEY
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_NIDORINA
+pokemon SPECIES_PIDGEOTTO
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_NIDORINA
+pokemon SPECIES_PIDGEOTTO
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 25, 25
@@ -12843,22 +12843,22 @@ pokemon SPECIES_NIDORINA
 pokemon SPECIES_NIDORINO
 pokemon SPECIES_NIDORINA
 pokemon SPECIES_NIDORINO
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_SKIPLOOM
+pokemon SPECIES_SKIPLOOM
+pokemon SPECIES_SKIPLOOM
 pokemon SPECIES_CHANSEY
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_NIDORINA
+pokemon SPECIES_PIDGEOTTO
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_NIDORINA
+pokemon SPECIES_PIDGEOTTO
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -12947,22 +12947,22 @@ pokemon SPECIES_NIDORINA
 pokemon SPECIES_NIDORINO
 pokemon SPECIES_NIDORINA
 pokemon SPECIES_NIDORINO
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_HOPPIP
 pokemon SPECIES_CHANSEY
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_NIDORINA
+pokemon SPECIES_PIDGEOTTO
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_NIDORINA
+pokemon SPECIES_PIDGEOTTO
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -13048,25 +13048,25 @@ pokemon SPECIES_MUK
 
 // night encounter slots
 pokemon SPECIES_GRIMER
+pokemon SPECIES_FEAROW
+pokemon SPECIES_GRIMER
+pokemon SPECIES_FEAROW
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MURKROW
-pokemon SPECIES_MURKROW
+pokemon SPECIES_FEAROW
+pokemon SPECIES_FEAROW
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -13124,9 +13124,9 @@ walklevels 28, 27, 28, 27, 29, 29, 30, 30, 29, 32, 29, 32
 
 // morning encounter slots
 pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
 pokemon SPECIES_FEAROW
@@ -13151,26 +13151,26 @@ pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 
 // night encounter slots
+pokemon SPECIES_FEAROW
+pokemon SPECIES_SLUGMA
+pokemon SPECIES_FEAROW
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MUK
-pokemon SPECIES_MUK
+pokemon SPECIES_FEAROW
+pokemon SPECIES_FEAROW
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_FEAROW
+pokemon SPECIES_GRIMER
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_FEAROW
+pokemon SPECIES_GRIMER
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -13256,25 +13256,25 @@ pokemon SPECIES_MUK
 
 // night encounter slots
 pokemon SPECIES_GRIMER
+pokemon SPECIES_FEAROW
+pokemon SPECIES_GRIMER
+pokemon SPECIES_FEAROW
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MUK
-pokemon SPECIES_MUK
+pokemon SPECIES_FEAROW
+pokemon SPECIES_FEAROW
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -13326,8 +13326,8 @@ walkrate 20
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 30, 25, 30, 25, 35, 35, 20, 20, 30, 28, 30, 28
 
 // morning encounter slots
@@ -13339,9 +13339,9 @@ pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
 pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_MR_MIME
 pokemon SPECIES_MR_MIME
 
 // day encounter slots
@@ -13367,18 +13367,18 @@ pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
 pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_MR_MIME
 pokemon SPECIES_MR_MIME
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_TANGELA
+pokemon SPECIES_TANGELA
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_TANGELA
+pokemon SPECIES_TANGELA
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 35, 35
@@ -13430,8 +13430,8 @@ walkrate 20
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 3, 3, 3, 3, 5, 5, 4, 4, 6, 7, 6, 7
 
 // morning encounter slots
@@ -13464,25 +13464,25 @@ pokemon SPECIES_FEAROW
 
 // night encounter slots
 pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 pokemon SPECIES_PONYTA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_FEAROW
 pokemon SPECIES_PONYTA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_FEAROW
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_RATTATA
+pokemon SPECIES_SPEAROW
 
 // surf encounters
 encounter SPECIES_POLIWAG, 10, 10
@@ -13534,22 +13534,22 @@ walkrate 20
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 8, 10, 8, 10, 9, 9, 12, 12, 8, 14, 8, 14
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SUNKERN
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SUNKERN
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 pokemon SPECIES_WEEPINBELL
 pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_VENONAT
+pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_VENONAT
+pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_WEEPINBELL
 
 // day encounter slots
@@ -13567,26 +13567,26 @@ pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_WEEPINBELL
 
 // night encounter slots
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SUNKERN
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 pokemon SPECIES_WEEPINBELL
 pokemon SPECIES_WEEPINBELL
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_WEEPINBELL
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_WEEPINBELL
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_ABRA
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_ABRA
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 10, 10
@@ -13638,8 +13638,8 @@ walkrate 20
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 8, 10, 8, 10, 8, 8, 9, 9, 10, 14, 10, 14
 
 // morning encounter slots
@@ -13647,8 +13647,8 @@ pokemon SPECIES_PIDGEY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_VENONAT
-pokemon SPECIES_VENONAT
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
 pokemon SPECIES_PIDGEOTTO
@@ -13671,26 +13671,26 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_WEEPINBELL
 
 // night encounter slots
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_VENOMOTH
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 10, 10
@@ -13742,8 +13742,8 @@ walkrate 15
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
 
 // morning encounter slots
@@ -13789,12 +13789,12 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_SLOWPOKE
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_GOLBAT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_GOLBAT
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 20, 20
@@ -13893,12 +13893,12 @@ pokemon SPECIES_DUGTRIO
 pokemon SPECIES_DUGTRIO
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_DIGLETT
+pokemon SPECIES_DIGLETT
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_DIGLETT
+pokemon SPECIES_DIGLETT
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -13997,12 +13997,12 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -14101,12 +14101,12 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_RHYHORN
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_DONPHAN
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_DONPHAN
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -14167,12 +14167,12 @@ pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_CATERPIE
 
@@ -14191,26 +14191,26 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_CATERPIE
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_CATERPIE
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_PIDGEY
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_PIDGEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -14273,8 +14273,8 @@ pokemon SPECIES_METAPOD
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIKACHU
 pokemon SPECIES_PIKACHU
@@ -14295,26 +14295,26 @@ pokemon SPECIES_PIKACHU
 pokemon SPECIES_PIKACHU
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_METAPOD
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_METAPOD
+pokemon SPECIES_METAPOD
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEOTTO
+pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIKACHU
-pokemon SPECIES_NOCTOWL
+pokemon SPECIES_PIKACHU
 pokemon SPECIES_PIKACHU
 
 // hoenn encounter slots
-pokemon SPECIES_SPOINK
-pokemon SPECIES_NUMEL
+pokemon SPECIES_METAPOD
+pokemon SPECIES_METAPOD
 
 // sinnoh encounter slots
-pokemon SPECIES_BUDEW
-pokemon SPECIES_CARNIVINE
+pokemon SPECIES_METAPOD
+pokemon SPECIES_METAPOD
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -14470,8 +14470,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 5
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 39, 38, 38, 38, 40, 39, 40, 37, 39, 40, 39, 40
 
 // morning encounter slots
@@ -14503,26 +14503,26 @@ pokemon SPECIES_MAGNETON
 pokemon SPECIES_DITTO
 
 // night encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_MACHOKE
 pokemon SPECIES_PARASECT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_PRIMEAPE
 pokemon SPECIES_MAGNETON
 pokemon SPECIES_DITTO
 pokemon SPECIES_ELECTRODE
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_PRIMEAPE
 pokemon SPECIES_MACHOKE
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_MACHOKE
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_DITTO
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_MAGNETON
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_MAGNETON
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 40, 40
@@ -14574,8 +14574,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 42, 40, 41, 39, 41, 42, 41, 42, 41, 42, 41, 42
 
 // morning encounter slots
@@ -14615,18 +14615,18 @@ pokemon SPECIES_MAGNETON
 pokemon SPECIES_DITTO
 pokemon SPECIES_ELECTRODE
 pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_MACHOKE
+pokemon SPECIES_MACHOKE
+pokemon SPECIES_MACHOKE
+pokemon SPECIES_MACHOKE
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_MAGNETON
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_MAGNETON
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 40, 40
@@ -14678,8 +14678,8 @@ walkrate 10
 surfrate 10
 rocksmashrate 5
 oldrodrate 25
-goodrodrate 50
-superrodrate 75
+goodrodrate 0
+superrodrate 0
 walklevels 46, 45, 47, 45, 45, 45, 46, 47, 47, 49, 47, 49
 
 // morning encounter slots
@@ -14725,12 +14725,12 @@ pokemon SPECIES_PARASECT
 pokemon SPECIES_WOBBUFFET
 
 // hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_MAGNETON
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_MAGNETON
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 40, 40
