@@ -6755,6 +6755,14 @@ DummyTextTrap slot, unk
 RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 .endmacro
 
+.equ NEW_COMMAND_CHECK_PARTY_OVER_LEVEL, 1
+
+// sets var to 1 if a pokemon in the party is above the level, to 0 otherwise
+.macro CheckPartyOverLevel,level,var
+RunNewCommand NEW_COMMAND_CHECK_PARTY_OVER_LEVEL, var
+.halfword level
+.endmacro
+
 // Dummy
 .macro DummyTextTreasure,slot,unk
 .halfword 209
