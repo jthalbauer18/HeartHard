@@ -84,6 +84,10 @@
 #define HEARTHARD_START_ITEMS
 #define HEARTHARD_START_POKE_BALLS 50
 
+// HEARTHARD_NO_PRE_SLEEP wakes up the player's party when a trainer battle is set up, so that a sleeping pokemon cannot be brought into the battle
+// comment this line out to keep the sleep status between battles
+#define HEARTHARD_NO_PRE_SLEEP
+
 // System flags that need to be enabled for the player to use the gimmick. If you want to change them, remember to change them in flags.s as well for consistency
 #define FLAG_MEGA_EVOLUTION_ENABLED 2518
 //#define FLAG_Z_MOVE_ENABLED 2519

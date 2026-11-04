@@ -44,6 +44,27 @@ void randomize(int arr[], int n) {
 
 extern u32 gLastPokemonLevelForMoneyCalc;
 
+#ifdef HEARTHARD_NO_PRE_SLEEP
+/**
+ *  @brief wake up every sleeping pokemon in a party
+ *
+ *  @param party party to wake up
+ */
+static void WakeUpParty(struct Party *party)
+{
+    for (int i = 0; i < party->count; i++)
+    {
+        struct PartyPokemon *mon = Party_GetMonByIndex(party, i);
+        u32 status = GetMonData(mon, MON_DATA_STATUS, NULL);
+        if (status & STATUS_SLEEP)
+        {
+            status &= STATUS_NOT_SLEEP;
+            SetMonData(mon, MON_DATA_STATUS, &status);
+        }
+    }
+}
+#endif // HEARTHARD_NO_PRE_SLEEP
+
 /**
  *  @brief create the trainer Party from the trainer data file and trainer party file
  *
@@ -57,6 +78,12 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     int i, j;
     u32 rnd_tmp, rnd, seed_tmp;
     u8 pow;
+
+#ifdef HEARTHARD_NO_PRE_SLEEP
+    // the battle uses a copy of the party, so the party in the save has to wake up as well
+    WakeUpParty(bp->poke_party[0]);
+    WakeUpParty(SaveData_GetPlayerPartyPtr(SaveBlock2_get()));
+#endif // HEARTHARD_NO_PRE_SLEEP
 
     seed_tmp = gf_get_seed();
 
