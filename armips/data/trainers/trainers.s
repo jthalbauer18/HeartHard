@@ -68,7 +68,7 @@ trainerdata 1, "Silver"
 trainerdata 2, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -79,17 +79,31 @@ trainerdata 2, "Silver"
 
     party 2
         // mon 0
-        ivs 0
+        ivs 255
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_CYNDAQUIL
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 8
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 8
+        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
 trainerdata 3, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -100,10 +114,24 @@ trainerdata 3, "Silver"
 
     party 3
         // mon 0
-        ivs 0
+        ivs 255
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_TOTODILE
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 8
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 8
+        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
@@ -121,31 +149,31 @@ trainerdata 4, "Wade"
 
     party 4
         // mon 0
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 9
+        pokemon SPECIES_SEWADDLE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 9
+        pokemon SPECIES_LEDYBA
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 3
-        pokemon SPECIES_WEEDLE
+        level 9
+        pokemon SPECIES_VENIPEDE
         ballseal 0
 
         // mon 3
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 9
+        pokemon SPECIES_SPINARAK
         ballseal 0
     endparty
 
@@ -250,7 +278,7 @@ trainerdata 7, "Irwin"
 trainerdata 8, "Joey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -261,10 +289,24 @@ trainerdata 8, "Joey"
 
     party 8
         // mon 0
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 4
+        level 7
         pokemon SPECIES_RATTATA
+        ballseal 0
+
+        // mon 1
+        ivs 124
+        abilityslot 0
+        level 8
+        pokemon SPECIES_PATRAT
+        ballseal 0
+
+        // mon 2
+        ivs 124
+        abilityslot 0
+        level 9
+        pokemon SPECIES_ZIGZAGOON
         ballseal 0
     endparty
 
@@ -1524,7 +1566,7 @@ trainerdata 46, "Martha"
 trainerdata 47, "Mikey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1535,17 +1577,24 @@ trainerdata 47, "Mikey"
 
     party 47
         // mon 0
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 2
-        pokemon SPECIES_PIDGEY
+        level 7
+        pokemon SPECIES_TAILLOW
         ballseal 0
 
         // mon 1
-        ivs 0
-        abilityslot 32
-        level 4
-        pokemon SPECIES_RATTATA
+        ivs 124
+        abilityslot 0
+        level 8
+        pokemon SPECIES_STARLY
+        ballseal 0
+
+        // mon 2
+        ivs 124
+        abilityslot 0
+        level 9
+        pokemon SPECIES_FLETCHLING
         ballseal 0
     endparty
 
@@ -7844,7 +7893,7 @@ trainerdata 248, "Ed"
 trainerdata 249, "Don"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BUG_CATCHER
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -7855,17 +7904,31 @@ trainerdata 249, "Don"
 
     party 249
         // mon 0
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 3
+        level 7
         pokemon SPECIES_CATERPIE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 124
         abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
+        level 9
+        pokemon SPECIES_METAPOD
+        ballseal 0
+
+        // mon 2
+        ivs 124
+        abilityslot 0
+        level 7
+        pokemon SPECIES_WEEDLE
+        ballseal 0
+
+        // mon 3
+        ivs 124
+        abilityslot 0
+        level 9
+        pokemon SPECIES_KAKUNA
         ballseal 0
     endparty
 
@@ -8769,7 +8832,7 @@ trainerdata 264, "Silver"
 trainerdata 265, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -8780,10 +8843,24 @@ trainerdata 265, "Silver"
 
     party 265
         // mon 0
-        ivs 0
+        ivs 255
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_CHIKORITA
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 8
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 8
+        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
