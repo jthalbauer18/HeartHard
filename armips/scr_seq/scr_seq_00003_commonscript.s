@@ -87,6 +87,7 @@ scrdef scr_seq_0003_069
 scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
 scrdef scr_seq_0003_072_repels
+scrdef scr_seq_0003_073_infinite_repel
 scrdef_end
 
 scr_seq_0003_002:
@@ -1315,6 +1316,22 @@ scr_seq_0003_072_repels:
     npc_msg 119
     wait_button_or_walk_away
 scr_seq_0003_072_end:
+    closemsg
+    releaseall
+    end
+
+scr_seq_0003_073_infinite_repel:
+    play_se SEQ_SE_DP_SELECT
+    lockall
+    ToggleInfiniteRepel VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq scr_seq_0003_073_on
+    npc_msg 121
+    goto scr_seq_0003_073_end
+scr_seq_0003_073_on:
+    npc_msg 120
+scr_seq_0003_073_end:
+    wait_button_or_walk_away
     closemsg
     releaseall
     end

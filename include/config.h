@@ -88,6 +88,10 @@
 // comment this line out to keep the sleep status between battles
 #define HEARTHARD_NO_PRE_SLEEP
 
+// HEARTHARD_INFINITE_REPEL_FLAG is the script flag behind the infinite repel, which the R button toggles on the overworld
+// comment this line out to remove the infinite repel
+#define HEARTHARD_INFINITE_REPEL_FLAG 2603
+
 // System flags that need to be enabled for the player to use the gimmick. If you want to change them, remember to change them in flags.s as well for consistency
 #define FLAG_MEGA_EVOLUTION_ENABLED 2518
 //#define FLAG_Z_MOVE_ENABLED 2519

@@ -14,6 +14,13 @@ bool32 PlayerStepEvent_RepelCounterDecrement(SaveData *saveData, FieldSystem *fi
     void *roamerSaveData = EncDataSave_GetSaveDataPtr(saveData);
     u8* repel_addr = SaveData_GetRepelPtr(roamerSaveData);
 
+#ifdef HEARTHARD_INFINITE_REPEL_FLAG
+    if (CheckScriptFlag(HEARTHARD_INFINITE_REPEL_FLAG)) {
+        *repel_addr = 1; // the counter stays active as long as the infinite repel is on
+        return FALSE;
+    }
+#endif
+
     if (*repel_addr != 0) {
         (*repel_addr)--;
 

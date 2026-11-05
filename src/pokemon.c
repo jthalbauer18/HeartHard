@@ -764,6 +764,64 @@ u32 CanUseAbilityPatch(struct PartyPokemon *pp)
 
 u32 ALIGN4 partyMenuSignal = 0;
 
+/**
+ *  @brief check if the infinite rejuv can do anything for the team.  fainted pokemon are left out on purpose
+ *
+ *  @param party party to check
+ *  @return TRUE if a pokemon that has not fainted lost HP or PP or has a status condition
+ */
+static BOOL CanUseInfiniteRejuv(struct Party *party)
+{
+    for (int i = 0; i < party->count; i++)
+    {
+        struct PartyPokemon *mon = Party_GetMonByIndex(party, i);
+        u32 hp = GetMonData(mon, MON_DATA_HP, NULL);
+        if (GetMonData(mon, MON_DATA_IS_EGG, NULL) || hp == 0)
+        {
+            continue;
+        }
+        if (hp < GetMonData(mon, MON_DATA_MAXHP, NULL) || GetMonData(mon, MON_DATA_STATUS, NULL) != 0)
+        {
+            return TRUE;
+        }
+        for (int j = 0; j < 4; j++)
+        {
+            if (GetMonData(mon, MON_DATA_MOVE1PP + j, NULL) < GetMonData(mon, MON_DATA_MOVE1MAXPP + j, NULL))
+            {
+                return TRUE;
+            }
+        }
+    }
+    return FALSE;
+}
+
+/**
+ *  @brief restore HP, PP and status of every pokemon in the team that has not fainted
+ *
+ *  @param party party to heal
+ */
+static void HealTeamWithInfiniteRejuv(struct Party *party)
+{
+    for (int i = 0; i < party->count; i++)
+    {
+        struct PartyPokemon *mon = Party_GetMonByIndex(party, i);
+        u32 hp = GetMonData(mon, MON_DATA_HP, NULL);
+        if (GetMonData(mon, MON_DATA_IS_EGG, NULL) || hp == 0)
+        {
+            continue;
+        }
+        u32 status = 0;
+        hp = GetMonData(mon, MON_DATA_MAXHP, NULL);
+        SetMonData(mon, MON_DATA_HP, &hp);
+        SetMonData(mon, MON_DATA_STATUS, &status);
+        for (int j = 0; j < 4; j++)
+        {
+            u8 pp = GetMonData(mon, MON_DATA_MOVE1MAXPP + j, NULL);
+            SetMonData(mon, MON_DATA_MOVE1PP + j, &pp);
+        }
+    }
+}
+
 u16 NatureToMintItem[] =
 {
     [NATURE_LONELY] = ITEM_LONELY_MINT,
@@ -904,6 +962,18 @@ u32 LONG_CALL UseItemMonAttrChangeCheck(struct PLIST_WORK *wk, void *dat)
         return TRUE;
     }
 #endif
+
+    // handle infinite rejuv, which heals the whole team
+
+    if (wk->dat->item == ITEM_INFINITE_REJUVINATOR && CanUseInfiniteRejuv(wk->dat->pp) == TRUE)
+    {
+        partyMenuSignal = 220; // signal to change the message to this index
+        wk->dat->after_mons = GetMonData(pp, MON_DATA_FORM, NULL); // no form change
+        sys_FreeMemoryEz(dat);
+        PokeList_FormDemoOverlayLoad(wk);
+        HealTeamWithInfiniteRejuv(wk->dat->pp);
+        return TRUE;
+    }
 
     // handle ability capsule
 
@@ -1336,6 +1406,10 @@ BOOL CanUseItemOnMonInParty(struct Party *party, u16 itemID, s32 partyIdx, s32 m
         }
     }
 #endif
+    if (itemID == ITEM_INFINITE_REJUVINATOR)
+    {
+        return CanUseInfiniteRejuv(party);
+    }
     return CanUseItemOnPokemon(mon, itemID, moveIdx, heapID);
 }
 

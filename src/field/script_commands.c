@@ -337,6 +337,7 @@ void ClearOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req)
     req->DebugKeyPush = 0;
 
     req->OpenPCCheck  = 0; // new:  check if pc should be opened
+    req->InfiniteRepelCheck = 0; // new:  check if the infinite repel should be toggled
 
     req->Site = 0xFF;
     req->PushSite = 0xFF;
@@ -353,6 +354,11 @@ void SetOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, u16 trg)
     if (trg & PAD_BUTTON_L) {
         req->OpenPCCheck = TRUE;
     }
+#ifdef HEARTHARD_INFINITE_REPEL_FLAG
+    if (trg & PAD_BUTTON_R) {
+        req->InfiniteRepelCheck = TRUE;
+    }
+#endif
 }
 
 /**
@@ -366,4 +372,9 @@ void CheckOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, FieldSystem *fsys)
         SetScriptFlag(0x18F); // some random flag that should be set by script 2010 (file 3 script 10)
         EventSet_Script(fsys, 2010, NULL); // set up script 2010
     }
+#ifdef HEARTHARD_INFINITE_REPEL_FLAG
+    else if (req->InfiniteRepelCheck) {
+        EventSet_Script(fsys, 2073, NULL); // toggle the infinite repel
+    }
+#endif
 }

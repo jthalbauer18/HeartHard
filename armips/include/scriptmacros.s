@@ -6756,6 +6756,12 @@ RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 .endmacro
 
 .equ NEW_COMMAND_CHECK_PARTY_OVER_LEVEL, 1
+.equ NEW_COMMAND_TOGGLE_INFINITE_REPEL, 2
+
+// toggles the infinite repel and sets var to 1 if it is on now, to 0 otherwise
+.macro ToggleInfiniteRepel,var
+RunNewCommand NEW_COMMAND_TOGGLE_INFINITE_REPEL, var
+.endmacro
 
 // sets var to 1 if a pokemon in the party is above the level, to 0 otherwise
 .macro CheckPartyOverLevel,level,var
