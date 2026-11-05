@@ -14,6 +14,19 @@ bool32 PlayerStepEvent_RepelCounterDecrement(SaveData *saveData, FieldSystem *fi
     void *roamerSaveData = EncDataSave_GetSaveDataPtr(saveData);
     u8* repel_addr = SaveData_GetRepelPtr(roamerSaveData);
 
+#ifdef HEARTHARD_SKIP_EARLY_SCENES
+    // elm sent the player off with the aide's potions, so jump past guide gent and mr. pokemon
+    if (GetScriptVar(HEARTHARD_VAR_ELMS_LAB) == 2 && GetScriptVar(HEARTHARD_VAR_MR_POKEMONS_HOUSE) == 0) {
+        EventSet_Script(fieldSystem, 2074, NULL);
+        return TRUE;
+    }
+    // elm would now send lyra to route 29 for the catching tutorial
+    if (GetScriptVar(HEARTHARD_VAR_CATCHING_TUTORIAL) == 1) {
+        EventSet_Script(fieldSystem, 2075, NULL);
+        return TRUE;
+    }
+#endif
+
 #ifdef HEARTHARD_INFINITE_REPEL_FLAG
     if (CheckScriptFlag(HEARTHARD_INFINITE_REPEL_FLAG)) {
         *repel_addr = 1; // the counter stays active as long as the infinite repel is on

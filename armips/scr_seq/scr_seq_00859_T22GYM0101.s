@@ -14,6 +14,9 @@
 
 FALKNER_LEVEL_CAP equ 16
 
+// set to 1 if every trainer of split 1 has to be defeated before falkner battles
+REQUIRE_ALL_TRAINERS equ 0
+
 FLAG_HIDE_VIOLET_GYM_FALKNER equ 0x2E9
 SCORE_EVENT_BADGE_GET equ 22
 
@@ -96,6 +99,7 @@ scr_seq_0859_001:
     check_badge BADGE_ZEPHYR, VAR_SPECIAL_RESULT
     compare VAR_SPECIAL_RESULT, 1
     goto_if_eq _0168
+.if REQUIRE_ALL_TRAINERS == 1
     // every trainer of split 1 has to be defeated first
     checktrainerflag TRAINER_YOUNGSTER_JOEY
     goto_if 0, _gate_trainers
@@ -123,6 +127,7 @@ scr_seq_0859_001:
     goto_if 0, _gate_trainers
     // elder li is a scripted battle, this flag is set once he is defeated
     goto_if_unset FLAG_UNK_076, _gate_trainers
+.endif
     // no pokemon in the party may be above the level cap
     CheckPartyOverLevel FALKNER_LEVEL_CAP, VAR_SPECIAL_RESULT
     compare VAR_SPECIAL_RESULT, 1

@@ -120,3 +120,4 @@ The repellent’s effect wore off!\nWould you like to use another one?
 You used the {STRVAR_1 8, 1, 0}.
 Infinite Repel: ON
 Infinite Repel: OFF
+You received the Pokédex and\nthe Map Card.\rTravel on to Cherrygrove City.

@@ -11,6 +11,8 @@
 
 // text archive to grab from: 040.txt
 
+FLAG_WATCHED_CATCHING_TUTORIAL equ 0x9A
+
 .create "build/a012/2_003", 0
 
 
@@ -88,6 +90,8 @@ scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
 scrdef scr_seq_0003_072_repels
 scrdef scr_seq_0003_073_infinite_repel
+scrdef scr_seq_0003_074_skip_mr_pokemon
+scrdef scr_seq_0003_075_skip_catching_tutorial
 scrdef_end
 
 scr_seq_0003_002:
@@ -1318,6 +1322,40 @@ scr_seq_0003_072_repels:
 scr_seq_0003_072_end:
     closemsg
     releaseall
+    end
+
+// replaces the guide gent and the errand to mr. pokemon
+scr_seq_0003_074_skip_mr_pokemon:
+    lockall
+    giveitem ITEM_MYSTERY_EGG, 1, VAR_SPECIAL_RESULT
+    give_pokedex
+    setflag FLAG_GOT_POKEDEX
+    register_gear_number PHONE_CONTACT_PROF__OAK
+    register_pokegear_card 1
+    setvar VAR_SCENE_MR_POKEMONS_HOUSE, 1
+    setflag FLAG_HIDE_MR_POKEMONS_HOUSE_OAK
+    setflag FLAG_HIDE_COMM_CLUB_CLOSED_LADIES
+    clearflag FLAG_HIDE_COMM_CLUB_RECEPTIONISTS
+    setflag FLAG_HIDE_NEW_BARK_RIVAL
+    setflag FLAG_HIDE_CHERRYGROVE_GUIDE_GENT
+    setvar VAR_SCENE_CHERRYGROVE_CITY_OW, 3
+    clearflag FLAG_HIDE_CHERRYGROVE_RIVAL
+    setvar VAR_SCENE_ELMS_LAB, 3
+    clearflag FLAG_HIDE_ELMS_LAB_OFFICER
+    setflag FLAG_GOT_ELMS_PANIC_CALL
+    setvar VAR_SCENE_ROUTE_30_OW, 3
+    npc_msg 122
+    wait_button_or_walk_away
+    closemsg
+    releaseall
+    end
+
+// replaces the catching tutorial with lyra on route 29
+scr_seq_0003_075_skip_catching_tutorial:
+    setvar VAR_UNK_408B, 0
+    setflag FLAG_HIDE_ROUTE_29_FRIEND
+    setflag FLAG_HIDE_ROUTE_29_MARILL
+    setflag FLAG_WATCHED_CATCHING_TUTORIAL
     end
 
 scr_seq_0003_073_infinite_repel:
