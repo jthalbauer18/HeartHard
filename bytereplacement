@@ -4,6 +4,10 @@
 
 #updating old moves
 
+# HeartHard: no effort values from battles, DistributeEffortValues returns right away (bx lr)
+# 022463E8
+0012 0800EB28 70 47
+
 #Binding moves 1/8th
 # 0224A112
 0012 08012852 08
