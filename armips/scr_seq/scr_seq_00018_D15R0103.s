@@ -15,7 +15,7 @@
 // Elder Li now gives a random starter from another generation before the battle.
 // It is of the type that beats the starter the player chose.
 
-GIFT_STARTER_LEVEL equ 10
+GIFT_STARTER_LEVEL equ 15
 FLAG_GOT_SPROUT_TOWER_STARTER equ 2602
 
 TRAINER_ELDER_LI equ 290

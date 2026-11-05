@@ -2333,7 +2333,7 @@ movedata MOVE_TRANSFORM, "Transform"
 movedata MOVE_BUBBLE, "Bubble"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower 40
     type TYPE_WATER
     accuracy 100
     pp 30
@@ -7662,7 +7662,7 @@ movedata MOVE_AUTOTOMIZE, "Autotomize"
     battleeffect MOVE_EFFECT_AUTOTOMIZE
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_STEEL
     accuracy 0
     pp 15
     effectchance 0
@@ -8860,7 +8860,7 @@ movedata MOVE_GLACIATE, "Glaciate"
 
 movedata MOVE_BOLT_STRIKE, "Bolt Strike"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 130
     type TYPE_ELECTRIC
     accuracy 85
@@ -8908,7 +8908,7 @@ movedata MOVE_FIERY_DANCE, "Fiery Dance"
 
 movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     battleeffect MOVE_EFFECT_CHARGE_TURN_PARALYZE_HIT
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 140
     type TYPE_ICE
     accuracy 90
@@ -9004,7 +9004,7 @@ movedata MOVE_FUSION_FLARE, "Fusion Flare"
 
 movedata MOVE_FUSION_BOLT, "Fusion Bolt"
     battleeffect MOVE_EFFECT_HIT
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_ELECTRIC
     accuracy 100
@@ -13134,7 +13134,7 @@ movedata MOVE_JUNGLE_HEALING, "Jungle Healing"
 movedata MOVE_WICKED_BLOW, "Wicked Blow"
     battleeffect MOVE_EFFECT_ALWAYS_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 75
     type TYPE_DARK
     accuracy 100
     pp 5
@@ -13246,7 +13246,7 @@ movedata MOVE_THUNDEROUS_KICK, "Thunderous Kick"
 movedata MOVE_GLACIAL_LANCE, "Glacial Lance"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 130
+    basepower 120
     type TYPE_ICE
     accuracy 100
     pp 5
@@ -13665,7 +13665,7 @@ movedata MOVE_TAKE_HEART, "Take Heart"
     basepower 0
     type TYPE_PSYCHIC
     accuracy 0
-    pp 10
+    pp 15
     effectchance 0
     target RANGE_ALLY
     priority 0
