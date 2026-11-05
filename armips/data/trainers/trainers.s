@@ -68,7 +68,7 @@ trainerdata 1, "Silver"
 trainerdata 2, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 3
+    nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -79,31 +79,17 @@ trainerdata 2, "Silver"
 
     party 2
         // mon 0
-        ivs 255
+        ivs 0
         abilityslot 0
-        level 8
+        level 5
         pokemon SPECIES_CYNDAQUIL
-        ballseal 0
-
-        // mon 1
-        ivs 255
-        abilityslot 0
-        level 8
-        pokemon SPECIES_KOFFING
-        ballseal 0
-
-        // mon 2
-        ivs 255
-        abilityslot 0
-        level 8
-        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
 trainerdata 3, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 3
+    nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -114,24 +100,10 @@ trainerdata 3, "Silver"
 
     party 3
         // mon 0
-        ivs 255
+        ivs 0
         abilityslot 0
-        level 8
+        level 5
         pokemon SPECIES_TOTODILE
-        ballseal 0
-
-        // mon 1
-        ivs 255
-        abilityslot 0
-        level 8
-        pokemon SPECIES_KOFFING
-        ballseal 0
-
-        // mon 2
-        ivs 255
-        abilityslot 0
-        level 8
-        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
@@ -8832,7 +8804,7 @@ trainerdata 264, "Silver"
 trainerdata 265, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 3
+    nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -8843,24 +8815,10 @@ trainerdata 265, "Silver"
 
     party 265
         // mon 0
-        ivs 255
+        ivs 0
         abilityslot 0
-        level 8
+        level 5
         pokemon SPECIES_CHIKORITA
-        ballseal 0
-
-        // mon 1
-        ivs 255
-        abilityslot 0
-        level 8
-        pokemon SPECIES_KOFFING
-        ballseal 0
-
-        // mon 2
-        ivs 255
-        abilityslot 0
-        level 8
-        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
@@ -16768,7 +16726,7 @@ trainerdata 494, "Georgina"
 trainerdata 495, "Boy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PASSERBY
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16779,17 +16737,31 @@ trainerdata 495, "Boy"
 
     party 495
         // mon 0
-        ivs 0
+        ivs 255
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_CHIKORITA
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 8
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 8
+        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
 trainerdata 496, "Boy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PASSERBY
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16800,17 +16772,31 @@ trainerdata 496, "Boy"
 
     party 496
         // mon 0
-        ivs 0
+        ivs 255
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_CYNDAQUIL
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 8
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 8
+        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
 trainerdata 497, "Boy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PASSERBY
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16821,10 +16807,24 @@ trainerdata 497, "Boy"
 
     party 497
         // mon 0
-        ivs 0
+        ivs 255
         abilityslot 0
-        level 5
+        level 8
         pokemon SPECIES_TOTODILE
+        ballseal 0
+
+        // mon 1
+        ivs 255
+        abilityslot 0
+        level 8
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 255
+        abilityslot 0
+        level 8
+        monwithform SPECIES_ZIGZAGOON, 1
         ballseal 0
     endparty
 
