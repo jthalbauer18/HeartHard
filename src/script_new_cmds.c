@@ -9,6 +9,7 @@
 #define SCRIPT_NEW_CMD_REPEL_USE    0
 #define SCRIPT_NEW_CMD_CHECK_PARTY_OVER_LEVEL 1
 #define SCRIPT_NEW_CMD_TOGGLE_INFINITE_REPEL 2
+#define SCRIPT_NEW_CMD_EDGE_PARTY 3
 
 #define SCRIPT_NEW_CMD_MAX          256
 
@@ -37,6 +38,21 @@ BOOL Script_RunNewCmd(SCRIPTCONTEXT *ctx) {
                 }
             }
             SetScriptVar(arg0, is_over_level);
+            break;
+
+        case SCRIPT_NEW_CMD_EDGE_PARTY:;
+            // every pokemon in the party ends up one experience point short of its next level
+            struct Party *edge_party = SaveData_GetPlayerPartyPtr(SaveBlock2_get());
+            for (int i = 0; i < edge_party->count; i++) {
+                struct PartyPokemon *edge_mon = Party_GetMonByIndex(edge_party, i);
+                u32 edge_level = GetMonData(edge_mon, MON_DATA_LEVEL, NULL);
+                if (GetMonData(edge_mon, MON_DATA_IS_EGG, NULL) || edge_level >= 100) {
+                    continue;
+                }
+                u32 edge_species = GetMonData(edge_mon, MON_DATA_SPECIES, NULL);
+                u32 edge_exp = GetExpByGrowthRateAndLevel(PokePersonalParaGet(edge_species, PERSONAL_EXP_GROUP), edge_level + 1) - 1;
+                SetMonData(edge_mon, MON_DATA_EXPERIENCE, &edge_exp);
+            }
             break;
 
 #ifdef HEARTHARD_INFINITE_REPEL_FLAG

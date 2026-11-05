@@ -207,14 +207,21 @@ scr_seq_0859_002:
     compare VAR_SPECIAL_RESULT, 1
     goto_if_eq _01AA
     npc_msg 7
-    wait_button
-    closemsg
-    releaseall
-    end
+    goto _edge_offer
 
 _01AA:
     npc_msg 8
+
+// the gym guide brings the whole team right up to its next level
+_edge_offer:
+    npc_msg 13
+    yesno VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq _edge_end
+    EdgeParty
+    npc_msg 14
     wait_button
+_edge_end:
     closemsg
     releaseall
     end

@@ -6757,6 +6757,12 @@ RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 
 .equ NEW_COMMAND_CHECK_PARTY_OVER_LEVEL, 1
 .equ NEW_COMMAND_TOGGLE_INFINITE_REPEL, 2
+.equ NEW_COMMAND_EDGE_PARTY, 3
+
+// every pokemon in the party ends up one experience point short of its next level
+.macro EdgeParty
+RunNewCommand NEW_COMMAND_EDGE_PARTY, VAR_SPECIAL_RESULT
+.endmacro
 
 // toggles the infinite repel and sets var to 1 if it is on now, to 0 otherwise
 .macro ToggleInfiniteRepel,var
