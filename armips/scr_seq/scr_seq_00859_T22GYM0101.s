@@ -12,7 +12,7 @@
 // Violet Gym, text archive to grab from: 558.txt
 // ported from pret/pokeheartgold scr_seq_0859_T22GYM0101.s
 
-FALKNER_LEVEL_CAP equ 15
+FALKNER_LEVEL_CAP equ 16
 
 FLAG_HIDE_VIOLET_GYM_FALKNER equ 0x2E9
 SCORE_EVENT_BADGE_GET equ 22

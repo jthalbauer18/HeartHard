@@ -10,4 +10,4 @@ Nice battle! Keep it up, and you’ll\nbe the Champ in no time at all!
 Violet City Pokémon Gym
 Violet City Pokémon Gym\rGym Leader: Falkner\nCertified Trainer!\f{STRVAR_1 3, 0, 0}
 Falkner: You still have battles left\nto fight, I see.\rBeat every Trainer on Routes 30 and 31,\nin the Sprout Tower and in this Gym.\rThen come back to me.
-Falkner: Your team has grown too\nstrong for a fair battle.\rEvery Pokémon in your party must be\nLv. 15 or lower.\rCome back when that’s the case.
+Falkner: Your team has grown too\nstrong for a fair battle.\rEvery Pokémon in your party must be\nLv. 16 or lower.\rCome back when that’s the case.
