@@ -7,8 +7,8 @@ When a Pokémon learns Flash, you can\nilluminate caves no matter how dark\fthey
 I hope you learn and grow from\nyour journey.
 It’s a powerful painting of a\nBELLSPROUT.
 A Pokémon statue...\nIt looks very distinguished.
-Before you go, take this as well.\rIt is a rare Pokémon from a faraway\nregion. Raise it well.\r
+Before we battle, take this Pokémon.\rIt is rare and comes from a faraway\nregion. Battle alongside it.\r
 {STRVAR_1 3, 0, 0} received\nthe {STRVAR_1 1, 1, 0}!
 Give a nickname to\nthe {STRVAR_1 1, 1, 0}? {YESNO 0}
-May it serve you well on\nyour journey.
-Your party is full.\rMake room, then speak to me again.\nI have something for you.
+Now show me how you battle with it!\r
+Your party is full.\rPut a Pokémon in a Box, then speak\nto me again. I have something for you.

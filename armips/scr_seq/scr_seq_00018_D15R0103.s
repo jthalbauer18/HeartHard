@@ -12,7 +12,7 @@
 
 // Sprout Tower 3F, text archive to grab from: 056.txt
 // ported from pret/pokeheartgold scr_seq_0018_D15R0103.s
-// Elder Li now also gives a random starter from another generation.
+// Elder Li now gives a random starter from another generation before the battle.
 // It is of the type that beats the starter the player chose.
 
 GIFT_STARTER_LEVEL equ 10
@@ -135,6 +135,20 @@ scr_seq_0018_002:
     lockall
     faceplayer
     goto_if_set FLAG_UNK_076, _0197
+    goto_if_set FLAG_GOT_SPROUT_TOWER_STARTER, _battle
+    get_party_count VAR_SPECIAL_x8005
+    compare VAR_SPECIAL_x8005, 6
+    goto_if_eq _party_full
+    npc_msg 9
+    get_starter_choice VAR_SPECIAL_x8004
+    random VAR_SPECIAL_x8006, 5
+    compare VAR_SPECIAL_x8004, SPECIES_CHIKORITA
+    goto_if_eq _fire
+    compare VAR_SPECIAL_x8004, SPECIES_CYNDAQUIL
+    goto_if_eq _water
+    goto _grass
+
+_battle:
     npc_msg 3
     closemsg
     trainer_battle TRAINER_ELDER_LI, 0, 0, 0
@@ -148,28 +162,16 @@ scr_seq_0018_002:
     clearflag FLAG_HIDE_VIOLET_GYM_GYM_GUY_BEFORE_SPROUT
     npc_msg 5
     wait_button
-    goto _gift
+    closemsg
+    releaseall
+    end
 
 _0197:
-    goto_if_unset FLAG_GOT_SPROUT_TOWER_STARTER, _gift
     npc_msg 6
     wait_button
     closemsg
     releaseall
     end
-
-_gift:
-    get_party_count VAR_SPECIAL_x8005
-    compare VAR_SPECIAL_x8005, 6
-    goto_if_eq _party_full
-    npc_msg 9
-    get_starter_choice VAR_SPECIAL_x8004
-    random VAR_SPECIAL_x8006, 5
-    compare VAR_SPECIAL_x8004, SPECIES_CHIKORITA
-    goto_if_eq _fire
-    compare VAR_SPECIAL_x8004, SPECIES_CYNDAQUIL
-    goto_if_eq _water
-    goto _grass
 
 _fire:
     setvar VAR_TEMP_x4002, SPECIES_CHARMANDER
@@ -242,10 +244,7 @@ _give:
 
 _gift_end:
     npc_msg 12
-    wait_button
-    closemsg
-    releaseall
-    end
+    goto _battle
 
 _party_full:
     npc_msg 13
