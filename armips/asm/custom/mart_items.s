@@ -41,7 +41,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_FULL_RESTORE
 .halfword EIGHT_BADGES
 
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_ORAN_BERRY
 .halfword ZERO_BADGES
 
 .halfword ITEM_MAX_ETHER
@@ -62,14 +62,14 @@ EIGHT_BADGES equ 6
 .halfword ITEM_FULL_HEAL
 .halfword ZERO_BADGES
 
-.halfword ITEM_REPEL
+.halfword ITEM_PECHA_BERRY
 .halfword ZERO_BADGES
 
-.halfword ITEM_SUPER_REPEL
-.halfword THREE_BADGES
+.halfword ITEM_SITRUS_BERRY
+.halfword ONE_BADGE
 
-.halfword ITEM_MAX_REPEL
-.halfword FIVE_BADGES
+.halfword ITEM_LUM_BERRY
+.halfword THREE_BADGES
 
 .halfword ITEM_MEGA_RING
 .halfword FIVE_BADGES
