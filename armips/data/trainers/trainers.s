@@ -10418,7 +10418,7 @@ trainerdata 290, "Li"
         // mon 0
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_BELLSPROUT
         item ITEM_NONE
         move MOVE_VINE_WHIP
@@ -10430,7 +10430,7 @@ trainerdata 290, "Li"
         // mon 1
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_HOOTHOOT
         item ITEM_NONE
         move MOVE_ECHOED_VOICE
@@ -10442,7 +10442,7 @@ trainerdata 290, "Li"
         // mon 2
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_FLAAFFY
         item ITEM_NONE
         move MOVE_THUNDER_SHOCK
@@ -10454,7 +10454,7 @@ trainerdata 290, "Li"
         // mon 3
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_GASTLY
         item ITEM_NONE
         move MOVE_LICK
@@ -10466,7 +10466,7 @@ trainerdata 290, "Li"
         // mon 4
         ivs 255
         abilityslot 0
-        level 16
+        level 15
         pokemon SPECIES_WEEPINBELL
         item ITEM_ORAN_BERRY
         move MOVE_VINE_WHIP
