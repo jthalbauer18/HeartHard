@@ -1331,6 +1331,11 @@ scr_seq_0003_074_skip_mr_pokemon:
     give_pokedex
     setflag FLAG_GOT_POKEDEX
     register_gear_number PHONE_CONTACT_PROF__OAK
+    // mom's pokegear and elm's phone number scene at the west exit are skipped as well
+    setflag FLAG_GOT_POKEGEAR
+    register_gear_number PHONE_CONTACT_MOTHER
+    register_gear_number PHONE_CONTACT_PROF__ELM
+    setvar VAR_SCENE_NEW_BARK_WEST_EXIT, 1
     register_pokegear_card 1
     setvar VAR_SCENE_MR_POKEMONS_HOUSE, 1
     setflag FLAG_HIDE_MR_POKEMONS_HOUSE_OAK
