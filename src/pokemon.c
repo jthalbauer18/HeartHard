@@ -1537,6 +1537,47 @@ u16 LONG_CALL get_mon_ow_tag(u16 species, u32 form, u32 isFemale)
     return ret;
 }
 
+#ifdef HEARTHARD_STARTER_PERFECT_IVS
+/**
+ *  @brief set HEARTHARD_STARTER_PERFECT_IVS random IVs of a PartyPokemon to 31 and recalculate its stats
+ *
+ *  @param pp PartyPokemon whose IVs to raise
+ */
+static void HeartHard_SetPerfectIVs(struct PartyPokemon *pp)
+{
+    u8 stats[6] = {0, 1, 2, 3, 4, 5};
+    u32 iv = 31;
+
+    for (u32 i = 0; i < HEARTHARD_STARTER_PERFECT_IVS && i < 6; i++)
+    {
+        u32 pick = i + gf_rand() % (6 - i);
+        u8 stat = stats[pick];
+        stats[pick] = stats[i];
+        stats[i] = stat;
+        SetMonData(pp, MON_DATA_HP_IV + stat, &iv);
+    }
+    RecalcPartyPokemonStats(pp);
+    // the level-up HP difference would otherwise stay missing
+    iv = GetMonData(pp, MON_DATA_MAXHP, NULL);
+    SetMonData(pp, MON_DATA_HP, &iv);
+}
+
+static BOOL HeartHard_IsStarterSpecies(u32 species)
+{
+    static const u16 starters[] = {
+        SPECIES_BULBASAUR, SPECIES_CHARMANDER, SPECIES_SQUIRTLE, SPECIES_CHIKORITA, SPECIES_CYNDAQUIL, SPECIES_TOTODILE,
+        SPECIES_TREECKO, SPECIES_TORCHIC, SPECIES_MUDKIP, SPECIES_TURTWIG, SPECIES_CHIMCHAR, SPECIES_PIPLUP,
+        SPECIES_SNIVY, SPECIES_TEPIG, SPECIES_OSHAWOTT, SPECIES_CHESPIN, SPECIES_FENNEKIN, SPECIES_FROAKIE,
+    };
+    for (u32 i = 0; i < sizeof(starters) / sizeof(starters[0]); i++)
+    {
+        if (starters[i] == species)
+            return TRUE;
+    }
+    return FALSE;
+}
+#endif
+
 /**
  *  @brief give a PartyPokemon to the player given species, level, form, ability, etc.
  *
@@ -1575,6 +1616,13 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
     }
 
     RecalcPartyPokemonStats(pokemon); // recalculate stats
+
+#ifdef HEARTHARD_STARTER_PERFECT_IVS
+    if (HeartHard_IsStarterSpecies(species)) // the gift starter from the sprout tower
+    {
+        HeartHard_SetPerfectIVs(pokemon);
+    }
+#endif
 
     if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1)
     {
@@ -1764,6 +1812,9 @@ u32 gLastPokemonLevelForMoneyCalc;
  */
 void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon *pp)
 {
+#ifdef HEARTHARD_STARTER_PERFECT_IVS
+    HeartHard_SetPerfectIVs(pp);
+#endif
     if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
     {
         SET_MON_HIDDEN_ABILITY_BIT(pp)

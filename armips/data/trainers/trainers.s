@@ -220,7 +220,7 @@ trainerdata 5, "Victoria"
         move MOVE_QUICK_ATTACK
         move MOVE_FURY_SWIPES
         move MOVE_SCRATCH
-        move MOVE_COIL
+        move MOVE_DEFENSE_CURL
         ballseal 0
 
         // mon 1
@@ -283,7 +283,7 @@ trainerdata 6, "Keith"
         move MOVE_FIRE_FANG
         move MOVE_RETALIATE
         move MOVE_BITE
-        move MOVE_HOWL
+        move MOVE_FLAME_WHEEL
         ballseal 0
     endparty
 
@@ -395,7 +395,7 @@ trainerdata 8, "Joey"
         item ITEM_ORAN_BERRY
         move MOVE_QUICK_ATTACK
         move MOVE_BITE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_TAIL_WHIP
         move MOVE_TACKLE
         ballseal 0
     endparty
@@ -447,7 +447,7 @@ trainerdata 9, "Elaine"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 3
@@ -498,7 +498,7 @@ trainerdata 10, "Amy & Mimi"
         move MOVE_BUG_BITE
         move MOVE_SHADOW_SNEAK
         move MOVE_POISON_STING
-        move MOVE_SWORDS_DANCE
+        move MOVE_STRING_SHOT
         ballseal 0
 
         // mon 2
@@ -596,7 +596,7 @@ trainerdata 12, "Grunt"
         move MOVE_HYPER_FANG
         move MOVE_BITE
         move MOVE_QUICK_ATTACK
-        move MOVE_SWORDS_DANCE
+        move MOVE_TAIL_WHIP
         ballseal 0
     endparty
 
@@ -622,8 +622,8 @@ trainerdata 13, "Grunt"
         item ITEM_NONE
         move MOVE_MEGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
         move MOVE_ABSORB
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
@@ -796,7 +796,7 @@ trainerdata 16, "Simon"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
     endparty
 
@@ -835,7 +835,7 @@ trainerdata 17, "Kenji"
         move MOVE_CLOSE_COMBAT
         move MOVE_THUNDER_PUNCH
         move MOVE_ICE_PUNCH
-        move MOVE_AGILITY
+        move MOVE_SKY_UPPERCUT
         ballseal 0
 
         // mon 2
@@ -1070,7 +1070,7 @@ trainerdata 21, "Bugsy"
         move MOVE_BUG_BITE
         move MOVE_SHADOW_SNEAK
         move MOVE_POISON_STING
-        move MOVE_SWORDS_DANCE
+        move MOVE_STRING_SHOT
         ballseal 0
 
         // mon 1
@@ -1156,7 +1156,7 @@ trainerdata 22, "Carrie"
         item ITEM_NONE
         move MOVE_GIGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_ABSORB
         move MOVE_MEGA_DRAIN
         ballseal 0
 
@@ -1295,7 +1295,7 @@ trainerdata 24, "Alan"
         move MOVE_GIGA_DRAIN
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_MEGA_DRAIN
         ballseal 0
 
         // mon 3
@@ -1307,7 +1307,7 @@ trainerdata 24, "Alan"
         move MOVE_GIGA_DRAIN
         move MOVE_ANCIENT_POWER
         move MOVE_KNOCK_OFF
-        move MOVE_GROWTH
+        move MOVE_MEGA_DRAIN
         ballseal 0
     endparty
 
@@ -1436,7 +1436,7 @@ trainerdata 27, "Liz"
         move MOVE_RAZOR_LEAF
         move MOVE_TACKLE
         move MOVE_VINE_WHIP
-        move MOVE_GROWTH
+        move MOVE_GROWL
         ballseal 0
 
         // mon 1
@@ -1596,8 +1596,8 @@ trainerdata 29, "Rod"
         item ITEM_NONE
         move MOVE_WING_ATTACK
         move MOVE_PECK
-        move MOVE_HONE_CLAWS
         move MOVE_LEER
+        move MOVE_NONE
         ballseal 0
 
         // mon 4
@@ -1648,7 +1648,7 @@ trainerdata 30, "Whitney"
         move MOVE_SLAM
         move MOVE_QUICK_ATTACK
         move MOVE_FURY_SWIPES
-        move MOVE_COIL
+        move MOVE_SCRATCH
         ballseal 0
 
         // mon 2
@@ -2008,7 +2008,7 @@ trainerdata 34, "Chuck"
         move MOVE_CLOSE_COMBAT
         move MOVE_SUCKER_PUNCH
         move MOVE_DIG
-        move MOVE_AGILITY
+        move MOVE_REVENGE
         ballseal 0
 
         // mon 3
@@ -2071,7 +2071,7 @@ trainerdata 35, "Clair"
         move MOVE_DRAGON_PULSE
         move MOVE_MOONBLAST
         move MOVE_PLUCK
-        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_BREATH
         ballseal 0
 
         // mon 1
@@ -2083,7 +2083,7 @@ trainerdata 35, "Clair"
         move MOVE_EARTHQUAKE
         move MOVE_DRAGON_CLAW
         move MOVE_BOOMBURST
-        move MOVE_DRAGON_DANCE
+        move MOVE_DIG
         ballseal 0
 
         // mon 2
@@ -2095,7 +2095,7 @@ trainerdata 35, "Clair"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 3
@@ -2107,7 +2107,7 @@ trainerdata 35, "Clair"
         move MOVE_OUTRAGE
         move MOVE_CRUNCH
         move MOVE_SLASH
-        move MOVE_SWORDS_DANCE
+        move MOVE_DRAGON_CLAW
         ballseal 0
 
         // mon 4
@@ -2158,7 +2158,7 @@ trainerdata 36, "Joyce"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 1
@@ -2170,7 +2170,7 @@ trainerdata 36, "Joyce"
         move MOVE_PETAL_DANCE
         move MOVE_DOUBLE_EDGE
         move MOVE_PETAL_BLIZZARD
-        move MOVE_GROWTH
+        move MOVE_SEED_BOMB
         ballseal 0
 
         // mon 2
@@ -2233,7 +2233,7 @@ trainerdata 37, "Preston"
         move MOVE_FLARE_BLITZ
         move MOVE_EXTREME_SPEED
         move MOVE_PLAY_ROUGH
-        move MOVE_HOWL
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 1
@@ -2305,7 +2305,7 @@ trainerdata 39, "Eugene"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 2
@@ -2434,7 +2434,7 @@ trainerdata 42, "Nathan"
         move MOVE_PSYBEAM
         move MOVE_STOMP
         move MOVE_CRUNCH
-        move MOVE_AGILITY
+        move MOVE_ZEN_HEADBUTT
         ballseal 0
     endparty
 
@@ -2472,7 +2472,7 @@ trainerdata 43, "Chow"
         move MOVE_VINE_WHIP
         move MOVE_WRAP
         move MOVE_TACKLE
-        move MOVE_GROWTH
+        move MOVE_LEER
         ballseal 0
 
         // mon 2
@@ -2483,8 +2483,8 @@ trainerdata 43, "Chow"
         item ITEM_NONE
         move MOVE_EMBER
         move MOVE_SCRATCH
-        move MOVE_HOWL
         move MOVE_TAIL_WHIP
+        move MOVE_NONE
         ballseal 0
 
         // mon 3
@@ -2496,7 +2496,7 @@ trainerdata 43, "Chow"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -2686,8 +2686,8 @@ trainerdata 47, "Mikey"
         item ITEM_ORAN_BERRY
         move MOVE_PECK
         move MOVE_QUICK_ATTACK
-        move MOVE_FOCUS_ENERGY
         move MOVE_GROWL
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -2890,7 +2890,7 @@ trainerdata 51, "Nico"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -2915,8 +2915,8 @@ trainerdata 52, "Edmond"
         item ITEM_NONE
         move MOVE_WATER_GUN
         move MOVE_TACKLE
-        move MOVE_FOCUS_ENERGY
         move MOVE_TAIL_WHIP
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
@@ -2952,7 +2952,7 @@ trainerdata 52, "Edmond"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -2978,7 +2978,7 @@ trainerdata 53, "Jin"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
@@ -3064,7 +3064,7 @@ trainerdata 54, "Troy"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -3126,7 +3126,7 @@ trainerdata 55, "Neal"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -3413,7 +3413,7 @@ trainerdata 62, "Samuel"
         move MOVE_HYPER_FANG
         move MOVE_BITE
         move MOVE_QUICK_ATTACK
-        move MOVE_SWORDS_DANCE
+        move MOVE_TACKLE
         ballseal 0
 
         // mon 1
@@ -3625,8 +3625,8 @@ trainerdata 65, "Gina"
         item ITEM_NONE
         move MOVE_MEGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
         move MOVE_ABSORB
+        move MOVE_NONE
         ballseal 0
 
         // mon 3
@@ -3638,7 +3638,7 @@ trainerdata 65, "Gina"
         move MOVE_SEED_BOMB
         move MOVE_TAKE_DOWN
         move MOVE_RAZOR_LEAF
-        move MOVE_GROWTH
+        move MOVE_VINE_WHIP
         ballseal 0
     endparty
 
@@ -3893,7 +3893,7 @@ trainerdata 70, "Samantha"
         move MOVE_SLAM
         move MOVE_QUICK_ATTACK
         move MOVE_FURY_SWIPES
-        move MOVE_COIL
+        move MOVE_SCRATCH
         ballseal 0
 
         // mon 2
@@ -3979,7 +3979,7 @@ trainerdata 71, "Cathy"
         item ITEM_SITRUS_BERRY
         move MOVE_GIGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_ABSORB
         move MOVE_MEGA_DRAIN
         ballseal 0
     endparty
@@ -4043,7 +4043,7 @@ trainerdata 72, "Bryan"
         move MOVE_PLUCK
         move MOVE_DRILL_RUN
         move MOVE_ASSURANCE
-        move MOVE_AGILITY
+        move MOVE_AERIAL_ACE
         ballseal 0
     endparty
 
@@ -4082,7 +4082,7 @@ trainerdata 73, "Theo"
         move MOVE_DOUBLE_HIT
         move MOVE_PLUCK
         move MOVE_PURSUIT
-        move MOVE_SWORDS_DANCE
+        move MOVE_TRI_ATTACK
         ballseal 0
 
         // mon 2
@@ -4094,7 +4094,7 @@ trainerdata 73, "Theo"
         move MOVE_HURRICANE
         move MOVE_QUICK_ATTACK
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_WING_ATTACK
         ballseal 0
 
         // mon 3
@@ -4106,7 +4106,7 @@ trainerdata 73, "Theo"
         move MOVE_HURRICANE
         move MOVE_QUICK_ATTACK
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_WING_ATTACK
         ballseal 0
 
         // mon 4
@@ -4118,7 +4118,7 @@ trainerdata 73, "Theo"
         move MOVE_BRAVE_BIRD
         move MOVE_SLASH
         move MOVE_POISON_JAB
-        move MOVE_SWORDS_DANCE
+        move MOVE_AERIAL_ACE
         ballseal 0
     endparty
 
@@ -4271,7 +4271,7 @@ trainerdata 76, "Brooke"
         move MOVE_SEED_BOMB
         move MOVE_TAKE_DOWN
         move MOVE_RAZOR_LEAF
-        move MOVE_GROWTH
+        move MOVE_VINE_WHIP
         ballseal 0
 
         // mon 1
@@ -4282,7 +4282,7 @@ trainerdata 76, "Brooke"
         item ITEM_NONE
         move MOVE_GIGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_ABSORB
         move MOVE_MEGA_DRAIN
         ballseal 0
 
@@ -4333,7 +4333,7 @@ trainerdata 77, "Kim"
         item ITEM_NONE
         move MOVE_GIGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_ABSORB
         move MOVE_MEGA_DRAIN
         ballseal 0
 
@@ -4346,7 +4346,7 @@ trainerdata 77, "Kim"
         move MOVE_SEED_BOMB
         move MOVE_TAKE_DOWN
         move MOVE_RAZOR_LEAF
-        move MOVE_GROWTH
+        move MOVE_VINE_WHIP
         ballseal 0
 
         // mon 2
@@ -4488,7 +4488,7 @@ trainerdata 80, "Dirk"
         move MOVE_FIRE_FANG
         move MOVE_BITE
         move MOVE_FLAME_WHEEL
-        move MOVE_HOWL
+        move MOVE_EMBER
         ballseal 0
 
         // mon 1
@@ -4500,7 +4500,7 @@ trainerdata 80, "Dirk"
         move MOVE_FIRE_FANG
         move MOVE_BITE
         move MOVE_FLAME_WHEEL
-        move MOVE_HOWL
+        move MOVE_EMBER
         ballseal 0
     endparty
 
@@ -4602,7 +4602,7 @@ trainerdata 82, "Toby"
         move MOVE_DOUBLE_HIT
         move MOVE_PLUCK
         move MOVE_PURSUIT
-        move MOVE_SWORDS_DANCE
+        move MOVE_TRI_ATTACK
         ballseal 0
 
         // mon 2
@@ -4614,7 +4614,7 @@ trainerdata 82, "Toby"
         move MOVE_HURRICANE
         move MOVE_QUICK_ATTACK
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_WING_ATTACK
         ballseal 0
 
         // mon 3
@@ -4674,7 +4674,7 @@ trainerdata 84, "Barry"
         level 48
         pokemon SPECIES_NIDOKING
         move MOVE_POISON_JAB
-        move MOVE_FOCUS_ENERGY
+        move MOVE_THRASH
         move MOVE_EARTH_POWER
         move MOVE_FOCUS_BLAST
         ballseal 0
@@ -4703,7 +4703,7 @@ trainerdata 85, "Paula"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 1
@@ -4715,7 +4715,7 @@ trainerdata 85, "Paula"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_BREATH
         move MOVE_BUBBLE_BEAM
-        move MOVE_AGILITY
+        move MOVE_BRINE
         ballseal 0
 
         // mon 2
@@ -4778,7 +4778,7 @@ trainerdata 86, "Randall"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 2
@@ -4950,7 +4950,7 @@ trainerdata 90, "Kaylee"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 2
@@ -4974,7 +4974,7 @@ trainerdata 90, "Kaylee"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_AGILITY
+        move MOVE_BRINE
         ballseal 0
     endparty
 
@@ -5037,7 +5037,7 @@ trainerdata 91, "Susie"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
     endparty
 
@@ -5088,7 +5088,7 @@ trainerdata 92, "Denise"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_AGILITY
+        move MOVE_BRINE
         ballseal 0
 
         // mon 3
@@ -5163,7 +5163,7 @@ trainerdata 93, "Kara"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
     endparty
 
@@ -5214,7 +5214,7 @@ trainerdata 94, "Wendy"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_AGILITY
+        move MOVE_BRINE
         ballseal 0
 
         // mon 3
@@ -5226,7 +5226,7 @@ trainerdata 94, "Wendy"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
     endparty
 
@@ -5277,7 +5277,7 @@ trainerdata 95, "Charlie"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 3
@@ -5352,7 +5352,7 @@ trainerdata 96, "George"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 4
@@ -5490,7 +5490,7 @@ trainerdata 98, "Ronald"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 3
@@ -5529,7 +5529,7 @@ trainerdata 99, "Matthew"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 1
@@ -5632,7 +5632,7 @@ trainerdata 101, "Grunt"
         move MOVE_HYPER_FANG
         move MOVE_BITE
         move MOVE_QUICK_ATTACK
-        move MOVE_SWORDS_DANCE
+        move MOVE_TAIL_WHIP
         ballseal 0
 
         // mon 2
@@ -5671,7 +5671,7 @@ trainerdata 102, "Gaven"
         move MOVE_OUTRAGE
         move MOVE_EXTREME_SPEED
         move MOVE_WING_ATTACK
-        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_RUSH
         ballseal 0
 
         // mon 1
@@ -6151,7 +6151,7 @@ trainerdata 110, "Paulo"
         move MOVE_CRABHAMMER
         move MOVE_HAMMER_ARM
         move MOVE_STOMP
-        move MOVE_SWORDS_DANCE
+        move MOVE_RAZOR_SHELL
         ballseal 0
 
         // mon 2
@@ -6163,7 +6163,7 @@ trainerdata 110, "Paulo"
         move MOVE_OUTRAGE
         move MOVE_EXTREME_SPEED
         move MOVE_WING_ATTACK
-        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_RUSH
         ballseal 0
 
         // mon 3
@@ -6175,7 +6175,7 @@ trainerdata 110, "Paulo"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 4
@@ -6226,7 +6226,7 @@ trainerdata 111, "Mike"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 2
@@ -6289,7 +6289,7 @@ trainerdata 112, "Cody"
         move MOVE_PETAL_DANCE
         move MOVE_DOUBLE_EDGE
         move MOVE_PETAL_BLIZZARD
-        move MOVE_GROWTH
+        move MOVE_SEED_BOMB
         ballseal 0
 
         // mon 1
@@ -6388,7 +6388,7 @@ trainerdata 113, "Jamie"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 3
@@ -6451,7 +6451,7 @@ trainerdata 114, "Reena"
         move MOVE_PETAL_DANCE
         move MOVE_DOUBLE_EDGE
         move MOVE_PETAL_BLIZZARD
-        move MOVE_GROWTH
+        move MOVE_SEED_BOMB
         ballseal 0
 
         // mon 2
@@ -6514,7 +6514,7 @@ trainerdata 115, "Megan"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 1
@@ -6526,7 +6526,7 @@ trainerdata 115, "Megan"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_QUIVER_DANCE
+        move MOVE_LEAF_STORM
         ballseal 0
 
         // mon 2
@@ -6589,7 +6589,7 @@ trainerdata 116, "Lois"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_QUIVER_DANCE
+        move MOVE_LEAF_STORM
         ballseal 0
 
         // mon 1
@@ -6601,7 +6601,7 @@ trainerdata 116, "Lois"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 2
@@ -6676,7 +6676,7 @@ trainerdata 117, "Lola"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 3
@@ -6767,7 +6767,7 @@ trainerdata 119, "Fran"
         move MOVE_OUTRAGE
         move MOVE_EXTREME_SPEED
         move MOVE_WING_ATTACK
-        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_RUSH
         ballseal 0
 
         // mon 2
@@ -6933,7 +6933,7 @@ trainerdata 122, "Marvin"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 1
@@ -7008,7 +7008,7 @@ trainerdata 123, "Tully"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 2
@@ -7083,7 +7083,7 @@ trainerdata 124, "Wilton"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 3
@@ -7158,7 +7158,7 @@ trainerdata 125, "Edgar"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 3
@@ -7209,7 +7209,7 @@ trainerdata 126, "Andre"
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_HORN_ATTACK
         ballseal 0
 
         // mon 1
@@ -7272,7 +7272,7 @@ trainerdata 127, "Raymond"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 1
@@ -7657,7 +7657,7 @@ trainerdata 134, "Benjamin"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 1
@@ -7802,7 +7802,7 @@ trainerdata 137, "Vance"
         move MOVE_BRAVE_BIRD
         move MOVE_SLASH
         move MOVE_LEAF_BLADE
-        move MOVE_SWORDS_DANCE
+        move MOVE_AERIAL_ACE
         ballseal 0
 
         // mon 1
@@ -8003,7 +8003,7 @@ trainerdata 143, "Erik"
         move MOVE_DOUBLE_EDGE
         move MOVE_CROSS_CHOP
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 1
@@ -8090,7 +8090,7 @@ trainerdata 144, "Michael"
         move MOVE_DOUBLE_EDGE
         move MOVE_CROSS_CHOP
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 2
@@ -8153,7 +8153,7 @@ trainerdata 145, "Parry"
         move MOVE_DOUBLE_EDGE
         move MOVE_CROSS_CHOP
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 1
@@ -8240,7 +8240,7 @@ trainerdata 146, "Timothy"
         move MOVE_DOUBLE_EDGE
         move MOVE_DRILL_RUN
         move MOVE_DRAGON_RUSH
-        move MOVE_COIL
+        move MOVE_HYPER_DRILL
         ballseal 0
 
         // mon 2
@@ -8462,7 +8462,7 @@ trainerdata 151, "Erin"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_QUIVER_DANCE
+        move MOVE_LEAF_STORM
         ballseal 0
 
         // mon 1
@@ -8474,7 +8474,7 @@ trainerdata 151, "Erin"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 2
@@ -8610,7 +8610,7 @@ trainerdata 154, "Bailey"
         move MOVE_DOUBLE_EDGE
         move MOVE_CROSS_CHOP
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 3
@@ -8696,7 +8696,7 @@ trainerdata 156, "Yoshi"
         move MOVE_CLOSE_COMBAT
         move MOVE_THUNDER_PUNCH
         move MOVE_ICE_PUNCH
-        move MOVE_AGILITY
+        move MOVE_SKY_UPPERCUT
         ballseal 0
 
         // mon 1
@@ -8720,7 +8720,7 @@ trainerdata 156, "Yoshi"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 3
@@ -8783,7 +8783,7 @@ trainerdata 157, "Lao"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 3
@@ -8795,7 +8795,7 @@ trainerdata 157, "Lao"
         move MOVE_CLOSE_COMBAT
         move MOVE_THUNDER_PUNCH
         move MOVE_ICE_PUNCH
-        move MOVE_AGILITY
+        move MOVE_SKY_UPPERCUT
         ballseal 0
     endparty
 
@@ -8874,7 +8874,7 @@ trainerdata 159, "Lung"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 3
@@ -8886,7 +8886,7 @@ trainerdata 159, "Lung"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
     endparty
 
@@ -9418,8 +9418,8 @@ trainerdata 178, "Jack"
         item ITEM_NONE
         move MOVE_MEGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
         move MOVE_ABSORB
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
@@ -9431,7 +9431,7 @@ trainerdata 178, "Jack"
         move MOVE_MEGA_DRAIN
         move MOVE_BIND
         move MOVE_VINE_WHIP
-        move MOVE_GROWTH
+        move MOVE_ABSORB
         ballseal 0
 
         // mon 2
@@ -9681,7 +9681,7 @@ trainerdata 184, "Krise"
         item ITEM_NONE
         move MOVE_GIGA_DRAIN
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_ABSORB
         move MOVE_MEGA_DRAIN
         ballseal 0
 
@@ -9745,7 +9745,7 @@ trainerdata 185, "Grunt"
         move MOVE_GUNK_SHOT
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
-        move MOVE_COIL
+        move MOVE_ICE_FANG
         ballseal 0
 
         // mon 1
@@ -9820,7 +9820,7 @@ trainerdata 186, "Grunt"
         move MOVE_GUNK_SHOT
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
-        move MOVE_COIL
+        move MOVE_ICE_FANG
         ballseal 0
 
         // mon 1
@@ -9895,7 +9895,7 @@ trainerdata 187, "Grunt"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
@@ -10045,7 +10045,7 @@ trainerdata 189, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -10207,7 +10207,7 @@ trainerdata 191, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 2
@@ -10270,7 +10270,7 @@ trainerdata 192, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -10432,7 +10432,7 @@ trainerdata 194, "Mickey"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 2
@@ -10570,7 +10570,7 @@ trainerdata 196, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -10582,7 +10582,7 @@ trainerdata 196, "Grunt"
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
-        move MOVE_COIL
+        move MOVE_FIRE_FANG
         ballseal 0
 
         // mon 2
@@ -10657,7 +10657,7 @@ trainerdata 197, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 2
@@ -10720,7 +10720,7 @@ trainerdata 198, "Grunt"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_GIGA_DRAIN
         ballseal 0
 
         // mon 1
@@ -10732,7 +10732,7 @@ trainerdata 198, "Grunt"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_QUIVER_DANCE
+        move MOVE_LEAF_STORM
         ballseal 0
 
         // mon 2
@@ -10783,7 +10783,7 @@ trainerdata 199, "Grunt"
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
-        move MOVE_COIL
+        move MOVE_FIRE_FANG
         ballseal 0
 
         // mon 1
@@ -10795,7 +10795,7 @@ trainerdata 199, "Grunt"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_GIGA_DRAIN
         ballseal 0
 
         // mon 2
@@ -10846,7 +10846,7 @@ trainerdata 200, "Grunt"
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
-        move MOVE_COIL
+        move MOVE_FIRE_FANG
         ballseal 0
 
         // mon 1
@@ -10870,7 +10870,7 @@ trainerdata 200, "Grunt"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_GIGA_DRAIN
         ballseal 0
 
         // mon 3
@@ -11059,7 +11059,7 @@ trainerdata 203, "Phillip"
         move MOVE_DOUBLE_EDGE
         move MOVE_DRILL_RUN
         move MOVE_DRAGON_RUSH
-        move MOVE_COIL
+        move MOVE_HYPER_DRILL
         ballseal 0
 
         // mon 1
@@ -11134,7 +11134,7 @@ trainerdata 204, "Leonard"
         move MOVE_DOUBLE_EDGE
         move MOVE_DRILL_RUN
         move MOVE_DRAGON_RUSH
-        move MOVE_COIL
+        move MOVE_HYPER_DRILL
         ballseal 0
 
         // mon 1
@@ -11221,7 +11221,7 @@ trainerdata 205, "Nick"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 2
@@ -11320,7 +11320,7 @@ trainerdata 206, "Gwen"
         move MOVE_FLARE_BLITZ
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_FIRE_BLAST
         ballseal 0
 
         // mon 4
@@ -11551,7 +11551,7 @@ trainerdata 212, "Terrell"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 3
@@ -11590,7 +11590,7 @@ trainerdata 213, "Kent"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 1
@@ -11665,7 +11665,7 @@ trainerdata 214, "Roberto"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 2
@@ -11689,7 +11689,7 @@ trainerdata 214, "Roberto"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
     endparty
 
@@ -11728,7 +11728,7 @@ trainerdata 215, "Connie"
         move MOVE_GIGA_DRAIN
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_MEGA_DRAIN
         ballseal 0
 
         // mon 2
@@ -11878,7 +11878,7 @@ trainerdata 217, "Denis"
         move MOVE_JUMP_KICK
         move MOVE_DOUBLE_HIT
         move MOVE_PLUCK
-        move MOVE_SWORDS_DANCE
+        move MOVE_TRI_ATTACK
         ballseal 0
     endparty
 
@@ -11905,7 +11905,7 @@ trainerdata 218, "Grunt"
         move MOVE_FLAMETHROWER
         move MOVE_FOUL_PLAY
         move MOVE_THUNDER_FANG
-        move MOVE_NASTY_PLOT
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
@@ -11917,7 +11917,7 @@ trainerdata 218, "Grunt"
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
-        move MOVE_COIL
+        move MOVE_FIRE_FANG
         ballseal 0
 
         // mon 2
@@ -11968,7 +11968,7 @@ trainerdata 219, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -12031,7 +12031,7 @@ trainerdata 220, "Grunt"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
@@ -12094,7 +12094,7 @@ trainerdata 221, "Mickey"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -12232,7 +12232,7 @@ trainerdata 223, "Grunt"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 2
@@ -12295,7 +12295,7 @@ trainerdata 224, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -12370,7 +12370,7 @@ trainerdata 225, "Mickey"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -12445,7 +12445,7 @@ trainerdata 226, "Mickey"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -12520,7 +12520,7 @@ trainerdata 227, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -12595,7 +12595,7 @@ trainerdata 228, "Grunt"
         move MOVE_FLAMETHROWER
         move MOVE_FOUL_PLAY
         move MOVE_THUNDER_FANG
-        move MOVE_NASTY_PLOT
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 1
@@ -13027,7 +13027,7 @@ trainerdata 237, "Carol"
         abilityslot 0
         level 43
         pokemon SPECIES_NINETALES
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         move MOVE_FIRE_BLAST
         move MOVE_CONFUSE_RAY
         move MOVE_WILL_O_WISP
@@ -13200,7 +13200,7 @@ trainerdata 242, "Fritz"
         abilityslot 0
         level 37
         pokemon SPECIES_MACHOKE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_WAKE_UP_SLAP
         move MOVE_KARATE_CHOP
         move MOVE_SEISMIC_TOSS
         move MOVE_REVENGE
@@ -13251,7 +13251,7 @@ trainerdata 244, "Lance"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 1
@@ -13374,7 +13374,7 @@ trainerdata 245, "Will"
         move MOVE_PSYCHIC
         move MOVE_MOONBLAST
         move MOVE_MAGICAL_LEAF
-        move MOVE_CALM_MIND
+        move MOVE_PSYBEAM
         ballseal 0
 
         // mon 4
@@ -13449,7 +13449,7 @@ trainerdata 246, "Karen"
         move MOVE_SUCKER_PUNCH
         move MOVE_SLASH
         move MOVE_PSYCHO_CUT
-        move MOVE_SWORDS_DANCE
+        move MOVE_NIGHT_SLASH
         ballseal 0
 
         // mon 3
@@ -13669,7 +13669,7 @@ trainerdata 249, "Don"
         move MOVE_TWINEEDLE
         move MOVE_FURY_ATTACK
         move MOVE_BUG_BITE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -13750,7 +13750,7 @@ trainerdata 251, "Nob"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 2
@@ -13762,7 +13762,7 @@ trainerdata 251, "Nob"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 3
@@ -13974,7 +13974,7 @@ trainerdata 255, "Lt. Surge"
         pokemon SPECIES_ELECTRODE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_DISCHARGE
         move MOVE_SHOCK_WAVE
         move MOVE_LIGHT_SCREEN
         ballseal 0
@@ -13986,7 +13986,7 @@ trainerdata 255, "Lt. Surge"
         pokemon SPECIES_MAGNETON
         item ITEM_NONE
         move MOVE_SUPERSONIC
-        move MOVE_DOUBLE_TEAM
+        move MOVE_FLASH_CANNON
         move MOVE_SHOCK_WAVE
         move MOVE_MIRROR_SHOT
         ballseal 0
@@ -13998,7 +13998,7 @@ trainerdata 255, "Lt. Surge"
         pokemon SPECIES_ELECTRODE
         item ITEM_NONE
         move MOVE_SCREECH
-        move MOVE_DOUBLE_TEAM
+        move MOVE_DISCHARGE
         move MOVE_SELF_DESTRUCT
         move MOVE_CHARGE_BEAM
         ballseal 0
@@ -14471,7 +14471,7 @@ trainerdata 262, "Mickey"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 3
@@ -15505,7 +15505,7 @@ trainerdata 281, "Richard"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 1
@@ -15592,7 +15592,7 @@ trainerdata 282, "Ned"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 3
@@ -15604,7 +15604,7 @@ trainerdata 282, "Ned"
         move MOVE_FLARE_BLITZ
         move MOVE_EXTREME_SPEED
         move MOVE_PLAY_ROUGH
-        move MOVE_HOWL
+        move MOVE_FLAMETHROWER
         ballseal 0
     endparty
 
@@ -16137,7 +16137,7 @@ trainerdata 290, "Li"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
@@ -16185,7 +16185,7 @@ trainerdata 290, "Li"
         move MOVE_VINE_WHIP
         move MOVE_ACID
         move MOVE_WRAP
-        move MOVE_GROWTH
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -17061,7 +17061,7 @@ trainerdata 318, "Burt"
         level 45
         pokemon SPECIES_MAGCARGO
         move MOVE_LAVA_PLUME
-        move MOVE_AMNESIA
+        move MOVE_FLAME_BURST
         move MOVE_ANCIENT_POWER
         move MOVE_RECOVER
         ballseal 0
@@ -17114,7 +17114,7 @@ trainerdata 319, "Bill"
         move MOVE_FLAME_WHEEL
         move MOVE_BITE
         move MOVE_EMBER
-        move MOVE_HOWL
+        move MOVE_LEER
         ballseal 0
     endparty
 
@@ -17408,7 +17408,7 @@ trainerdata 328, "Tommy"
         level 43
         pokemon SPECIES_ALAKAZAM
         move MOVE_PSYCHIC
-        move MOVE_CALM_MIND
+        move MOVE_PSYSHOCK
         move MOVE_REFLECT
         move MOVE_FOCUS_BLAST
         ballseal 0
@@ -17666,7 +17666,7 @@ trainerdata 337, "Gregory"
         move MOVE_DISCHARGE
         move MOVE_LIGHT_SCREEN
         move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_THUNDERBOLT
         ballseal 0
 
         // mon 1
@@ -17677,7 +17677,7 @@ trainerdata 337, "Gregory"
         move MOVE_SHOCK_WAVE
         move MOVE_SIGNAL_BEAM
         move MOVE_CHARGE_BEAM
-        move MOVE_DOUBLE_TEAM
+        move MOVE_DISCHARGE
         ballseal 0
 
         // mon 2
@@ -18147,7 +18147,7 @@ trainerdata 353, "Grunt"
         move MOVE_BUG_BUZZ
         move MOVE_PSYCHIC
         move MOVE_POISON_FANG
-        move MOVE_QUIVER_DANCE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -18542,7 +18542,7 @@ trainerdata 363, "Emma"
         move MOVE_FLARE_BLITZ
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_FIRE_BLAST
         ballseal 0
 
         // mon 2
@@ -18554,7 +18554,7 @@ trainerdata 363, "Emma"
         move MOVE_PETAL_DANCE
         move MOVE_DOUBLE_EDGE
         move MOVE_PETAL_BLIZZARD
-        move MOVE_GROWTH
+        move MOVE_SEED_BOMB
         ballseal 0
 
         // mon 3
@@ -18766,7 +18766,7 @@ trainerdata 369, "Darcy"
         level 44
         pokemon SPECIES_SLOWPOKE
         move MOVE_SKILL_SWAP
-        move MOVE_AMNESIA
+        move MOVE_ZEN_HEADBUTT
         move MOVE_DISABLE
         move MOVE_PSYCHIC
         ballseal 0
@@ -18930,7 +18930,7 @@ trainerdata 374, "Tyson"
         move MOVE_EARTHQUAKE
         move MOVE_YAWN
         move MOVE_SURF
-        move MOVE_AMNESIA
+        move MOVE_AQUA_TAIL
         ballseal 0
 
         // mon 1
@@ -19034,9 +19034,9 @@ trainerdata 377, "Parker"
         level 43
         pokemon SPECIES_HORSEA
         move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_BUBBLE_BEAM
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_BRINE
         ballseal 0
 
         // mon 1
@@ -19045,9 +19045,9 @@ trainerdata 377, "Parker"
         level 43
         pokemon SPECIES_SEADRA
         move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_HYDRO_PUMP
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_BUBBLE_BEAM
         ballseal 0
     endparty
 
@@ -19459,7 +19459,7 @@ trainerdata 388, "Walt"
         move MOVE_FIRE_FANG
         move MOVE_RETALIATE
         move MOVE_BITE
-        move MOVE_HOWL
+        move MOVE_FLAME_WHEEL
         ballseal 0
 
         // mon 3
@@ -19522,7 +19522,7 @@ trainerdata 389, "Nelson"
         move MOVE_SURF
         move MOVE_PSYCHIC
         move MOVE_POWER_GEM
-        move MOVE_NASTY_PLOT
+        move MOVE_WATER_PULSE
         ballseal 0
 
         // mon 3
@@ -19860,7 +19860,7 @@ trainerdata 395, "Mark"
         move MOVE_PSYBEAM
         move MOVE_STOMP
         move MOVE_ASSURANCE
-        move MOVE_AGILITY
+        move MOVE_CONFUSION
         ballseal 0
 
         // mon 3
@@ -19872,7 +19872,7 @@ trainerdata 395, "Mark"
         move MOVE_SURF
         move MOVE_POWER_GEM
         move MOVE_CONFUSION
-        move MOVE_NASTY_PLOT
+        move MOVE_WATER_PULSE
         ballseal 0
     endparty
 
@@ -19907,7 +19907,7 @@ trainerdata 396, "Horton"
         pokemon SPECIES_ELECTRODE
         move MOVE_SWIFT
         move MOVE_SHOCK_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_DISCHARGE
         move MOVE_LIGHT_SCREEN
         ballseal 0
 
@@ -19958,7 +19958,7 @@ trainerdata 397, "Chad"
         move MOVE_GIGA_DRAIN
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_MEGA_DRAIN
         ballseal 0
 
         // mon 2
@@ -19970,7 +19970,7 @@ trainerdata 397, "Chad"
         move MOVE_GIGA_DRAIN
         move MOVE_ANCIENT_POWER
         move MOVE_KNOCK_OFF
-        move MOVE_GROWTH
+        move MOVE_MEGA_DRAIN
         ballseal 0
 
         // mon 3
@@ -20009,7 +20009,7 @@ trainerdata 398, "Valerie"
         move MOVE_SLAM
         move MOVE_SUCKER_PUNCH
         move MOVE_QUICK_ATTACK
-        move MOVE_COIL
+        move MOVE_SCRATCH
         ballseal 0
 
         // mon 1
@@ -20170,7 +20170,7 @@ trainerdata 401, "Alfred"
         move MOVE_FLARE_BLITZ
         move MOVE_EXTREME_SPEED
         move MOVE_PLAY_ROUGH
-        move MOVE_HOWL
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 1
@@ -20221,7 +20221,7 @@ trainerdata 402, "Tiffany"
         move MOVE_FLARE_BLITZ
         move MOVE_MEGAHORN
         move MOVE_POISON_JAB
-        move MOVE_AGILITY
+        move MOVE_FIRE_BLAST
         ballseal 0
 
         // mon 2
@@ -20347,7 +20347,7 @@ trainerdata 404, "Grunt"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_QUIVER_DANCE
+        move MOVE_LEAF_STORM
         ballseal 0
 
         // mon 2
@@ -20359,7 +20359,7 @@ trainerdata 404, "Grunt"
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
-        move MOVE_COIL
+        move MOVE_FIRE_FANG
         ballseal 0
 
         // mon 3
@@ -20410,7 +20410,7 @@ trainerdata 405, "Phil"
         move MOVE_SURF
         move MOVE_PSYCHIC
         move MOVE_POWER_GEM
-        move MOVE_NASTY_PLOT
+        move MOVE_WATER_PULSE
         ballseal 0
 
         // mon 2
@@ -20422,7 +20422,7 @@ trainerdata 405, "Phil"
         move MOVE_PSYCHIC
         move MOVE_STOMP
         move MOVE_CRUNCH
-        move MOVE_NASTY_PLOT
+        move MOVE_PSYBEAM
         ballseal 0
 
         // mon 3
@@ -20560,7 +20560,7 @@ trainerdata 407, "Allen"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 2
@@ -20647,7 +20647,7 @@ trainerdata 408, "Cybil"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 3
@@ -20761,7 +20761,7 @@ trainerdata 410, "Harry"
         move MOVE_DOUBLE_EDGE
         move MOVE_SUCKER_PUNCH
         move MOVE_HYPER_FANG
-        move MOVE_SWORDS_DANCE
+        move MOVE_CRUNCH
         ballseal 0
 
         // mon 2
@@ -20824,7 +20824,7 @@ trainerdata 411, "Vernon"
         move MOVE_PSYCHIC
         move MOVE_PSYSHOCK
         move MOVE_PSYBEAM
-        move MOVE_CALM_MIND
+        move MOVE_CONFUSION
         ballseal 0
 
         // mon 2
@@ -20974,7 +20974,7 @@ trainerdata 413, "Scott"
         move MOVE_AQUA_TAIL
         move MOVE_THRASH
         move MOVE_CRUNCH
-        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
         ballseal 0
 
         // mon 2
@@ -21037,7 +21037,7 @@ trainerdata 414, "Jose"
         move MOVE_THRASH
         move MOVE_DRILL_PECK
         move MOVE_JUMP_KICK
-        move MOVE_SWORDS_DANCE
+        move MOVE_PLUCK
         ballseal 0
 
         // mon 1
@@ -21223,7 +21223,7 @@ trainerdata 418, "Bruno"
         move MOVE_CLOSE_COMBAT
         move MOVE_THUNDER_PUNCH
         move MOVE_ICE_PUNCH
-        move MOVE_AGILITY
+        move MOVE_SKY_UPPERCUT
         ballseal 0
 
         // mon 2
@@ -21235,7 +21235,7 @@ trainerdata 418, "Bruno"
         move MOVE_CLOSE_COMBAT
         move MOVE_MEGAHORN
         move MOVE_THRASH
-        move MOVE_SWORDS_DANCE
+        move MOVE_BRICK_BREAK
         ballseal 0
 
         // mon 3
@@ -21247,7 +21247,7 @@ trainerdata 418, "Bruno"
         move MOVE_CLOSE_COMBAT
         move MOVE_METEOR_MASH
         move MOVE_EXTREME_SPEED
-        move MOVE_NASTY_PLOT
+        move MOVE_AURA_SPHERE
         ballseal 0
 
         // mon 4
@@ -22579,7 +22579,7 @@ trainerdata 460, "Wade"
         move MOVE_BUG_BITE
         move MOVE_TWINEEDLE
         move MOVE_POISON_JAB
-        move MOVE_FOCUS_ENERGY
+        move MOVE_ASSURANCE
         ballseal 0
 
         // mon 3
@@ -23071,7 +23071,7 @@ trainerdata 471, "Garett"
         move MOVE_TRI_ATTACK
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
-        move MOVE_NASTY_PLOT
+        move MOVE_PSYBEAM
         ballseal 0
 
         // mon 4
@@ -23146,7 +23146,7 @@ trainerdata 472, "Trenton"
         move MOVE_FLARE_BLITZ
         move MOVE_EXTREME_SPEED
         move MOVE_PLAY_ROUGH
-        move MOVE_HOWL
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 4
@@ -23329,7 +23329,7 @@ trainerdata 478, "Ariana"
         move MOVE_GUNK_SHOT
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
-        move MOVE_COIL
+        move MOVE_ICE_FANG
         ballseal 0
 
         // mon 1
@@ -23404,7 +23404,7 @@ trainerdata 479, "Ariana"
         move MOVE_CRUNCH
         move MOVE_THUNDER_FANG
         move MOVE_ICE_FANG
-        move MOVE_COIL
+        move MOVE_FIRE_FANG
         ballseal 0
 
         // mon 1
@@ -23416,7 +23416,7 @@ trainerdata 479, "Ariana"
         move MOVE_PETAL_DANCE
         move MOVE_MOONBLAST
         move MOVE_ACID
-        move MOVE_GROWTH
+        move MOVE_GIGA_DRAIN
         ballseal 0
 
         // mon 2
@@ -24729,7 +24729,7 @@ trainerdata 500, "Kobe"
         move MOVE_HYDRO_PUMP
         move MOVE_DRAGON_PULSE
         move MOVE_BUBBLE_BEAM
-        move MOVE_DRAGON_DANCE
+        move MOVE_BRINE
         ballseal 0
 
         // mon 4
@@ -24780,7 +24780,7 @@ trainerdata 501, "Piper"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 2
@@ -24855,7 +24855,7 @@ trainerdata 502, "Clea & Gil"
         move MOVE_POISON_JAB
         move MOVE_PIN_MISSILE
         move MOVE_SUCKER_PUNCH
-        move MOVE_SWORDS_DANCE
+        move MOVE_CROSS_POISON
         ballseal 0
 
         // mon 2
@@ -25072,7 +25072,7 @@ trainerdata 506, "Mickey"
         level 32
         pokemon SPECIES_YANMA
         move MOVE_QUICK_ATTACK
-        move MOVE_DOUBLE_TEAM
+        move MOVE_PURSUIT
         move MOVE_SONIC_BOOM
         move MOVE_SUPERSONIC
         ballseal 0
@@ -25084,7 +25084,7 @@ trainerdata 506, "Mickey"
         pokemon SPECIES_QUAGSIRE
         move MOVE_TAIL_WHIP
         move MOVE_SLAM
-        move MOVE_AMNESIA
+        move MOVE_AQUA_TAIL
         move MOVE_EARTHQUAKE
         ballseal 0
     endparty
@@ -25413,7 +25413,7 @@ trainerdata 516, "Mickey"
         level 35
         pokemon SPECIES_QWILFISH
         move MOVE_TOXIC
-        move MOVE_MINIMIZE
+        move MOVE_HYDRO_PUMP
         move MOVE_SURF
         move MOVE_PIN_MISSILE
         ballseal 0
@@ -25832,7 +25832,7 @@ trainerdata 526, "Mickey"
         pokemon SPECIES_MAGCARGO
         move MOVE_ROCK_THROW
         move MOVE_HARDEN
-        move MOVE_AMNESIA
+        move MOVE_LAVA_PLUME
         move MOVE_FLAMETHROWER
         ballseal 0
 
@@ -26099,7 +26099,7 @@ trainerdata 532, "Mickey"
         move MOVE_FURY_ATTACK
         move MOVE_PURSUIT
         move MOVE_TWINEEDLE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_ASSURANCE
         ballseal 0
 
         // mon 3
@@ -26626,9 +26626,9 @@ trainerdata 546, "Sherman"
         abilityslot 0
         level 43
         pokemon SPECIES_FURRET
-        move MOVE_DOUBLE_TEAM
+        move MOVE_SUCKER_PUNCH
         move MOVE_BATON_PASS
-        move MOVE_AMNESIA
+        move MOVE_QUICK_ATTACK
         move MOVE_SLAM
         ballseal 0
 
@@ -27138,7 +27138,7 @@ trainerdata 564, "Clarice"
         level 41
         pokemon SPECIES_ZIGZAGOON
         item ITEM_SITRUS_BERRY
-        move MOVE_BELLY_DRUM
+        move MOVE_DOUBLE_EDGE
         move MOVE_FLAIL
         move MOVE_RETURN
         move MOVE_IRON_TAIL
@@ -27197,7 +27197,7 @@ trainerdata 566, "Connor"
         level 42
         pokemon SPECIES_ZIGZAGOON
         item ITEM_CHESTO_BERRY
-        move MOVE_BELLY_DRUM
+        move MOVE_DOUBLE_EDGE
         move MOVE_REST
         move MOVE_FLAIL
         move MOVE_SECRET_POWER
@@ -27286,7 +27286,7 @@ trainerdata 569, "Kay & Tia"
         abilityslot 0
         level 41
         pokemon SPECIES_QUAGSIRE
-        move MOVE_AMNESIA
+        move MOVE_AQUA_TAIL
         move MOVE_SURF
         move MOVE_YAWN
         move MOVE_NONE
@@ -27565,7 +27565,7 @@ trainerdata 580, "Pedro"
         level 45
         pokemon SPECIES_LINOONE
         item ITEM_SITRUS_BERRY
-        move MOVE_BELLY_DRUM
+        move MOVE_DOUBLE_EDGE
         move MOVE_SLASH
         move MOVE_DIG
         move MOVE_SURF
@@ -28158,7 +28158,7 @@ trainerdata 601, "Grunt"
         move MOVE_HYPER_FANG
         move MOVE_BITE
         move MOVE_QUICK_ATTACK
-        move MOVE_SWORDS_DANCE
+        move MOVE_TAIL_WHIP
         ballseal 0
 
         // mon 2
@@ -28410,7 +28410,7 @@ trainerdata 607, "Reena"
         pokemon SPECIES_STARMIE
         move MOVE_SURF
         move MOVE_MINIMIZE
-        move MOVE_COSMIC_POWER
+        move MOVE_HYDRO_PUMP
         move MOVE_PSYCHIC
         ballseal 0
     endparty
@@ -29535,7 +29535,7 @@ trainerdata 643, "Kay & Tia"
         abilityslot 0
         level 48
         pokemon SPECIES_QUAGSIRE
-        move MOVE_AMNESIA
+        move MOVE_EARTHQUAKE
         move MOVE_SURF
         move MOVE_YAWN
         move MOVE_NONE
@@ -29886,7 +29886,7 @@ trainerdata 654, "Tim & Sue"
         level 54
         pokemon SPECIES_ALAKAZAM
         move MOVE_PSYCHIC
-        move MOVE_CALM_MIND
+        move MOVE_PSYSHOCK
         move MOVE_REFLECT
         move MOVE_RECOVER
         ballseal 0
@@ -30488,7 +30488,7 @@ trainerdata 668, "Marley"
         item ITEM_NONE
         move MOVE_X_SCISSOR
         move MOVE_AERIAL_ACE
-        move MOVE_SWORDS_DANCE
+        move MOVE_BUG_BITE
         move MOVE_SLASH
         ballseal 0
 
@@ -30501,7 +30501,7 @@ trainerdata 668, "Marley"
         move MOVE_HYPER_BEAM
         move MOVE_THUNDER
         move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_DISCHARGE
         ballseal 0
 
         // mon 2
@@ -30723,7 +30723,7 @@ trainerdata 671, "Buck"
         move MOVE_DARK_PULSE
         move MOVE_PSYCHIC
         move MOVE_CONFUSE_RAY
-        move MOVE_DOUBLE_TEAM
+        move MOVE_DOUBLE_EDGE
         ballseal 0
 
         // mon 2
@@ -30876,9 +30876,9 @@ trainerdata 676, "Parker"
         level 43
         pokemon SPECIES_HORSEA
         move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_BUBBLE_BEAM
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_BRINE
         ballseal 0
 
         // mon 1
@@ -30887,9 +30887,9 @@ trainerdata 676, "Parker"
         level 43
         pokemon SPECIES_SEADRA
         move MOVE_WATER_PULSE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_HYDRO_PUMP
         move MOVE_TWISTER
-        move MOVE_AGILITY
+        move MOVE_BUBBLE_BEAM
         ballseal 0
     endparty
 
@@ -30966,7 +30966,7 @@ trainerdata 679, "Callie"
         move MOVE_SLAM
         move MOVE_QUICK_ATTACK
         move MOVE_FURY_SWIPES
-        move MOVE_COIL
+        move MOVE_SCRATCH
         ballseal 0
 
         // mon 1
@@ -31041,7 +31041,7 @@ trainerdata 680, "Kassandra"
         move MOVE_SLAM
         move MOVE_QUICK_ATTACK
         move MOVE_FURY_SWIPES
-        move MOVE_COIL
+        move MOVE_SCRATCH
         ballseal 0
 
         // mon 2
@@ -31417,7 +31417,7 @@ trainerdata 692, "Lowell"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 1
@@ -31492,7 +31492,7 @@ trainerdata 693, "Linden"
         move MOVE_FIRE_BLAST
         move MOVE_EXTRASENSORY
         move MOVE_QUICK_ATTACK
-        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
         ballseal 0
 
         // mon 1
@@ -31567,7 +31567,7 @@ trainerdata 694, "Daniel"
         move MOVE_TRI_ATTACK
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
-        move MOVE_NASTY_PLOT
+        move MOVE_PSYBEAM
         ballseal 0
 
         // mon 1
@@ -31792,7 +31792,7 @@ trainerdata 700, "Giovanni"
         level 42
         pokemon SPECIES_NIDOKING
         item ITEM_NONE
-        move MOVE_FOCUS_ENERGY
+        move MOVE_POISON_JAB
         move MOVE_FURY_ATTACK
         move MOVE_DOUBLE_KICK
         move MOVE_SHADOW_CLAW
@@ -31817,7 +31817,7 @@ trainerdata 700, "Giovanni"
         pokemon SPECIES_HONCHKROW
         item ITEM_NONE
         move MOVE_DARK_PULSE
-        move MOVE_NASTY_PLOT
+        move MOVE_SUCKER_PUNCH
         move MOVE_SWAGGER
         move MOVE_SHADOW_BALL
         ballseal 0
@@ -31869,7 +31869,7 @@ trainerdata 701, "Lance"
         move MOVE_THUNDER_WAVE
         move MOVE_ICE_FANG
         move MOVE_WATERFALL
-        move MOVE_DRAGON_DANCE
+        move MOVE_AQUA_TAIL
         ballseal 0
 
         // mon 2
@@ -31878,7 +31878,7 @@ trainerdata 701, "Lance"
         level 72
         pokemon SPECIES_GARCHOMP
         item ITEM_NONE
-        move MOVE_SWORDS_DANCE
+        move MOVE_DRAGON_CLAW
         move MOVE_OUTRAGE
         move MOVE_EARTHQUAKE
         move MOVE_ROAR
@@ -31976,8 +31976,8 @@ trainerdata 702, "Will"
         level 60
         pokemon SPECIES_SLOWBRO
         item ITEM_NONE
-        move MOVE_CURSE
-        move MOVE_AMNESIA
+        move MOVE_SURF
+        move MOVE_WATER_PULSE
         move MOVE_BODY_SLAM
         move MOVE_PSYCHIC
         ballseal 0
@@ -32062,7 +32062,7 @@ trainerdata 703, "Koga"
         level 62
         pokemon SPECIES_MUK
         item ITEM_BLACK_SLUDGE
-        move MOVE_MINIMIZE
+        move MOVE_GUNK_SHOT
         move MOVE_SCREECH
         move MOVE_SWAGGER
         move MOVE_TOXIC
@@ -32087,7 +32087,7 @@ trainerdata 703, "Koga"
         pokemon SPECIES_SWALOT
         item ITEM_LEFTOVERS
         move MOVE_YAWN
-        move MOVE_AMNESIA
+        move MOVE_GUNK_SHOT
         move MOVE_PAIN_SPLIT
         move MOVE_SLUDGE_BOMB
         ballseal 0
@@ -32210,7 +32210,7 @@ trainerdata 705, "Karen"
         level 62
         pokemon SPECIES_SPIRITOMB
         item ITEM_NONE
-        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
         move MOVE_CONFUSE_RAY
         move MOVE_PAIN_SPLIT
         move MOVE_SUCKER_PUNCH
@@ -32246,7 +32246,7 @@ trainerdata 705, "Karen"
         level 63
         pokemon SPECIES_HOUNDOOM
         item ITEM_NONE
-        move MOVE_NASTY_PLOT
+        move MOVE_FOUL_PLAY
         move MOVE_DARK_PULSE
         move MOVE_FLAMETHROWER
         move MOVE_SLUDGE_BOMB
@@ -32478,7 +32478,7 @@ trainerdata 712, "Falkner"
         item ITEM_FLAME_ORB
         move MOVE_FACADE
         move MOVE_PROTECT
-        move MOVE_DOUBLE_TEAM
+        move MOVE_BRAVE_BIRD
         move MOVE_ENDEAVOR
         ballseal 0
 
@@ -32601,7 +32601,7 @@ trainerdata 713, "Bugsy"
         move MOVE_PROTECT
         move MOVE_CONFUSE_RAY
         move MOVE_ATTACK_ORDER
-        move MOVE_DEFEND_ORDER
+        move MOVE_AIR_SLASH
         ballseal 0
     endparty
 
@@ -32626,7 +32626,7 @@ trainerdata 714, "Whitney"
         item ITEM_NONE
         move MOVE_PSYCHIC
         move MOVE_SHADOW_BALL
-        move MOVE_CALM_MIND
+        move MOVE_PSYBEAM
         move MOVE_BATON_PASS
         ballseal 0
 
@@ -32648,7 +32648,7 @@ trainerdata 714, "Whitney"
         level 54
         pokemon SPECIES_BIBAREL
         item ITEM_NONE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_SUPERPOWER
         move MOVE_CHARGE_BEAM
         move MOVE_SURF
         move MOVE_ICE_BEAM
@@ -32675,7 +32675,7 @@ trainerdata 714, "Whitney"
         move MOVE_BLIZZARD
         move MOVE_THUNDER
         move MOVE_FIRE_BLAST
-        move MOVE_CALM_MIND
+        move MOVE_MOONBLAST
         ballseal 0
 
         // mon 5
@@ -32983,7 +32983,7 @@ trainerdata 718, "Chuck"
         move MOVE_MACH_PUNCH
         move MOVE_SWAGGER
         move MOVE_FOCUS_PUNCH
-        move MOVE_DOUBLE_TEAM
+        move MOVE_CLOSE_COMBAT
         ballseal 0
 
         // mon 2
@@ -32995,7 +32995,7 @@ trainerdata 718, "Chuck"
         move MOVE_HIGH_JUMP_KICK
         move MOVE_FAKE_OUT
         move MOVE_BLAZE_KICK
-        move MOVE_BULK_UP
+        move MOVE_CLOSE_COMBAT
         ballseal 0
 
         // mon 3
@@ -33142,7 +33142,7 @@ trainerdata 720, "Brock"
         item ITEM_NONE
         move MOVE_SANDSTORM
         move MOVE_ROCK_SLIDE
-        move MOVE_ROCK_POLISH
+        move MOVE_STONE_EDGE
         move MOVE_EARTHQUAKE
         ballseal 0
 
@@ -33203,7 +33203,7 @@ trainerdata 720, "Brock"
         move MOVE_EARTHQUAKE
         move MOVE_STONE_EDGE
         move MOVE_AVALANCHE
-        move MOVE_ROCK_POLISH
+        move MOVE_TAKE_DOWN
         ballseal 0
     endparty
 
@@ -33274,7 +33274,7 @@ trainerdata 721, "Misty"
         level 54
         pokemon SPECIES_FLOATZEL
         item ITEM_NONE
-        move MOVE_AGILITY
+        move MOVE_AQUA_TAIL
         move MOVE_ICE_FANG
         move MOVE_WATERFALL
         move MOVE_BATON_PASS
@@ -33337,7 +33337,7 @@ trainerdata 722, "Lt. Surge"
         pokemon SPECIES_MAGNEZONE
         item ITEM_NONE
         move MOVE_THUNDERBOLT
-        move MOVE_DOUBLE_TEAM
+        move MOVE_FLASH_CANNON
         move MOVE_MAGNET_RISE
         move MOVE_MIRROR_SHOT
         ballseal 0
@@ -33547,7 +33547,7 @@ trainerdata 724, "Janine"
         move MOVE_CROSS_POISON
         move MOVE_CONFUSE_RAY
         move MOVE_CRUNCH
-        move MOVE_SWORDS_DANCE
+        move MOVE_NIGHT_SLASH
         ballseal 0
     endparty
 
@@ -33931,7 +33931,7 @@ trainerdata 731, "Devin"
         move MOVE_WAKE_UP_SLAP
         move MOVE_STRENGTH
         move MOVE_DUAL_CHOP
-        move MOVE_BULK_UP
+        move MOVE_VITAL_THROW
         ballseal 0
 
         // mon 1

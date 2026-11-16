@@ -103,6 +103,10 @@
 // comment this line out to get the running shoes from the Guide Gent again
 #define HEARTHARD_RUNNING_SHOES_FLAG 2604
 
+// HEARTHARD_STARTER_PERFECT_IVS is how many IVs of the starter and of the gift starter are guaranteed to be 31
+// comment this line out for fully random IVs
+#define HEARTHARD_STARTER_PERFECT_IVS 4
+
 // HEARTHARD_MEGA_RING_UNLOCK turns Mega Evolution on as soon as the Mega Ring is in the bag
 #define HEARTHARD_MEGA_RING_UNLOCK
 

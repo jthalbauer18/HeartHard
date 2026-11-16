@@ -24,7 +24,7 @@ evodata SPECIES_NONE
     terminateevodata
 
 evodata SPECIES_BULBASAUR
-    evolution EVO_LEVEL, 17, SPECIES_IVYSAUR
+    evolution EVO_LEVEL, 16, SPECIES_IVYSAUR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -60,7 +60,7 @@ evodata SPECIES_VENUSAUR
     terminateevodata
 
 evodata SPECIES_CHARMANDER
-    evolution EVO_LEVEL, 17, SPECIES_CHARMELEON
+    evolution EVO_LEVEL, 16, SPECIES_CHARMELEON
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -96,7 +96,7 @@ evodata SPECIES_CHARIZARD
     terminateevodata
 
 evodata SPECIES_SQUIRTLE
-    evolution EVO_LEVEL, 17, SPECIES_WARTORTLE
+    evolution EVO_LEVEL, 16, SPECIES_WARTORTLE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1872,7 +1872,7 @@ evodata SPECIES_MEGANIUM
     terminateevodata
 
 evodata SPECIES_CYNDAQUIL
-    evolution EVO_LEVEL, 17, SPECIES_QUILAVA
+    evolution EVO_LEVEL, 16, SPECIES_QUILAVA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1908,7 +1908,7 @@ evodata SPECIES_TYPHLOSION
     terminateevodata
 
 evodata SPECIES_TOTODILE
-    evolution EVO_LEVEL, 18, SPECIES_CROCONAW
+    evolution EVO_LEVEL, 16, SPECIES_CROCONAW
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3036,7 +3036,7 @@ evodata SPECIES_CELEBI
     terminateevodata
 
 evodata SPECIES_TREECKO
-    evolution EVO_LEVEL, 17, SPECIES_GROVYLE
+    evolution EVO_LEVEL, 16, SPECIES_GROVYLE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3072,7 +3072,7 @@ evodata SPECIES_SCEPTILE
     terminateevodata
 
 evodata SPECIES_TORCHIC
-    evolution EVO_LEVEL, 17, SPECIES_COMBUSKEN
+    evolution EVO_LEVEL, 16, SPECIES_COMBUSKEN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3108,7 +3108,7 @@ evodata SPECIES_BLAZIKEN
     terminateevodata
 
 evodata SPECIES_MUDKIP
-    evolution EVO_LEVEL, 17, SPECIES_MARSHTOMP
+    evolution EVO_LEVEL, 16, SPECIES_MARSHTOMP
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4656,7 +4656,7 @@ evodata SPECIES_DEOXYS
     terminateevodata
 
 evodata SPECIES_TURTWIG
-    evolution EVO_LEVEL, 18, SPECIES_GROTLE
+    evolution EVO_LEVEL, 16, SPECIES_GROTLE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4692,7 +4692,7 @@ evodata SPECIES_TORTERRA
     terminateevodata
 
 evodata SPECIES_CHIMCHAR
-    evolution EVO_LEVEL, 17, SPECIES_MONFERNO
+    evolution EVO_LEVEL, 16, SPECIES_MONFERNO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4728,7 +4728,7 @@ evodata SPECIES_INFERNAPE
     terminateevodata
 
 evodata SPECIES_PIPLUP
-    evolution EVO_LEVEL, 17, SPECIES_PRINPLUP
+    evolution EVO_LEVEL, 16, SPECIES_PRINPLUP
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -6556,7 +6556,7 @@ evodata SPECIES_VICTINI
     terminateevodata
 
 evodata SPECIES_SNIVY
-    evolution EVO_LEVEL, 17, SPECIES_SERVINE
+    evolution EVO_LEVEL, 16, SPECIES_SERVINE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -6592,7 +6592,7 @@ evodata SPECIES_SERPERIOR
     terminateevodata
 
 evodata SPECIES_TEPIG
-    evolution EVO_LEVEL, 17, SPECIES_PIGNITE
+    evolution EVO_LEVEL, 16, SPECIES_PIGNITE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -6628,7 +6628,7 @@ evodata SPECIES_EMBOAR
     terminateevodata
 
 evodata SPECIES_OSHAWOTT
-    evolution EVO_LEVEL, 17, SPECIES_DEWOTT
+    evolution EVO_LEVEL, 16, SPECIES_DEWOTT
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8416,7 +8416,7 @@ evodata SPECIES_GENESECT
     terminateevodata
 
 evodata SPECIES_CHESPIN
-    evolution EVO_LEVEL, 17, SPECIES_QUILLADIN
+    evolution EVO_LEVEL, 16, SPECIES_QUILLADIN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8452,7 +8452,7 @@ evodata SPECIES_CHESNAUGHT
 terminateevodata
 
 evodata SPECIES_FENNEKIN
-    evolution EVO_LEVEL, 17, SPECIES_BRAIXEN
+    evolution EVO_LEVEL, 16, SPECIES_BRAIXEN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8488,7 +8488,7 @@ evodata SPECIES_DELPHOX
 terminateevodata
 
 evodata SPECIES_FROAKIE
-    evolution EVO_LEVEL, 17, SPECIES_FROGADIER
+    evolution EVO_LEVEL, 16, SPECIES_FROGADIER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
