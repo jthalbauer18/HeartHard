@@ -626,7 +626,7 @@ mondata SPECIES_SANDSLASH, "Sandslash"
 mondata SPECIES_NIDORAN_F, "Nidoran♀"
     basestats 55, 47, 52, 41, 40, 40
     types TYPE_POISON, TYPE_POISON
-    catchrate 235
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -689,7 +689,7 @@ mondata SPECIES_NIDOQUEEN, "Nidoqueen"
 mondata SPECIES_NIDORAN_M, "Nidoran♂"
     basestats 46, 57, 40, 50, 40, 40
     types TYPE_POISON, TYPE_POISON
-    catchrate 235
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -794,7 +794,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
 mondata SPECIES_VULPIX, "Vulpix"
     basestats 38, 41, 40, 65, 50, 65
     types TYPE_FIRE, TYPE_FIRE
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_RAWST_BERRY, ITEM_CHARCOAL
@@ -1151,7 +1151,7 @@ mondata SPECIES_PERSIAN, "Persian"
 mondata SPECIES_PSYDUCK, "Psyduck"
     basestats 50, 52, 48, 55, 65, 50
     types TYPE_WATER, TYPE_WATER
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -1193,7 +1193,7 @@ mondata SPECIES_GOLDUCK, "Golduck"
 mondata SPECIES_MANKEY, "Mankey"
     basestats 40, 80, 35, 70, 35, 45
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_PAYAPA_BERRY
@@ -1340,7 +1340,7 @@ mondata SPECIES_POLIWRATH, "Poliwrath"
 mondata SPECIES_ABRA, "Abra"
     basestats 25, 20, 15, 90, 105, 55
     types TYPE_PSYCHIC, TYPE_PSYCHIC
-    catchrate 200
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_ALAKAZITE, ITEM_ALAKAZITE
@@ -1403,7 +1403,7 @@ mondata SPECIES_ALAKAZAM, "Alakazam"
 mondata SPECIES_MACHOP, "Machop"
     basestats 70, 80, 50, 35, 35, 35
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_FOCUS_BAND
@@ -1634,7 +1634,7 @@ mondata SPECIES_GOLEM, "Golem"
 mondata SPECIES_PONYTA, "Ponyta"
     basestats 50, 85, 55, 90, 65, 65
     types TYPE_FIRE, TYPE_FIRE
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_SHUCA_BERRY
@@ -1676,7 +1676,7 @@ mondata SPECIES_RAPIDASH, "Rapidash"
 mondata SPECIES_SLOWPOKE, "Slowpoke"
     basestats 90, 65, 65, 15, 40, 40
     types TYPE_WATER, TYPE_PSYCHIC
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_SLOWBRONITE, ITEM_SLOWBRONITE
@@ -1760,7 +1760,7 @@ mondata SPECIES_MAGNETON, "Magneton"
 mondata SPECIES_FARFETCHD, "Farfetch’d"
     basestats 52, 90, 55, 60, 58, 62
     types TYPE_NORMAL, TYPE_FLYING
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_LEEK
@@ -1907,7 +1907,7 @@ mondata SPECIES_MUK, "Muk"
 mondata SPECIES_SHELLDER, "Shellder"
     basestats 30, 65, 100, 40, 45, 25
     types TYPE_WATER, TYPE_WATER
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_PEARL, ITEM_BIG_PEARL
@@ -1949,7 +1949,7 @@ mondata SPECIES_CLOYSTER, "Cloyster"
 mondata SPECIES_GASTLY, "Gastly"
     basestats 30, 35, 30, 80, 100, 35
     types TYPE_GHOST, TYPE_POISON
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_GENGARITE, ITEM_GENGARITE
@@ -2012,7 +2012,7 @@ mondata SPECIES_GENGAR, "Gengar"
 mondata SPECIES_ONIX, "Onix"
     basestats 35, 45, 160, 70, 30, 45
     types TYPE_ROCK, TYPE_GROUND
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_STEELIXITE, ITEM_STEELIXITE
@@ -2075,7 +2075,7 @@ mondata SPECIES_HYPNO, "Hypno"
 mondata SPECIES_KRABBY, "Krabby"
     basestats 30, 105, 90, 50, 25, 25
     types TYPE_WATER, TYPE_WATER
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -2159,7 +2159,7 @@ mondata SPECIES_ELECTRODE, "Electrode"
 mondata SPECIES_EXEGGCUTE, "Exeggcute"
     basestats 60, 40, 80, 40, 60, 45
     types TYPE_GRASS, TYPE_PSYCHIC
-    catchrate 90
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_PSYCHIC_SEED
@@ -2348,7 +2348,7 @@ mondata SPECIES_WEEZING, "Weezing"
 mondata SPECIES_RHYHORN, "Rhyhorn"
     basestats 80, 85, 95, 25, 30, 30
     types TYPE_GROUND, TYPE_ROCK
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -2453,7 +2453,7 @@ mondata SPECIES_KANGASKHAN, "Kangaskhan"
 mondata SPECIES_HORSEA, "Horsea"
     basestats 30, 40, 70, 60, 70, 25
     types TYPE_WATER, TYPE_WATER
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_DRAGON_SCALE
@@ -2495,7 +2495,7 @@ mondata SPECIES_SEADRA, "Seadra"
 mondata SPECIES_GOLDEEN, "Goldeen"
     basestats 45, 67, 60, 63, 35, 50
     types TYPE_WATER, TYPE_WATER
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_MYSTIC_WATER
@@ -2600,7 +2600,7 @@ mondata SPECIES_MR_MIME, "Mr. Mime"
 mondata SPECIES_SCYTHER, "Scyther"
     basestats 70, 110, 80, 105, 55, 80
     types TYPE_BUG, TYPE_FLYING
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_SCIZORITE, ITEM_SCIZORITE
@@ -2810,7 +2810,7 @@ mondata SPECIES_DITTO, "Ditto"
 mondata SPECIES_EEVEE, "Eevee"
     basestats 55, 55, 50, 55, 45, 65
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
@@ -2894,7 +2894,7 @@ mondata SPECIES_FLAREON, "Flareon"
 mondata SPECIES_PORYGON, "Porygon"
     basestats 65, 60, 70, 40, 85, 75
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -3104,7 +3104,7 @@ mondata SPECIES_MOLTRES, "Moltres"
 mondata SPECIES_DRATINI, "Dratini"
     basestats 41, 64, 45, 50, 50, 50
     types TYPE_DRAGON, TYPE_DRAGON
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_DRAGON_SCALE
@@ -3587,7 +3587,7 @@ mondata SPECIES_CROBAT, "Crobat"
 mondata SPECIES_CHINCHOU, "Chinchou"
     basestats 75, 38, 38, 67, 56, 56
     types TYPE_WATER, TYPE_ELECTRIC
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_DEEP_SEA_SCALE, ITEM_YELLOW_SHARD
@@ -3629,7 +3629,7 @@ mondata SPECIES_LANTURN, "Lanturn"
 mondata SPECIES_PICHU, "Pichu"
     basestats 20, 40, 15, 60, 35, 35
     types TYPE_ELECTRIC, TYPE_ELECTRIC
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_ORAN_BERRY
@@ -3671,7 +3671,7 @@ mondata SPECIES_CLEFFA, "Cleffa"
 mondata SPECIES_IGGLYBUFF, "Igglybuff"
     basestats 90, 30, 15, 15, 40, 20
     types TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    catchrate 170
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_ORAN_BERRY, ITEM_NONE
@@ -3692,7 +3692,7 @@ mondata SPECIES_IGGLYBUFF, "Igglybuff"
 mondata SPECIES_TOGEPI, "Togepi"
     basestats 35, 20, 65, 20, 40, 65
     types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
@@ -3734,7 +3734,7 @@ mondata SPECIES_TOGETIC, "Togetic"
 mondata SPECIES_NATU, "Natu"
     basestats 40, 50, 45, 70, 70, 45
     types TYPE_PSYCHIC, TYPE_FLYING
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -3776,7 +3776,7 @@ mondata SPECIES_XATU, "Xatu"
 mondata SPECIES_MAREEP, "Mareep"
     basestats 55, 40, 40, 35, 65, 45
     types TYPE_ELECTRIC, TYPE_ELECTRIC
-    catchrate 235
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_AMPHAROSITE, ITEM_AMPHAROSITE
@@ -3860,7 +3860,7 @@ mondata SPECIES_BELLOSSOM, "Bellossom"
 mondata SPECIES_MARILL, "Marill"
     basestats 70, 20, 50, 40, 20, 50
     types TYPE_WATER, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_WATER
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -4028,7 +4028,7 @@ mondata SPECIES_AIPOM, "Aipom"
 mondata SPECIES_SUNKERN, "Sunkern"
     basestats 30, 30, 30, 30, 30, 30
     types TYPE_GRASS, TYPE_GRASS
-    catchrate 235
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_COBA_BERRY
@@ -4217,7 +4217,7 @@ mondata SPECIES_SLOWKING, "Slowking"
 mondata SPECIES_MISDREAVUS, "Misdreavus"
     basestats 60, 60, 60, 85, 85, 85
     types TYPE_GHOST, TYPE_GHOST
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_SPELL_TAG
@@ -4238,7 +4238,7 @@ mondata SPECIES_MISDREAVUS, "Misdreavus"
 mondata SPECIES_UNOWN, "Unown"
     basestats 48, 72, 48, 48, 72, 48
     types TYPE_PSYCHIC, TYPE_PSYCHIC
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -4301,7 +4301,7 @@ mondata SPECIES_GIRAFARIG, "Girafarig"
 mondata SPECIES_PINECO, "Pineco"
     basestats 50, 65, 90, 15, 35, 35
     types TYPE_BUG, TYPE_BUG
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -4343,7 +4343,7 @@ mondata SPECIES_FORRETRESS, "Forretress"
 mondata SPECIES_DUNSPARCE, "Dunsparce"
     basestats 100, 70, 70, 45, 65, 65
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -4364,7 +4364,7 @@ mondata SPECIES_DUNSPARCE, "Dunsparce"
 mondata SPECIES_GLIGAR, "Gligar"
     basestats 65, 75, 105, 85, 35, 65
     types TYPE_GROUND, TYPE_FLYING
-    catchrate 60
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -4448,7 +4448,7 @@ mondata SPECIES_GRANBULL, "Granbull"
 mondata SPECIES_QWILFISH, "Qwilfish"
     basestats 65, 95, 85, 85, 55, 55
     types TYPE_WATER, TYPE_POISON
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_POISON_BARB
@@ -4490,7 +4490,7 @@ mondata SPECIES_SCIZOR, "Scizor"
 mondata SPECIES_SHUCKLE, "Shuckle"
     basestats 20, 10, 230, 5, 10, 230
     types TYPE_BUG, TYPE_ROCK
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 1
     items ITEM_BERRY_JUICE, ITEM_ORAN_BERRY
@@ -4511,7 +4511,7 @@ mondata SPECIES_SHUCKLE, "Shuckle"
 mondata SPECIES_HERACROSS, "Heracross"
     basestats 80, 125, 75, 85, 40, 95
     types TYPE_BUG, TYPE_FIGHTING
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_HERACRONITE, ITEM_HERACRONITE
@@ -4532,7 +4532,7 @@ mondata SPECIES_HERACROSS, "Heracross"
 mondata SPECIES_SNEASEL, "Sneasel"
     basestats 55, 95, 55, 115, 35, 75
     types TYPE_DARK, TYPE_ICE
-    catchrate 60
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_GRIP_CLAW, ITEM_QUICK_CLAW
@@ -4553,7 +4553,7 @@ mondata SPECIES_SNEASEL, "Sneasel"
 mondata SPECIES_TEDDIURSA, "Teddiursa"
     basestats 60, 80, 50, 40, 50, 50
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_ORAN_BERRY, ITEM_SITRUS_BERRY
@@ -4784,7 +4784,7 @@ mondata SPECIES_MANTINE, "Mantine"
 mondata SPECIES_SKARMORY, "Skarmory"
     basestats 65, 80, 140, 70, 40, 70
     types TYPE_STEEL, TYPE_FLYING
-    catchrate 25
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_SHARP_BEAK, ITEM_METAL_COAT
@@ -4805,7 +4805,7 @@ mondata SPECIES_SKARMORY, "Skarmory"
 mondata SPECIES_HOUNDOUR, "Houndour"
     basestats 45, 60, 30, 65, 80, 50
     types TYPE_DARK, TYPE_FIRE
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_HOUNDOOMINITE, ITEM_HOUNDOOMINITE
@@ -4868,7 +4868,7 @@ mondata SPECIES_KINGDRA, "Kingdra"
 mondata SPECIES_PHANPY, "Phanpy"
     basestats 90, 60, 60, 40, 40, 40
     types TYPE_GROUND, TYPE_GROUND
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_PASSHO_BERRY
@@ -4952,7 +4952,7 @@ mondata SPECIES_STANTLER, "Stantler"
 mondata SPECIES_SMEARGLE, "Smeargle"
     basestats 55, 20, 35, 75, 20, 45
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -4973,7 +4973,7 @@ mondata SPECIES_SMEARGLE, "Smeargle"
 mondata SPECIES_TYROGUE, "Tyrogue"
     basestats 35, 35, 35, 35, 35, 35
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 75
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -5036,7 +5036,7 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
 mondata SPECIES_ELEKID, "Elekid"
     basestats 45, 63, 37, 95, 65, 55
     types TYPE_ELECTRIC, TYPE_ELECTRIC
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_ELECTIRIZER, ITEM_NONE
@@ -5057,7 +5057,7 @@ mondata SPECIES_ELEKID, "Elekid"
 mondata SPECIES_MAGBY, "Magby"
     basestats 45, 75, 37, 83, 70, 55
     types TYPE_FIRE, TYPE_FIRE
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_RAWST_BERRY, ITEM_MAGMARIZER
@@ -5183,7 +5183,7 @@ mondata SPECIES_SUICUNE, "Suicune"
 mondata SPECIES_LARVITAR, "Larvitar"
     basestats 50, 64, 50, 41, 45, 50
     types TYPE_ROCK, TYPE_GROUND
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_TYRANITARITE, ITEM_TYRANITARITE
@@ -5897,7 +5897,7 @@ mondata SPECIES_PELIPPER, "Pelipper"
 mondata SPECIES_RALTS, "Ralts"
     basestats 28, 25, 25, 40, 45, 35
     types TYPE_PSYCHIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_PSYCHIC
-    catchrate 235
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_GALLADITE, ITEM_GARDEVOIRITE
@@ -5960,7 +5960,7 @@ mondata SPECIES_GARDEVOIR, "Gardevoir"
 mondata SPECIES_SURSKIT, "Surskit"
     basestats 40, 30, 32, 65, 50, 52
     types TYPE_BUG, TYPE_WATER
-    catchrate 200
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_HONEY, ITEM_NONE
@@ -6233,7 +6233,7 @@ mondata SPECIES_EXPLOUD, "Exploud"
 mondata SPECIES_MAKUHITA, "Makuhita"
     basestats 72, 60, 30, 25, 20, 30
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_BLACK_BELT
@@ -6359,7 +6359,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
 mondata SPECIES_SABLEYE, "Sableye"
     basestats 50, 75, 75, 50, 65, 65
     types TYPE_DARK, TYPE_GHOST
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
     items ITEM_SABLENITE, ITEM_SABLENITE
@@ -6380,7 +6380,7 @@ mondata SPECIES_SABLEYE, "Sableye"
 mondata SPECIES_MAWILE, "Mawile"
     basestats 50, 85, 85, 50, 55, 55
     types TYPE_STEEL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_STEEL
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
     items ITEM_MAWILITE, ITEM_MAWILITE
@@ -6401,7 +6401,7 @@ mondata SPECIES_MAWILE, "Mawile"
 mondata SPECIES_ARON, "Aron"
     basestats 50, 70, 100, 30, 40, 40
     types TYPE_STEEL, TYPE_ROCK
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_AGGRONITE, ITEM_AGGRONITE
@@ -6464,7 +6464,7 @@ mondata SPECIES_AGGRON, "Aggron"
 mondata SPECIES_MEDITITE, "Meditite"
     basestats 30, 40, 55, 60, 40, 55
     types TYPE_FIGHTING, TYPE_PSYCHIC
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_MEDICHAMITE, ITEM_MEDICHAMITE
@@ -6590,7 +6590,7 @@ mondata SPECIES_MINUN, "Minun"
 mondata SPECIES_VOLBEAT, "Volbeat"
     basestats 65, 73, 75, 85, 47, 85
     types TYPE_BUG, TYPE_BUG
-    catchrate 150
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_BRIGHT_POWDER
@@ -6695,7 +6695,7 @@ mondata SPECIES_SWALOT, "Swalot"
 mondata SPECIES_CARVANHA, "Carvanha"
     basestats 45, 90, 20, 65, 65, 20
     types TYPE_WATER, TYPE_DARK
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_SHARPEDONITE, ITEM_SHARPEDONITE
@@ -6737,7 +6737,7 @@ mondata SPECIES_SHARPEDO, "Sharpedo"
 mondata SPECIES_WAILMER, "Wailmer"
     basestats 130, 70, 35, 60, 70, 35
     types TYPE_WATER, TYPE_WATER
-    catchrate 125
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -7136,7 +7136,7 @@ mondata SPECIES_SOLROCK, "Solrock"
 mondata SPECIES_BARBOACH, "Barboach"
     basestats 50, 48, 43, 60, 46, 41
     types TYPE_WATER, TYPE_GROUND
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -7178,7 +7178,7 @@ mondata SPECIES_WHISCASH, "Whiscash"
 mondata SPECIES_CORPHISH, "Corphish"
     basestats 43, 80, 65, 35, 50, 35
     types TYPE_WATER, TYPE_WATER
-    catchrate 205
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -7430,7 +7430,7 @@ mondata SPECIES_KECLEON, "Kecleon"
 mondata SPECIES_SHUPPET, "Shuppet"
     basestats 44, 75, 35, 45, 63, 33
     types TYPE_GHOST, TYPE_GHOST
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_BANETTITE, ITEM_BANETTITE
@@ -7472,7 +7472,7 @@ mondata SPECIES_BANETTE, "Banette"
 mondata SPECIES_DUSKULL, "Duskull"
     basestats 20, 40, 90, 25, 30, 90
     types TYPE_GHOST, TYPE_GHOST
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_SPELL_TAG, ITEM_KASIB_BERRY
@@ -7556,7 +7556,7 @@ mondata SPECIES_CHIMECHO, "Chimecho"
 mondata SPECIES_ABSOL, "Absol"
     basestats 65, 130, 60, 75, 75, 60
     types TYPE_DARK, TYPE_DARK
-    catchrate 30
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_ABSOLITE, ITEM_ABSOLITE
@@ -7766,7 +7766,7 @@ mondata SPECIES_GOREBYSS, "Gorebyss"
 mondata SPECIES_RELICANTH, "Relicanth"
     basestats 100, 90, 130, 55, 45, 65
     types TYPE_WATER, TYPE_ROCK
-    catchrate 25
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 1, 0, 0, 0
     items ITEM_DEEP_SEA_SCALE, ITEM_GREEN_SHARD
@@ -7808,7 +7808,7 @@ mondata SPECIES_LUVDISC, "Luvdisc"
 mondata SPECIES_BAGON, "Bagon"
     basestats 45, 75, 60, 50, 40, 30
     types TYPE_DRAGON, TYPE_DRAGON
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_SALAMENCITE, ITEM_SALAMENCITE
@@ -7871,7 +7871,7 @@ mondata SPECIES_SALAMENCE, "Salamence"
 mondata SPECIES_BELDUM, "Beldum"
     basestats 40, 55, 80, 30, 35, 60
     types TYPE_STEEL, TYPE_PSYCHIC
-    catchrate 3
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_METAGROSSITE, ITEM_METAGROSSITE
@@ -8270,7 +8270,7 @@ mondata SPECIES_INFERNAPE, "Infernape"
 mondata SPECIES_PIPLUP, "Piplup"
     basestats 53, 51, 53, 40, 61, 56
     types TYPE_WATER, TYPE_WATER
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -8480,7 +8480,7 @@ mondata SPECIES_KRICKETUNE, "Kricketune"
 mondata SPECIES_SHINX, "Shinx"
     basestats 45, 65, 34, 45, 40, 34
     types TYPE_ELECTRIC, TYPE_ELECTRIC
-    catchrate 235
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -8732,7 +8732,7 @@ mondata SPECIES_MOTHIM, "Mothim"
 mondata SPECIES_COMBEE, "Combee"
     basestats 30, 30, 42, 70, 30, 42
     types TYPE_BUG, TYPE_FLYING
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_HONEY, ITEM_NONE
@@ -8795,7 +8795,7 @@ mondata SPECIES_PACHIRISU, "Pachirisu"
 mondata SPECIES_BUIZEL, "Buizel"
     basestats 55, 65, 35, 85, 60, 30
     types TYPE_WATER, TYPE_WATER
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_WACAN_BERRY
@@ -8879,7 +8879,7 @@ mondata SPECIES_CHERRIM, "Cherrim"
 mondata SPECIES_SHELLOS, "Shellos"
     basestats 76, 48, 48, 34, 57, 62
     types TYPE_WATER, TYPE_WATER
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -8984,7 +8984,7 @@ mondata SPECIES_DRIFBLIM, "Drifblim"
 mondata SPECIES_BUNEARY, "Buneary"
     basestats 55, 66, 44, 85, 44, 56
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_LOPUNNITE, ITEM_LOPUNNITE
@@ -9110,7 +9110,7 @@ mondata SPECIES_PURUGLY, "Purugly"
 mondata SPECIES_CHINGLING, "Chingling"
     basestats 45, 30, 50, 45, 65, 50
     types TYPE_PSYCHIC, TYPE_PSYCHIC
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_CLEANSE_TAG, ITEM_COLBUR_BERRY
@@ -9236,7 +9236,7 @@ mondata SPECIES_BONSLY, "Bonsly"
 mondata SPECIES_MIMEJR, "Mime Jr."
     basestats 20, 25, 45, 60, 70, 90
     types TYPE_PSYCHIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_PSYCHIC
-    catchrate 145
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_LEPPA_BERRY
@@ -9320,7 +9320,7 @@ mondata SPECIES_SPIRITOMB, "Spiritomb"
 mondata SPECIES_GIBLE, "Gible"
     basestats 58, 70, 45, 42, 40, 45
     types TYPE_DRAGON, TYPE_GROUND
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_GARCHOMPITE, ITEM_GARCHOMPITE
@@ -9404,7 +9404,7 @@ mondata SPECIES_MUNCHLAX, "Munchlax"
 mondata SPECIES_RIOLU, "Riolu"
     basestats 40, 70, 40, 60, 35, 40
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 75
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_LUCARIONITE, ITEM_LUCARIONITE
@@ -11798,7 +11798,7 @@ mondata SPECIES_LIEPARD, "Liepard"
 mondata SPECIES_PANSAGE, "Pansage"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_GRASS, TYPE_GRASS
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_ORAN_BERRY, ITEM_OCCA_BERRY
@@ -11840,7 +11840,7 @@ mondata SPECIES_SIMISAGE, "Simisage"
 mondata SPECIES_PANSEAR, "Pansear"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_FIRE, TYPE_FIRE
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_ORAN_BERRY, ITEM_PASSHO_BERRY
@@ -11882,7 +11882,7 @@ mondata SPECIES_SIMISEAR, "Simisear"
 mondata SPECIES_PANPOUR, "Panpour"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_WATER, TYPE_WATER
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_ORAN_BERRY, ITEM_RINDO_BERRY
@@ -12029,7 +12029,7 @@ mondata SPECIES_UNFEZANT, "Unfezant"
 mondata SPECIES_BLITZLE, "Blitzle"
     basestats 45, 60, 32, 76, 50, 32
     types TYPE_ELECTRIC, TYPE_ELECTRIC
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_CHERI_BERRY, ITEM_NONE
@@ -12134,7 +12134,7 @@ mondata SPECIES_GIGALITH, "Gigalith"
 mondata SPECIES_WOOBAT, "Woobat"
     basestats 65, 45, 43, 72, 55, 43
     types TYPE_PSYCHIC, TYPE_FLYING
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -12176,7 +12176,7 @@ mondata SPECIES_SWOOBAT, "Swoobat"
 mondata SPECIES_DRILBUR, "Drilbur"
     basestats 60, 85, 40, 68, 30, 45
     types TYPE_GROUND, TYPE_GROUND
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -12239,7 +12239,7 @@ mondata SPECIES_AUDINO, "Audino"
 mondata SPECIES_TIMBURR, "Timburr"
     basestats 75, 80, 55, 35, 25, 35
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -12386,7 +12386,7 @@ mondata SPECIES_THROH, "Throh"
 mondata SPECIES_SAWK, "Sawk"
     basestats 75, 125, 75, 85, 30, 75
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_EXPERT_BELT, ITEM_BLACK_BELT
@@ -12533,7 +12533,7 @@ mondata SPECIES_SCOLIPEDE, "Scolipede"
 mondata SPECIES_COTTONEE, "Cottonee"
     basestats 40, 27, 60, 66, 37, 50
     types TYPE_GRASS, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_GRASS
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_ABSORB_BULB
@@ -12575,7 +12575,7 @@ mondata SPECIES_WHIMSICOTT, "Whimsicott"
 mondata SPECIES_PETILIL, "Petilil"
     basestats 45, 35, 50, 30, 70, 50
     types TYPE_GRASS, TYPE_GRASS
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_ABSORB_BULB
@@ -12617,7 +12617,7 @@ mondata SPECIES_LILLIGANT, "Lilligant"
 mondata SPECIES_BASCULIN, "Basculin"
     basestats 70, 92, 65, 98, 80, 55
     types TYPE_WATER, TYPE_WATER
-    catchrate 25
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_DEEP_SEA_TOOTH
@@ -12764,7 +12764,7 @@ mondata SPECIES_MARACTUS, "Maractus"
 mondata SPECIES_DWEBBLE, "Dwebble"
     basestats 50, 65, 85, 55, 35, 35
     types TYPE_BUG, TYPE_ROCK
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_HARD_STONE, ITEM_RARE_BONE
@@ -12953,7 +12953,7 @@ mondata SPECIES_CARRACOSTA, "Carracosta"
 mondata SPECIES_ARCHEN, "Archen"
     basestats 55, 112, 45, 70, 74, 45
     types TYPE_ROCK, TYPE_FLYING
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -13037,7 +13037,7 @@ mondata SPECIES_GARBODOR, "Garbodor"
 mondata SPECIES_ZORUA, "Zorua"
     basestats 40, 65, 40, 65, 80, 40
     types TYPE_DARK, TYPE_DARK
-    catchrate 75
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -13184,7 +13184,7 @@ mondata SPECIES_GOTHITELLE, "Gothitelle"
 mondata SPECIES_SOLOSIS, "Solosis"
     basestats 45, 30, 40, 20, 105, 50
     types TYPE_PSYCHIC, TYPE_PSYCHIC
-    catchrate 200
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_PERSIM_BERRY, ITEM_NONE
@@ -13814,7 +13814,7 @@ mondata SPECIES_BEHEEYEM, "Beheeyem"
 mondata SPECIES_LITWICK, "Litwick"
     basestats 50, 30, 55, 20, 65, 55
     types TYPE_GHOST, TYPE_FIRE
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -13877,7 +13877,7 @@ mondata SPECIES_CHANDELURE, "Chandelure"
 mondata SPECIES_AXEW, "Axew"
     basestats 46, 87, 60, 57, 30, 40
     types TYPE_DRAGON, TYPE_DRAGON
-    catchrate 75
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -14066,7 +14066,7 @@ mondata SPECIES_STUNFISK, "Stunfisk"
 mondata SPECIES_MIENFOO, "Mienfoo"
     basestats 45, 85, 50, 65, 55, 50
     types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -14360,7 +14360,7 @@ mondata SPECIES_DURANT, "Durant"
 mondata SPECIES_DEINO, "Deino"
     basestats 52, 65, 50, 38, 45, 50
     types TYPE_DARK, TYPE_DRAGON
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -14423,7 +14423,7 @@ mondata SPECIES_HYDREIGON, "Hydreigon"
 mondata SPECIES_LARVESTA, "Larvesta"
     basestats 55, 85, 55, 60, 50, 55
     types TYPE_BUG, TYPE_FIRE
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -14843,7 +14843,7 @@ mondata SPECIES_DELPHOX, "Delphox"
 mondata SPECIES_FROAKIE, "Froakie"
     basestats 41, 56, 40, 71, 62, 44
     types TYPE_WATER, TYPE_WATER
-    catchrate 45
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -15179,7 +15179,7 @@ mondata SPECIES_FLORGES, "Florges"
 mondata SPECIES_SKIDDO, "Skiddo"
     basestats 66, 65, 48, 52, 62, 57
     types TYPE_GRASS, TYPE_GRASS
-    catchrate 200
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -15284,7 +15284,7 @@ mondata SPECIES_FURFROU, "Furfrou"
 mondata SPECIES_ESPURR, "Espurr"
     basestats 62, 48, 54, 68, 63, 60
     types TYPE_PSYCHIC, TYPE_PSYCHIC
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -15326,7 +15326,7 @@ mondata SPECIES_MEOWSTIC, "Meowstic"
 mondata SPECIES_HONEDGE, "Honedge"
     basestats 45, 80, 100, 28, 35, 37
     types TYPE_STEEL, TYPE_GHOST
-    catchrate 180
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -15515,7 +15515,7 @@ mondata SPECIES_MALAMAR, "Malamar"
 mondata SPECIES_BINACLE, "Binacle"
     basestats 42, 52, 67, 50, 39, 56
     types TYPE_ROCK, TYPE_WATER
-    catchrate 120
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -15557,7 +15557,7 @@ mondata SPECIES_BARBARACLE, "Barbaracle"
 mondata SPECIES_SKRELP, "Skrelp"
     basestats 50, 60, 60, 30, 60, 60
     types TYPE_POISON, TYPE_WATER
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
@@ -15599,7 +15599,7 @@ mondata SPECIES_DRAGALGE, "Dragalge"
 mondata SPECIES_CLAUNCHER, "Clauncher"
     basestats 50, 53, 62, 44, 58, 63
     types TYPE_WATER, TYPE_WATER
-    catchrate 225
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
@@ -15641,7 +15641,7 @@ mondata SPECIES_CLAWITZER, "Clawitzer"
 mondata SPECIES_HELIOPTILE, "Helioptile"
     basestats 44, 38, 33, 70, 61, 43
     types TYPE_ELECTRIC, TYPE_NORMAL
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -16061,7 +16061,7 @@ mondata SPECIES_AVALUGG, "Avalugg"
 mondata SPECIES_NOIBAT, "Noibat"
     basestats 40, 30, 35, 55, 45, 40
     types TYPE_FLYING, TYPE_DRAGON
-    catchrate 190
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE

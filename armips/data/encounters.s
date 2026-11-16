@@ -392,7 +392,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 5
+encounter SPECIES_MARILL, 5, 5
 encounter SPECIES_POLIWAG, 5, 5
 encounter SPECIES_GOLDEEN, 5, 5
 encounter SPECIES_PSYDUCK, 5, 5
@@ -496,7 +496,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 5
+encounter SPECIES_GOLDEEN, 5, 5
 encounter SPECIES_POLIWAG, 5, 5
 encounter SPECIES_WOOPER, 5, 5
 encounter SPECIES_CORPHISH, 5, 5
@@ -600,7 +600,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 5
+encounter SPECIES_WOOPER, 5, 5
 encounter SPECIES_PSYDUCK, 5, 5
 encounter SPECIES_POLIWAG, 5, 5
 encounter SPECIES_SLOWPOKE, 5, 5
@@ -1016,10 +1016,10 @@ encounter SPECIES_GEODUDE, 14, 17
 encounter SPECIES_GEODUDE, 14, 17
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 14
-encounter SPECIES_MAGIKARP, 10, 14
-encounter SPECIES_MAGIKARP, 10, 14
+encounter SPECIES_PSYDUCK, 10, 14
+encounter SPECIES_WOOPER, 10, 14
 encounter SPECIES_POLIWAG, 10, 14
+encounter SPECIES_BASCULIN, 10, 14
 encounter SPECIES_CLAUNCHER, 10, 14
 
 // good rod encounters
@@ -1043,7 +1043,7 @@ pokemon SPECIES_WOOPER
 // swarm good rod
 pokemon SPECIES_POLIWAG
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_POLIWAG
 
 .close
 
@@ -1536,10 +1536,10 @@ encounter SPECIES_NONE, 15, 18
 encounter SPECIES_NONE, 15, 18
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 11, 15
-encounter SPECIES_MAGIKARP, 11, 15
-encounter SPECIES_MAGIKARP, 11, 15
+encounter SPECIES_MARILL, 11, 15
+encounter SPECIES_CORPHISH, 11, 15
 encounter SPECIES_GOLDEEN, 11, 15
+encounter SPECIES_PSYDUCK, 11, 15
 encounter SPECIES_SKRELP, 11, 15
 
 // good rod encounters
@@ -1563,7 +1563,7 @@ pokemon SPECIES_WOOPER
 // swarm good rod
 pokemon SPECIES_GOLDEEN
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_GOLDEEN
 
 .close
 
@@ -1640,10 +1640,10 @@ encounter SPECIES_NONE, 16, 19
 encounter SPECIES_NONE, 16, 19
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 12, 16
-encounter SPECIES_MAGIKARP, 12, 16
-encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_CORPHISH, 12, 16
+encounter SPECIES_POLIWAG, 12, 16
 encounter SPECIES_GOLDEEN, 12, 16
+encounter SPECIES_WOOPER, 12, 16
 encounter SPECIES_RELICANTH, 12, 16
 
 // good rod encounters
@@ -1667,7 +1667,7 @@ pokemon SPECIES_WOOPER
 // swarm good rod
 pokemon SPECIES_GOLDEEN
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_GOLDEEN
 
 .close
 
@@ -1744,10 +1744,10 @@ encounter SPECIES_NONE, 58, 61
 encounter SPECIES_NONE, 58, 61
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 54, 58
-encounter SPECIES_MAGIKARP, 54, 58
-encounter SPECIES_MAGIKARP, 54, 58
+encounter SPECIES_MARILL, 54, 58
+encounter SPECIES_CORPHISH, 54, 58
 encounter SPECIES_KRABBY, 54, 58
+encounter SPECIES_MAGIKARP, 54, 58
 encounter SPECIES_STARYU, 54, 58
 
 // good rod encounters
@@ -1952,10 +1952,10 @@ encounter SPECIES_NONE, 16, 19
 encounter SPECIES_NONE, 16, 19
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 12, 16
-encounter SPECIES_MAGIKARP, 12, 16
-encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_WOOPER, 12, 16
+encounter SPECIES_BARBOACH, 12, 16
 encounter SPECIES_GOLDEEN, 12, 16
+encounter SPECIES_TYMPOLE, 12, 16
 encounter SPECIES_SHELLDER, 12, 16
 
 // good rod encounters
@@ -1979,7 +1979,7 @@ pokemon SPECIES_SLOWPOKE
 // swarm good rod
 pokemon SPECIES_GOLDEEN
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_GOLDEEN
 
 .close
 
@@ -2056,10 +2056,10 @@ encounter SPECIES_NONE, 40, 43
 encounter SPECIES_NONE, 40, 43
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
+encounter SPECIES_BARBOACH, 36, 40
+encounter SPECIES_BASCULIN, 36, 40
 encounter SPECIES_GOLDEEN, 36, 40
+encounter SPECIES_MAGIKARP, 36, 40
 encounter SPECIES_MANTYKE, 36, 40
 
 // good rod encounters
@@ -2160,10 +2160,10 @@ encounter SPECIES_NONE, 20, 23
 encounter SPECIES_NONE, 20, 23
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 16, 20
-encounter SPECIES_MAGIKARP, 16, 20
-encounter SPECIES_MAGIKARP, 16, 20
+encounter SPECIES_BASCULIN, 16, 20
+encounter SPECIES_TYMPOLE, 16, 20
 encounter SPECIES_POLIWAG, 16, 20
+encounter SPECIES_CORPHISH, 16, 20
 encounter SPECIES_WAILMER, 16, 20
 
 // good rod encounters
@@ -2187,7 +2187,7 @@ pokemon SPECIES_PSYDUCK
 // swarm good rod
 pokemon SPECIES_POLIWAG
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_POLIWAG
 
 .close
 
@@ -2888,10 +2888,10 @@ encounter SPECIES_NONE, 30, 33
 encounter SPECIES_NONE, 30, 33
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 26, 30
-encounter SPECIES_MAGIKARP, 26, 30
-encounter SPECIES_MAGIKARP, 26, 30
+encounter SPECIES_BARBOACH, 26, 30
+encounter SPECIES_BASCULIN, 26, 30
 encounter SPECIES_POLIWAG, 26, 30
+encounter SPECIES_MAGIKARP, 26, 30
 encounter SPECIES_REMORAID, 26, 30
 
 // good rod encounters
@@ -4344,10 +4344,10 @@ encounter SPECIES_NONE, 38, 41
 encounter SPECIES_NONE, 38, 41
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 34, 38
-encounter SPECIES_MAGIKARP, 34, 38
-encounter SPECIES_MAGIKARP, 34, 38
+encounter SPECIES_SHELLDER, 34, 38
+encounter SPECIES_STARYU, 34, 38
 encounter SPECIES_KRABBY, 34, 38
+encounter SPECIES_MAGIKARP, 34, 38
 encounter SPECIES_CORSOLA, 34, 38
 
 // good rod encounters
@@ -4448,10 +4448,10 @@ encounter SPECIES_NONE, 40, 43
 encounter SPECIES_NONE, 40, 43
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
+encounter SPECIES_STARYU, 36, 40
+encounter SPECIES_HORSEA, 36, 40
 encounter SPECIES_TENTACOOL, 36, 40
+encounter SPECIES_MAGIKARP, 36, 40
 encounter SPECIES_LUVDISC, 36, 40
 
 // good rod encounters
@@ -4552,10 +4552,10 @@ encounter SPECIES_NONE, 40, 43
 encounter SPECIES_NONE, 40, 43
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
+encounter SPECIES_SHELLDER, 36, 40
+encounter SPECIES_STARYU, 36, 40
 encounter SPECIES_KRABBY, 36, 40
+encounter SPECIES_MAGIKARP, 36, 40
 encounter SPECIES_FINNEON, 36, 40
 
 // good rod encounters
@@ -4864,10 +4864,10 @@ encounter SPECIES_NONE, 40, 43
 encounter SPECIES_NONE, 40, 43
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
+encounter SPECIES_QWILFISH, 36, 40
+encounter SPECIES_CHINCHOU, 36, 40
 encounter SPECIES_KRABBY, 36, 40
+encounter SPECIES_MAGIKARP, 36, 40
 encounter SPECIES_ALOMOMOLA, 36, 40
 
 // good rod encounters
@@ -5384,10 +5384,10 @@ encounter SPECIES_KRABBY, 40, 43
 encounter SPECIES_SHUCKLE, 40, 43
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
-encounter SPECIES_MAGIKARP, 36, 40
+encounter SPECIES_HORSEA, 36, 40
+encounter SPECIES_REMORAID, 36, 40
 encounter SPECIES_KRABBY, 36, 40
+encounter SPECIES_MAGIKARP, 36, 40
 encounter SPECIES_TYNAMO, 36, 40
 
 // good rod encounters
@@ -5488,10 +5488,10 @@ encounter SPECIES_NONE, 44, 47
 encounter SPECIES_NONE, 44, 47
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 40, 44
-encounter SPECIES_MAGIKARP, 40, 44
-encounter SPECIES_MAGIKARP, 40, 44
+encounter SPECIES_BARBOACH, 40, 44
+encounter SPECIES_TYMPOLE, 40, 44
 encounter SPECIES_GOLDEEN, 40, 44
+encounter SPECIES_MAGIKARP, 40, 44
 encounter SPECIES_BASCULIN, 40, 44
 
 // good rod encounters
@@ -5592,10 +5592,10 @@ encounter SPECIES_NONE, 45, 48
 encounter SPECIES_NONE, 45, 48
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 41, 45
-encounter SPECIES_MAGIKARP, 41, 45
-encounter SPECIES_MAGIKARP, 41, 45
+encounter SPECIES_TYMPOLE, 41, 45
+encounter SPECIES_MARILL, 41, 45
 encounter SPECIES_GOLDEEN, 41, 45
+encounter SPECIES_MAGIKARP, 41, 45
 encounter SPECIES_SPHEAL, 41, 45
 
 // good rod encounters
@@ -5800,10 +5800,10 @@ encounter SPECIES_NONE, 66, 69
 encounter SPECIES_NONE, 66, 69
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 62, 66
-encounter SPECIES_MAGIKARP, 62, 66
-encounter SPECIES_MAGIKARP, 62, 66
+encounter SPECIES_CORPHISH, 62, 66
+encounter SPECIES_POLIWAG, 62, 66
 encounter SPECIES_GOLDEEN, 62, 66
+encounter SPECIES_MAGIKARP, 62, 66
 encounter SPECIES_LOTAD, 62, 66
 
 // good rod encounters
@@ -5904,10 +5904,10 @@ encounter SPECIES_NONE, 45, 48
 encounter SPECIES_NONE, 45, 48
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 41, 45
-encounter SPECIES_MAGIKARP, 41, 45
-encounter SPECIES_MAGIKARP, 41, 45
+encounter SPECIES_POLIWAG, 41, 45
+encounter SPECIES_PSYDUCK, 41, 45
 encounter SPECIES_GOLDEEN, 41, 45
+encounter SPECIES_MAGIKARP, 41, 45
 encounter SPECIES_CARVANHA, 41, 45
 
 // good rod encounters
@@ -6008,10 +6008,10 @@ encounter SPECIES_NONE, 50, 53
 encounter SPECIES_NONE, 50, 53
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 46, 50
-encounter SPECIES_MAGIKARP, 46, 50
-encounter SPECIES_MAGIKARP, 46, 50
+encounter SPECIES_PSYDUCK, 46, 50
+encounter SPECIES_WOOPER, 46, 50
 encounter SPECIES_POLIWAG, 46, 50
+encounter SPECIES_MAGIKARP, 46, 50
 encounter SPECIES_CLAUNCHER, 46, 50
 
 // good rod encounters
@@ -6216,10 +6216,10 @@ encounter SPECIES_NONE, 60, 63
 encounter SPECIES_NONE, 60, 63
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 56, 60
-encounter SPECIES_MAGIKARP, 56, 60
-encounter SPECIES_MAGIKARP, 56, 60
+encounter SPECIES_BARBOACH, 56, 60
+encounter SPECIES_BASCULIN, 56, 60
 encounter SPECIES_POLIWAG, 56, 60
+encounter SPECIES_MAGIKARP, 56, 60
 encounter SPECIES_RELICANTH, 56, 60
 
 // good rod encounters
@@ -6840,10 +6840,10 @@ encounter SPECIES_NONE, 62, 65
 encounter SPECIES_NONE, 62, 65
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 58, 62
-encounter SPECIES_MAGIKARP, 58, 62
-encounter SPECIES_MAGIKARP, 58, 62
+encounter SPECIES_PSYDUCK, 58, 62
+encounter SPECIES_WOOPER, 58, 62
 encounter SPECIES_POLIWAG, 58, 62
+encounter SPECIES_MAGIKARP, 58, 62
 encounter SPECIES_STARYU, 58, 62
 
 // good rod encounters
@@ -6944,9 +6944,9 @@ encounter SPECIES_NONE, 66, 69
 encounter SPECIES_NONE, 66, 69
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 62, 66
-encounter SPECIES_MAGIKARP, 62, 66
-encounter SPECIES_MAGIKARP, 62, 66
+encounter SPECIES_WOOPER, 62, 66
+encounter SPECIES_BARBOACH, 62, 66
+encounter SPECIES_BASCULIN, 62, 66
 encounter SPECIES_MAGIKARP, 62, 66
 encounter SPECIES_SHELLDER, 62, 66
 
@@ -7048,10 +7048,10 @@ encounter SPECIES_NONE, 64, 67
 encounter SPECIES_NONE, 64, 67
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 60, 64
-encounter SPECIES_MAGIKARP, 60, 64
-encounter SPECIES_MAGIKARP, 60, 64
+encounter SPECIES_BARBOACH, 60, 64
+encounter SPECIES_BASCULIN, 60, 64
 encounter SPECIES_POLIWAG, 60, 64
+encounter SPECIES_MAGIKARP, 60, 64
 encounter SPECIES_MANTYKE, 60, 64
 
 // good rod encounters
@@ -7256,7 +7256,7 @@ encounter SPECIES_DUNSPARCE, 4, 8
 encounter SPECIES_GEODUDE, 8, 14
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 5
+encounter SPECIES_POLIWAG, 5, 5
 encounter SPECIES_GOLDEEN, 5, 5
 encounter SPECIES_BARBOACH, 5, 5
 encounter SPECIES_TYMPOLE, 5, 5
@@ -7360,10 +7360,10 @@ encounter SPECIES_NONE, 64, 67
 encounter SPECIES_NONE, 64, 67
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 60, 64
-encounter SPECIES_MAGIKARP, 60, 64
-encounter SPECIES_MAGIKARP, 60, 64
+encounter SPECIES_MARILL, 60, 64
+encounter SPECIES_CORPHISH, 60, 64
 encounter SPECIES_GOLDEEN, 60, 64
+encounter SPECIES_MAGIKARP, 60, 64
 encounter SPECIES_WAILMER, 60, 64
 
 // good rod encounters
@@ -7464,10 +7464,10 @@ encounter SPECIES_NONE, 44, 47
 encounter SPECIES_NONE, 44, 47
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 40, 44
-encounter SPECIES_MAGIKARP, 40, 44
-encounter SPECIES_MAGIKARP, 40, 44
+encounter SPECIES_CHINCHOU, 40, 44
+encounter SPECIES_KRABBY, 40, 44
 encounter SPECIES_TENTACOOL, 40, 44
+encounter SPECIES_MAGIKARP, 40, 44
 encounter SPECIES_BINACLE, 40, 44
 
 // good rod encounters
@@ -10792,10 +10792,10 @@ encounter SPECIES_NONE, 70, 73
 encounter SPECIES_NONE, 70, 73
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 66, 70
-encounter SPECIES_MAGIKARP, 66, 70
-encounter SPECIES_MAGIKARP, 66, 70
+encounter SPECIES_CHINCHOU, 66, 70
+encounter SPECIES_KRABBY, 66, 70
 encounter SPECIES_TENTACOOL, 66, 70
+encounter SPECIES_MAGIKARP, 66, 70
 encounter SPECIES_CLAMPERL, 66, 70
 
 // good rod encounters
@@ -10896,10 +10896,10 @@ encounter SPECIES_NONE, 68, 71
 encounter SPECIES_NONE, 68, 71
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 64, 68
-encounter SPECIES_MAGIKARP, 64, 68
-encounter SPECIES_MAGIKARP, 64, 68
+encounter SPECIES_CHINCHOU, 64, 68
+encounter SPECIES_KRABBY, 64, 68
 encounter SPECIES_TENTACOOL, 64, 68
+encounter SPECIES_MAGIKARP, 64, 68
 encounter SPECIES_REMORAID, 64, 68
 
 // good rod encounters
@@ -13808,10 +13808,10 @@ encounter SPECIES_NONE, 68, 71
 encounter SPECIES_NONE, 68, 71
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 64, 68
-encounter SPECIES_MAGIKARP, 64, 68
-encounter SPECIES_MAGIKARP, 64, 68
+encounter SPECIES_BASCULIN, 64, 68
+encounter SPECIES_TYMPOLE, 64, 68
 encounter SPECIES_GOLDEEN, 64, 68
+encounter SPECIES_MAGIKARP, 64, 68
 encounter SPECIES_QWILFISH, 64, 68
 
 // good rod encounters
