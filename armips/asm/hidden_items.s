@@ -50,7 +50,7 @@
 .halfword ITEM_TINY_MUSHROOM
 
 .org 0x02000000 + 0xFA5C8 //Ruins of Alph NW
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_SCOPE_LENS
 
 .org 0x02000000 + 0xFA5D0 //Ruins of Alph SW
 .halfword ITEM_NUGGET
@@ -74,7 +74,7 @@
 .halfword ITEM_ULTRA_BALL
 
 .org 0x02000000 + 0xFA608 //Union Cave B2F W
-.halfword ITEM_CALCIUM
+.halfword ITEM_SHELL_BELL
 
 .org 0x02000000 + 0xFA610 //R32 E
 .halfword ITEM_HEART_SCALE
@@ -125,7 +125,7 @@
 .halfword ITEM_TINY_MUSHROOM
 
 .org 0x02000000 + 0xFA690 //R34 Centre
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_SILK_SCARF
 
 .org 0x02000000 + 0xFA698 //R34 E
 .halfword ITEM_SUPER_POTION
@@ -164,7 +164,7 @@
 .halfword ITEM_PP_UP
 
 .org 0x02000000 + 0xFA6F8 //Pokeathlon Dome W
-.halfword ITEM_PROTEIN
+.halfword ITEM_MUSCLE_BAND
 
 .org 0x02000000 + 0xFA700 //Ecruteak Centre
 .halfword ITEM_HYPER_POTION
@@ -173,7 +173,7 @@
 .halfword ITEM_ETHER
 
 .org 0x02000000 + 0xFA710 //Ecruteak NE
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_WISE_GLASSES
 
 .org 0x02000000 + 0xFA718 //Ecruteak W
 .halfword ITEM_ULTRA_BALL
@@ -212,10 +212,10 @@
 .halfword ITEM_FULL_RESTORE
 
 .org 0x02000000 + 0xFA778 //Bell Tower 8F
-.halfword ITEM_CARBOS
+.halfword ITEM_LEFTOVERS
 
 .org 0x02000000 + 0xFA780 //R38
-.halfword ITEM_HP_UP
+.halfword ITEM_BLACK_SLUDGE
 
 .org 0x02000000 + 0xFA788 //R39 Centre SE
 .halfword ITEM_NUGGET
@@ -236,13 +236,13 @@
 .halfword ITEM_HYPER_POTION
 
 .org 0x02000000 + 0xFA7B8 //Olivine
-.halfword ITEM_PROTEIN
+.halfword ITEM_ROCKY_HELMET
 
 .org 0x02000000 + 0xFA7C0 //Olivine Dock
 .halfword ITEM_PEARL
 
 .org 0x02000000 + 0xFA7C8 // Frontier Access
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_FOCUS_SASH
 
 .org 0x02000000 + 0xFA7D0 //R40
 .halfword ITEM_HYPER_POTION
@@ -263,7 +263,7 @@
 .halfword ITEM_STARDUST
 
 .org 0x02000000 + 0xFA800 //Whirl Islands
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_ASSAULT_VEST
 
 .org 0x02000000 + 0xFA808 //Whirl Islands
 .halfword ITEM_ULTRA_BALL
@@ -323,7 +323,7 @@
 .halfword ITEM_ETHER
 
 .org 0x02000000 + 0xFA8A0 //Mt Mortar Back
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_CHOICE_SCARF
 
 .org 0x02000000 + 0xFA8A8 //Mt Mortar Back
 .halfword ITEM_ULTRA_BALL
@@ -335,7 +335,7 @@
 .halfword ITEM_FULL_RESTORE
 
 .org 0x02000000 + 0xFA8C0 //Mt Mortar 2F
-.halfword ITEM_HP_UP
+.halfword ITEM_METRONOME
 
 .org 0x02000000 + 0xFA8C8 //Mt Mortar 2F
 .halfword ITEM_HYPER_POTION
@@ -362,7 +362,7 @@
 .halfword ITEM_FULL_RESTORE
 
 .org 0x02000000 + 0xFA908 //Lake of Rage E
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_CHOICE_BAND
 
 .org 0x02000000 + 0xFA910 //Lake of Rage NE
 .halfword ITEM_MAX_POTION
@@ -380,7 +380,7 @@
 .halfword ITEM_REVIVE
 
 .org 0x02000000 + 0xFA938 //Ice Path B2F
-.halfword ITEM_CARBOS
+.halfword ITEM_CHOICE_SPECS
 
 .org 0x02000000 + 0xFA940 //Dragons Den NW 
 .halfword ITEM_REVIVE
@@ -389,7 +389,7 @@
 .halfword ITEM_MAX_POTION
 
 .org 0x02000000 + 0xFA950 //Dragons Den W
-.halfword ITEM_MAX_ELIXIR
+.halfword ITEM_LIFE_ORB
 
 .org 0x02000000 + 0xFA958 //R45
 .halfword ITEM_PP_UP
@@ -425,10 +425,10 @@
 .halfword ITEM_HYPER_POTION
 
 .org 0x02000000 + 0xFA9B0 //Victory Road
-.halfword ITEM_ZINC
+.halfword ITEM_WEAKNESS_POLICY
 
 .org 0x02000000 + 0xFA9B8 //Indigo Plateau
-.halfword ITEM_RARE_CANDY
+.halfword ITEM_PP_MAX
 
 .org 0x02000000 + 0xFA9C0 //Vermillion
 .halfword ITEM_IRON

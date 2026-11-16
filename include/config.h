@@ -99,6 +99,9 @@
 #define HEARTHARD_VAR_MR_POKEMONS_HOUSE 0x4107
 #define HEARTHARD_VAR_CATCHING_TUTORIAL 0x408B
 
+// HEARTHARD_MEGA_RING_UNLOCK turns Mega Evolution on as soon as the Mega Ring is in the bag
+#define HEARTHARD_MEGA_RING_UNLOCK
+
 // System flags that need to be enabled for the player to use the gimmick. If you want to change them, remember to change them in flags.s as well for consistency
 #define FLAG_MEGA_EVOLUTION_ENABLED 2518
 //#define FLAG_Z_MOVE_ENABLED 2519

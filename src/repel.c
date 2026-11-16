@@ -14,6 +14,19 @@ bool32 PlayerStepEvent_RepelCounterDecrement(SaveData *saveData, FieldSystem *fi
     void *roamerSaveData = EncDataSave_GetSaveDataPtr(saveData);
     u8* repel_addr = SaveData_GetRepelPtr(roamerSaveData);
 
+#if defined(HEARTHARD_MEGA_RING_UNLOCK) && defined(MEGA_EVOLUTIONS)
+    // mega evolution turns on as soon as the mega ring is in the bag
+    if (!CheckScriptFlag(FLAG_MEGA_EVOLUTION_ENABLED)) {
+        BAG_DATA *megaBag = Sav2_Bag_get(SaveBlock2_get());
+        for (u32 megaSlot = 0; megaSlot < sizeof(megaBag->keyItems) / sizeof(megaBag->keyItems[0]); megaSlot++) {
+            if (megaBag->keyItems[megaSlot].id == ITEM_MEGA_RING) {
+                SetScriptFlag(FLAG_MEGA_EVOLUTION_ENABLED);
+                break;
+            }
+        }
+    }
+#endif
+
 #ifdef HEARTHARD_SKIP_EARLY_SCENES
     // elm sent the player off with the aide's potions, so jump past guide gent and mr. pokemon
     if (GetScriptVar(HEARTHARD_VAR_ELMS_LAB) == 2 && GetScriptVar(HEARTHARD_VAR_MR_POKEMONS_HOUSE) == 0) {

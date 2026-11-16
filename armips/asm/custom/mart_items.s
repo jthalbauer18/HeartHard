@@ -72,7 +72,7 @@ EIGHT_BADGES equ 6
 .halfword THREE_BADGES
 
 .halfword ITEM_MEGA_RING
-.halfword FIVE_BADGES
+.halfword SEVEN_BADGES
 
 /** Special Mart Index - This is not in byte order
 const u16 *_0210FA3C[] = {
@@ -122,9 +122,9 @@ const u16 *_0210FA3C[] = {
 /* Ecruteak City 2nd Clerk -> Safari Zone Top Stall */
 
 .org 0x020FBA60
-.halfword ITEM_BLACK_BELT
 .halfword ITEM_EXPERT_BELT
-.halfword ITEM_FOCUS_SASH
+.halfword ITEM_EVIOLITE
+.halfword ITEM_ROCKY_HELMET
 .halfword 0xFFFF
 
 /* const u16 _020FBA68[] = {ITEM_AIR_MAIL, ITEM_TUNNEL_MAIL, ITEM_BLOOM_MAIL, 0xFFFF}; */
@@ -180,16 +180,16 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_MAGMARIZER
 .halfword ITEM_REAPER_CLOTH
 .halfword ITEM_METAL_COAT
-.halfword ITEM_EVIOLITE
+.halfword ITEM_OCCA_BERRY
 
-.halfword ITEM_ROCKY_HELMET
-.halfword ITEM_ASSAULT_VEST
-.halfword ITEM_LOADED_DICE
-.halfword ITEM_LEFTOVERS
-.halfword ITEM_BLACK_SLUDGE
-.halfword ITEM_METRONOME
-.halfword ITEM_FOCUS_SASH
-.halfword ITEM_LIFE_ORB
+.halfword ITEM_PASSHO_BERRY
+.halfword ITEM_WACAN_BERRY
+.halfword ITEM_RINDO_BERRY
+.halfword ITEM_YACHE_BERRY
+.halfword ITEM_CHOPLE_BERRY
+.halfword ITEM_SHUCA_BERRY
+.halfword ITEM_CHARTI_BERRY
+.halfword ITEM_COBA_BERRY
 .halfword 0xFFFF
 
 /* const u16 _020FBBD8[] = {ITEM_GREAT_BALL, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_SUPER_REPEL, ITEM_REVIVE, ITEM_AIR_MAIL, 0xFFFF}; */
