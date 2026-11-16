@@ -848,7 +848,7 @@ rocksmashrate 0
 oldrodrate 100
 goodrodrate 0
 superrodrate 0
-walklevels 16, 14, 16, 14, 16, 16, 16, 16, 16, 14, 16, 14
+walklevels 7, 6, 7, 6, 7, 7, 7, 7, 7, 6, 7, 6
 
 // morning encounter slots
 pokemon SPECIES_LOTAD
@@ -912,11 +912,11 @@ encounter SPECIES_NONE, 14, 17
 encounter SPECIES_NONE, 14, 17
 
 // old rod encounters
-encounter SPECIES_SKRELP, 10, 14
-encounter SPECIES_SKRELP, 10, 14
-encounter SPECIES_SKRELP, 10, 14
-encounter SPECIES_CLAUNCHER, 10, 14
-encounter SPECIES_CARVANHA, 10, 14
+encounter SPECIES_SKRELP, 6, 7
+encounter SPECIES_SKRELP, 6, 7
+encounter SPECIES_SKRELP, 6, 7
+encounter SPECIES_CLAUNCHER, 6, 7
+encounter SPECIES_CARVANHA, 6, 7
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
@@ -952,7 +952,7 @@ rocksmashrate 20
 oldrodrate 100
 goodrodrate 0
 superrodrate 0
-walklevels 16, 17, 16, 17, 14, 14, 17, 17, 16, 17, 16, 17
+walklevels 7, 7, 7, 7, 6, 6, 7, 7, 7, 7, 7, 7
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1016,11 +1016,11 @@ encounter SPECIES_GEODUDE, 14, 17
 encounter SPECIES_GEODUDE, 14, 17
 
 // old rod encounters
-encounter SPECIES_PSYDUCK, 10, 14
-encounter SPECIES_WOOPER, 10, 14
-encounter SPECIES_POLIWAG, 10, 14
-encounter SPECIES_BASCULIN, 10, 14
-encounter SPECIES_CLAUNCHER, 10, 14
+encounter SPECIES_PSYDUCK, 6, 7
+encounter SPECIES_WOOPER, 6, 7
+encounter SPECIES_POLIWAG, 6, 7
+encounter SPECIES_BASCULIN, 6, 7
+encounter SPECIES_CLAUNCHER, 6, 7
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
@@ -1056,7 +1056,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14
+walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1120,11 +1120,11 @@ encounter SPECIES_NONE, 14, 17
 encounter SPECIES_NONE, 14, 17
 
 // old rod encounters
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
 
 // good rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -1160,7 +1160,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14
+walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1224,11 +1224,11 @@ encounter SPECIES_NONE, 14, 17
 encounter SPECIES_NONE, 14, 17
 
 // old rod encounters
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
 
 // good rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -1264,7 +1264,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14
+walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1328,11 +1328,11 @@ encounter SPECIES_NONE, 14, 17
 encounter SPECIES_NONE, 14, 17
 
 // old rod encounters
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
 
 // good rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -1368,7 +1368,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14
+walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
 
 // morning encounter slots
 pokemon SPECIES_UNOWN
@@ -1432,11 +1432,11 @@ encounter SPECIES_NONE, 14, 17
 encounter SPECIES_NONE, 14, 17
 
 // old rod encounters
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
-encounter SPECIES_NONE, 10, 14
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
+encounter SPECIES_NONE, 6, 7
 
 // good rod encounters
 encounter SPECIES_NONE, 0, 0

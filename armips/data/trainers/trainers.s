@@ -977,7 +977,7 @@ trainerdata 20, "Falkner"
         // mon 0
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_MURKROW
         item ITEM_NONE
         move MOVE_WING_ATTACK
@@ -989,7 +989,7 @@ trainerdata 20, "Falkner"
         // mon 1
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_WINGULL
         item ITEM_NONE
         move MOVE_WATER_GUN
@@ -1001,7 +1001,7 @@ trainerdata 20, "Falkner"
         // mon 2
         ivs 255
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_SKIPLOOM
         item ITEM_NONE
         move MOVE_FAIRY_WIND
@@ -1013,7 +1013,7 @@ trainerdata 20, "Falkner"
         // mon 3
         ivs 255
         abilityslot 0
-        level 16
+        level 15
         pokemon SPECIES_GLIGAR
         item ITEM_NONE
         move MOVE_BULLDOZE
@@ -1025,7 +1025,7 @@ trainerdata 20, "Falkner"
         // mon 4
         ivs 255
         abilityslot 1
-        level 16
+        level 15
         pokemon SPECIES_TOGETIC
         item ITEM_ORAN_BERRY
         move MOVE_FAIRY_WIND
