@@ -107,6 +107,10 @@
 // comment this line out for fully random IVs
 #define HEARTHARD_STARTER_PERFECT_IVS 4
 
+// HEARTHARD_CATCH_RATE_MULTIPLIER multiplies the final catch chance of every wild pokemon
+// with 3, a pokemon with catch rate 255 is caught by any ball at full HP.  comment this line out for normal catch chances
+#define HEARTHARD_CATCH_RATE_MULTIPLIER 3
+
 // HEARTHARD_MEGA_RING_UNLOCK turns Mega Evolution on as soon as the Mega Ring is in the bag
 #define HEARTHARD_MEGA_RING_UNLOCK
 

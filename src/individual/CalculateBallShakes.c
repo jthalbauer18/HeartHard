@@ -411,6 +411,9 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
 #endif
 
     modifiedCatchRate = (u32)QMul64_RoundUp(g, captureValueCoeffcient);
+#ifdef HEARTHARD_CATCH_RATE_MULTIPLIER
+    modifiedCatchRate *= HEARTHARD_CATCH_RATE_MULTIPLIER;
+#endif
 #ifdef DEBUG_CAPTURE_RATE_PERCENTAGES
     debug_printf("modifiedCatchRate: %d\n", modifiedCatchRate);
 #endif
