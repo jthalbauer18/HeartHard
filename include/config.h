@@ -99,6 +99,10 @@
 #define HEARTHARD_VAR_MR_POKEMONS_HOUSE 0x4107
 #define HEARTHARD_VAR_CATCHING_TUTORIAL 0x408B
 
+// HEARTHARD_RUNNING_SHOES_FLAG is the script flag that marks the running shoes as handed out, which happens on the first step of the game
+// comment this line out to get the running shoes from the Guide Gent again
+#define HEARTHARD_RUNNING_SHOES_FLAG 2604
+
 // HEARTHARD_MEGA_RING_UNLOCK turns Mega Evolution on as soon as the Mega Ring is in the bag
 #define HEARTHARD_MEGA_RING_UNLOCK
 

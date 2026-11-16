@@ -92,6 +92,7 @@ scrdef scr_seq_0003_072_repels
 scrdef scr_seq_0003_073_infinite_repel
 scrdef scr_seq_0003_074_skip_mr_pokemon
 scrdef scr_seq_0003_075_skip_catching_tutorial
+scrdef scr_seq_0003_076_running_shoes
 scrdef_end
 
 scr_seq_0003_002:
@@ -1361,6 +1362,12 @@ scr_seq_0003_075_skip_catching_tutorial:
     setflag FLAG_HIDE_ROUTE_29_FRIEND
     setflag FLAG_HIDE_ROUTE_29_MARILL
     setflag FLAG_WATCHED_CATCHING_TUTORIAL
+    end
+
+// hands out the running shoes on the first step of the game
+scr_seq_0003_076_running_shoes:
+    give_running_shoes
+    setflag 2604
     end
 
 scr_seq_0003_073_infinite_repel:

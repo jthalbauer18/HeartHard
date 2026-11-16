@@ -27,6 +27,14 @@ bool32 PlayerStepEvent_RepelCounterDecrement(SaveData *saveData, FieldSystem *fi
     }
 #endif
 
+#ifdef HEARTHARD_RUNNING_SHOES_FLAG
+    // the running shoes come with the first step instead of from the guide gent
+    if (!CheckScriptFlag(HEARTHARD_RUNNING_SHOES_FLAG)) {
+        EventSet_Script(fieldSystem, 2076, NULL);
+        return TRUE;
+    }
+#endif
+
 #ifdef HEARTHARD_SKIP_EARLY_SCENES
     // elm sent the player off with the aide's potions, so jump past guide gent and mr. pokemon
     if (GetScriptVar(HEARTHARD_VAR_ELMS_LAB) == 2 && GetScriptVar(HEARTHARD_VAR_MR_POKEMONS_HOUSE) == 0) {
