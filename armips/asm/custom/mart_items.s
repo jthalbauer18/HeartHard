@@ -72,7 +72,7 @@ EIGHT_BADGES equ 6
 .halfword THREE_BADGES
 
 .halfword ITEM_MEGA_RING
-.halfword SEVEN_BADGES
+.halfword FIVE_BADGES
 
 /** Special Mart Index - This is not in byte order
 const u16 *_0210FA3C[] = {
