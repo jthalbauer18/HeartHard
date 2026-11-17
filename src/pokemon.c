@@ -776,7 +776,7 @@ static BOOL CanUseInfiniteRejuv(struct Party *party)
     {
         struct PartyPokemon *mon = Party_GetMonByIndex(party, i);
         u32 hp = GetMonData(mon, MON_DATA_HP, NULL);
-        if (GetMonData(mon, MON_DATA_IS_EGG, NULL) || hp == 0)
+        if (GetMonData(mon, MON_DATA_IS_EGG, NULL))
         {
             continue;
         }
@@ -796,7 +796,7 @@ static BOOL CanUseInfiniteRejuv(struct Party *party)
 }
 
 /**
- *  @brief restore HP, PP and status of every pokemon in the team that has not fainted
+ *  @brief revive every pokemon in the team and restore its HP, PP and status
  *
  *  @param party party to heal
  */
@@ -805,8 +805,8 @@ static void HealTeamWithInfiniteRejuv(struct Party *party)
     for (int i = 0; i < party->count; i++)
     {
         struct PartyPokemon *mon = Party_GetMonByIndex(party, i);
-        u32 hp = GetMonData(mon, MON_DATA_HP, NULL);
-        if (GetMonData(mon, MON_DATA_IS_EGG, NULL) || hp == 0)
+        u32 hp;
+        if (GetMonData(mon, MON_DATA_IS_EGG, NULL))
         {
             continue;
         }

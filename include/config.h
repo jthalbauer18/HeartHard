@@ -111,6 +111,10 @@
 // with 3, a pokemon with catch rate 255 is caught by any ball at full HP.  comment this line out for normal catch chances
 #define HEARTHARD_CATCH_RATE_MULTIPLIER 3
 
+// HEARTHARD_FORCE_SET_MODE puts the battle style back to Set on every step, so Shift cannot be used
+// comment this line out to let the player choose the battle style again
+#define HEARTHARD_FORCE_SET_MODE
+
 // HEARTHARD_MEGA_RING_UNLOCK turns Mega Evolution on as soon as the Mega Ring is in the bag
 #define HEARTHARD_MEGA_RING_UNLOCK
 

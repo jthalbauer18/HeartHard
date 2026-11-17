@@ -27,6 +27,14 @@ bool32 PlayerStepEvent_RepelCounterDecrement(SaveData *saveData, FieldSystem *fi
     }
 #endif
 
+#ifdef HEARTHARD_FORCE_SET_MODE
+    // the battle style always goes back to set, the options sit right in front of the profile
+    {
+        struct PLAYERDATA *playerData = (struct PLAYERDATA *)((u8 *)Sav2_PlayerData_GetProfileAddr(saveData) - __builtin_offsetof(struct PLAYERDATA, profile));
+        playerData->options.battleStyle = 1;
+    }
+#endif
+
 #ifdef HEARTHARD_RUNNING_SHOES_FLAG
     // the running shoes come with the first step instead of from the guide gent
     if (!CheckScriptFlag(HEARTHARD_RUNNING_SHOES_FLAG)) {
