@@ -3725,9 +3725,9 @@ movedata MOVE_IRON_TAIL, "Iron Tail"
 movedata MOVE_METAL_CLAW, "Metal Claw"
     battleeffect MOVE_EFFECT_RAISE_ATTACK_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 60
     type TYPE_STEEL
-    accuracy 95
+    accuracy 100
     pp 35
     effectchance 10
     target RANGE_SINGLE_TARGET
@@ -8413,7 +8413,7 @@ movedata MOVE_VOLT_SWITCH, "Volt Switch"
 movedata MOVE_STRUGGLE_BUG, "Struggle Bug"
     battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_SPECIAL
-    basepower 50
+    basepower 60
     type TYPE_BUG
     accuracy 100
     pp 20
