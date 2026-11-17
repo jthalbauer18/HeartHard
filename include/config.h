@@ -115,6 +115,9 @@
 // comment this line out to let the player choose the battle style again
 #define HEARTHARD_FORCE_SET_MODE
 
+// HEARTHARD_AI_KNOWS_MAGNET_RISE makes the trainer AI see that ground moves cannot hit a pokemon under Magnet Rise
+#define HEARTHARD_AI_KNOWS_MAGNET_RISE
+
 // HEARTHARD_MEGA_RING_UNLOCK turns Mega Evolution on as soon as the Mega Ring is in the bag
 #define HEARTHARD_MEGA_RING_UNLOCK
 

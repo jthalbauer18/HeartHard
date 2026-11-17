@@ -20,6 +20,43 @@ void AITypeCalc(struct BattleStruct *sp, u32 move, u32 type, int atkAbility, int
 
 
 /**
+ *  @brief check whether the defender the AI is looking at floats thanks to Magnet Rise
+ *
+ *  AITypeCalc only gets the types and the ability of the defender, so the battler is looked up by those
+ *  the AI's current target is checked first, any other battler with the same types and ability after it
+ *
+ *  @param sp global battle structure
+ *  @param defAbility ability of the defender
+ *  @param type1 primary type of defender
+ *  @param type2 secondary type of defender
+ *  @return TRUE if ground moves cannot hit the defender because of Magnet Rise
+ */
+static BOOL AI_DefenderHasMagnetRise(struct BattleStruct *sp, int defAbility, int type1, int type2)
+{
+    int target = sp->aiWorkTable.ai_defence_client;
+
+    for (int i = -1; i < CLIENT_MAX; i++)
+    {
+        int battler = (i < 0) ? target : i;
+
+        if (battler < 0 || battler >= CLIENT_MAX || (i >= 0 && battler == target))
+        {
+            continue;
+        }
+        if (sp->battlemon[battler].hp == 0
+         || sp->battlemon[battler].type1 != type1
+         || sp->battlemon[battler].type2 != type2
+         || GetBattlerAbility(sp, battler) != defAbility)
+        {
+            continue;
+        }
+        return (sp->battlemon[battler].moveeffect.magnetRiseTurns != 0
+             && (sp->battlemon[battler].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0);
+    }
+    return FALSE;
+}
+
+/**
  *  @brief set up type calc flags for AI to respect and make decisions based on
  *
  *  @param sp global battle structure
@@ -57,6 +94,15 @@ void AITypeCalc(struct BattleStruct *sp, u32 move, u32 type, int atkAbility, int
     {
         flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE; // not "not very effective", ineffective
     }
+#ifdef HEARTHARD_AI_KNOWS_MAGNET_RISE
+    else if ((typeLocal == TYPE_GROUND)
+          && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
+          && (held_effect != HOLD_EFFECT_SPEED_DOWN_GROUNDED)
+          && AI_DefenderHasMagnetRise(sp, defAbility, type1, type2))
+    {
+        flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE; // not "not very effective", ineffective
+    }
+#endif
     else
     {
         i = 0;
