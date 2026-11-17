@@ -3859,9 +3859,9 @@ levelup SPECIES_NOCTOWL
 levelup SPECIES_LEDYBA
     learnset MOVE_TACKLE, 1
     learnset MOVE_SUPERSONIC, 5
+    learnset MOVE_BUG_BITE, 7
     learnset MOVE_SWIFT, 8
-    learnset MOVE_STRUGGLE_BUG, 11
-    learnset MOVE_AIR_CUTTER, 11
+    learnset MOVE_WING_ATTACK, 11
     learnset MOVE_LIGHT_SCREEN, 12
     learnset MOVE_REFLECT, 12
     learnset MOVE_SAFEGUARD, 12
@@ -3881,9 +3881,9 @@ levelup SPECIES_LEDIAN
     learnset MOVE_SUPERSONIC, 1
     learnset MOVE_SWIFT, 1
     learnset MOVE_SUPERSONIC, 5
+    learnset MOVE_BUG_BITE, 7
     learnset MOVE_SWIFT, 8
-    learnset MOVE_STRUGGLE_BUG, 11
-    learnset MOVE_AIR_CUTTER, 11
+    learnset MOVE_WING_ATTACK, 11
     learnset MOVE_LIGHT_SCREEN, 12
     learnset MOVE_REFLECT, 12
     learnset MOVE_SAFEGUARD, 12
