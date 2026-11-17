@@ -41,7 +41,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_FULL_RESTORE
 .halfword EIGHT_BADGES
 
-.halfword ITEM_ORAN_BERRY
+.halfword ITEM_ESCAPE_ROPE
 .halfword ZERO_BADGES
 
 .halfword ITEM_MAX_ETHER
@@ -62,14 +62,14 @@ EIGHT_BADGES equ 6
 .halfword ITEM_FULL_HEAL
 .halfword ZERO_BADGES
 
-.halfword ITEM_PECHA_BERRY
+.halfword ITEM_ANTIDOTE
 .halfword ZERO_BADGES
 
-.halfword ITEM_SITRUS_BERRY
-.halfword ONE_BADGE
+.halfword ITEM_PARALYZE_HEAL
+.halfword ZERO_BADGES
 
-.halfword ITEM_LUM_BERRY
-.halfword THREE_BADGES
+.halfword ITEM_REVIVE
+.halfword ONE_BADGE
 
 .halfword ITEM_MEGA_RING
 .halfword FIVE_BADGES
@@ -172,38 +172,38 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBBB4
 /* This spills over into _020FBBC6 */
 /* Goldenrod Dept Store 3F & Celadon Dept Store 5F -> Chansey Supply 1 */ 
-.halfword ITEM_DRAGON_SCALE
-.halfword ITEM_UP_GRADE
-.halfword ITEM_DUBIOUS_DISC
-.halfword ITEM_PROTECTOR
-.halfword ITEM_ELECTIRIZER
-.halfword ITEM_MAGMARIZER
-.halfword ITEM_REAPER_CLOTH
-.halfword ITEM_METAL_COAT
-.halfword ITEM_OCCA_BERRY
+.halfword ITEM_ANTIDOTE
+.halfword ITEM_PARALYZE_HEAL
+.halfword ITEM_AWAKENING
+.halfword ITEM_BURN_HEAL
+.halfword ITEM_ICE_HEAL
+.halfword ITEM_ETHER
+.halfword ITEM_HEAL_POWDER
+.halfword ITEM_ENERGY_POWDER
+.halfword ITEM_ENERGY_ROOT
 
-.halfword ITEM_PASSHO_BERRY
-.halfword ITEM_WACAN_BERRY
-.halfword ITEM_RINDO_BERRY
-.halfword ITEM_YACHE_BERRY
-.halfword ITEM_CHOPLE_BERRY
-.halfword ITEM_SHUCA_BERRY
-.halfword ITEM_CHARTI_BERRY
-.halfword ITEM_COBA_BERRY
+.halfword ITEM_REVIVAL_HERB
+.halfword ITEM_ESCAPE_ROPE
+.halfword ITEM_HEAL_BALL
+.halfword ITEM_NET_BALL
+.halfword ITEM_NEST_BALL
+.halfword ITEM_DIVE_BALL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
 .halfword 0xFFFF
 
 /* const u16 _020FBBD8[] = {ITEM_GREAT_BALL, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_SUPER_REPEL, ITEM_REVIVE, ITEM_AIR_MAIL, 0xFFFF}; */
 
 .org 0x020FBBD8
 /* Mahogany Shop -> Goldenrod/Celadon Dept Store */
-.halfword ITEM_PRISM_SCALE
-.halfword ITEM_KINGS_ROCK
-.halfword ITEM_RAZOR_FANG
-.halfword ITEM_RAZOR_CLAW
-.halfword ITEM_WHIPPED_DREAM
-.halfword ITEM_SACHET
-.halfword ITEM_DEEP_SEA_TOOTH
-.halfword ITEM_DEEP_SEA_SCALE
+.halfword ITEM_GREAT_BALL
+.halfword ITEM_ULTRA_BALL
+.halfword ITEM_HEAL_BALL
+.halfword ITEM_NET_BALL
+.halfword ITEM_NEST_BALL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
+.halfword ITEM_TIMER_BALL
 .halfword 0xFFFF
 
 /* const u16 _020FBBEA[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_BURN_HEAL, ITEM_ICE_HEAL, ITEM_AWAKENING, ITEM_FULL_HEAL, 0xFFFF}; */
@@ -243,34 +243,34 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBC34[] = {ITEM_TM70, ITEM_TM17, ITEM_TM54, ITEM_TM83, ITEM_TM16, ITEM_TM33, ITEM_TM22, ITEM_TM52, ITEM_TM38, ITEM_TM25, ITEM_TM14, ITEM_TM15, 0xFFFF}; */
 
 .org 0x020FBC34
-/* Goldenrod Dept Store 5F -> Goldenrod Dept Store 5F still (also Celadon 3F) */
-.halfword ITEM_SUN_STONE
-.halfword ITEM_MOON_STONE
-.halfword ITEM_FIRE_STONE
-.halfword ITEM_THUNDER_STONE
-.halfword ITEM_WATER_STONE
-.halfword ITEM_LEAF_STONE
-.halfword ITEM_ICE_STONE
-.halfword ITEM_SHINY_STONE
-.halfword ITEM_DUSK_STONE
-.halfword ITEM_DAWN_STONE
-.halfword ITEM_LINKING_CORD
-.halfword ITEM_METAL_ALLOY
-.halfword ITEM_PEAT_BLOCK
+/* Goldenrod Dept Store 5F -> Goldenrod Dept Store 5F still (also Celadon 3F), HeartHard: evolution items are found on the map instead */
+.halfword ITEM_X_ATTACK
+.halfword ITEM_X_DEFENSE
+.halfword ITEM_X_SPECIAL
+.halfword ITEM_X_SP_DEF
+.halfword ITEM_X_SPEED
+.halfword ITEM_X_ACCURACY
+.halfword ITEM_DIRE_HIT
+.halfword ITEM_GUARD_SPEC
+.halfword ITEM_EVERSTONE
+.halfword ITEM_HEART_SCALE
+.halfword ITEM_LUXURY_BALL
+.halfword ITEM_REPEAT_BALL
+.halfword 0xFFFF
 
 /* const u16 _020FBC4E[] = {ITEM_POKE_BALL, ITEM_GREAT_BALL, ITEM_ULTRA_BALL, ITEM_ESCAPE_ROPE, ITEM_POKE_DOLL, ITEM_REPEL, ITEM_SUPER_REPEL, ITEM_MAX_REPEL, ITEM_GRASS_MAIL, ITEM_FLAME_MAIL, ITEM_BUBBLE_MAIL, ITEM_SPACE_MAIL, 0xFFFF}; */
 
 .org 0x020FBC4E
 /* Celadon Dept Store 2F -> Safari Zone Gate */
-.halfword ITEM_GALARICA_CUFF
-.halfword ITEM_GALARICA_WREATH
-.halfword ITEM_BLACK_AUGURITE
-.halfword ITEM_CRACKED_POT
-.halfword ITEM_SYRUPY_APPLE
-.halfword ITEM_SWEET_APPLE
-.halfword ITEM_TART_APPLE
-.halfword ITEM_MALICIOUS_ARMOR
-.halfword ITEM_AUSPICIOUS_ARMOR
+.halfword ITEM_ANTIDOTE
+.halfword ITEM_PARALYZE_HEAL
+.halfword ITEM_AWAKENING
+.halfword ITEM_BURN_HEAL
+.halfword ITEM_ICE_HEAL
+.halfword ITEM_ETHER
+.halfword ITEM_ESCAPE_ROPE
+.halfword ITEM_HEART_SCALE
+.halfword ITEM_EVERSTONE
 .halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF
@@ -280,18 +280,18 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBC68
 /* Celadon Dept Store 3F -> Safari Zone Gate */
-.halfword ITEM_SHINY_STONE
-.halfword ITEM_DUSK_STONE
-.halfword ITEM_DAWN_STONE
-.halfword ITEM_PRISM_SCALE
-.halfword ITEM_KINGS_ROCK
-.halfword ITEM_LINKING_CORD
-.halfword ITEM_RAZOR_CLAW
-.halfword ITEM_RAZOR_FANG
-.halfword ITEM_WHIPPED_DREAM
-.halfword ITEM_SACHET
-.halfword ITEM_SYRUPY_APPLE
-.halfword ITEM_SWEET_APPLE
+.halfword ITEM_GREAT_BALL
+.halfword ITEM_ULTRA_BALL
+.halfword ITEM_HEAL_BALL
+.halfword ITEM_NET_BALL
+.halfword ITEM_NEST_BALL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
+.halfword ITEM_TIMER_BALL
+.halfword ITEM_REPEAT_BALL
+.halfword ITEM_DIVE_BALL
+.halfword ITEM_LUXURY_BALL
+.halfword ITEM_HEART_SCALE
 .halfword 0xFFFF
 
 .close
