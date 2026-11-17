@@ -370,7 +370,7 @@ scr_seq_0141_015: // d24r0212_oran_berry (was ORAN_BERRY)
     end
 
 scr_seq_0141_016: // d24r0212_pecha_berry (was PECHA_BERRY)
-    setvar VAR_SPECIAL_x8008, ITEM_GALARICA_CUFF
+    setvar VAR_SPECIAL_x8008, ITEM_GREAT_BALL
     setvar VAR_SPECIAL_x8009, 1
     goto scr_seq_0141_255
     end

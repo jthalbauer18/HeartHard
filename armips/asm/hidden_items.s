@@ -89,7 +89,7 @@
 .halfword ITEM_GREAT_BALL 
 
 .org 0x02000000 + 0xFA630 //Slowpoke Well Entrance
-.halfword ITEM_GREAT_BALL
+.halfword ITEM_GALARICA_CUFF
 
 .org 0x02000000 + 0xFA638 //Slowpoke Well B1F Rock
 .halfword ITEM_CHESTO_BERRY
