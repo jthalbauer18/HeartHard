@@ -123,7 +123,7 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBA60
 .halfword ITEM_EXPERT_BELT
-.halfword ITEM_EVIOLITE
+.halfword ITEM_WIDE_LENS
 .halfword ITEM_ROCKY_HELMET
 .halfword 0xFFFF
 
