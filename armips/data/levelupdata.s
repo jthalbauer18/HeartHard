@@ -4654,10 +4654,10 @@ levelup SPECIES_DUNSPARCE
     learnset MOVE_MUD_SLAP, 4
     learnset MOVE_ROLLOUT, 8
     learnset MOVE_HEADBUTT, 11
-    learnset MOVE_GLARE, 12
     learnset MOVE_SCREECH, 16
     learnset MOVE_ANCIENT_POWER, 20
     learnset MOVE_DRILL_RUN, 24
+    learnset MOVE_GLARE, 25
     learnset MOVE_YAWN, 28
     learnset MOVE_HYPER_DRILL, 32
     learnset MOVE_ROOST, 36
